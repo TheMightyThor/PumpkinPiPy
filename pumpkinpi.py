@@ -6,14 +6,13 @@ import uploadtobucket
 import postpicture
 
 
-
 logging.basicConfig(filename='pumpkinpi.log', level=logging.DEBUG, format='%(asctime)s %(message)s')
-
+logging.getLogger().addHandler(logging.StreamHandler())
 logging.info('script has been loaded waiting to start loop')
 
 
 def start_timelapse():
-    PICTURE_FILENAMES = []
+    logging.info('Starting timelapse')
     with picamera.PiCamera() as cam:
         counter = 1
 
@@ -23,7 +22,7 @@ def start_timelapse():
 
             imageName = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
 
-            cam.capture(imageName, resize=(1024, 768))
+            cam.capture(imageName)
             cam.stop_preview()
             try:
                 logging.info('Uploading %s to server' % imageName)
@@ -36,7 +35,7 @@ def start_timelapse():
                 logging.error('Error uploading to services')
                 print('something happened' + str(e))
 
-            PICTURE_FILENAMES.append(imageName)
+
 
 
             # if counter % 5 == 0:
@@ -47,6 +46,6 @@ def start_timelapse():
             counter += 1
 
 
-schedule.every().day.at("19:22").do(start_timelapse())
+schedule.every().day.at("19:35").do(start_timelapse)
 
 schedule.run_pending()

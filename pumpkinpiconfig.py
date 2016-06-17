@@ -19,6 +19,3 @@ def config_section_map(section):
 
 
 PAPER_PLATE = config_section_map('SectionOne')
-
-
-print("CONFIG LOADED")
