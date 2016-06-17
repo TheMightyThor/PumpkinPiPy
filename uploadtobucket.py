@@ -5,7 +5,7 @@ from pumpkinpiconfig import PAPER_PLATE
 
 
 def upload_picture(fileName):
-    print(' starting upload uploading to bucket')
+    print(' starting upload uploading to server')
     s3_connection = boto.connect_s3(PAPER_PLATE['peanutbutter'], PAPER_PLATE['jelly'])
     bucket = s3_connection.get_bucket(PAPER_PLATE['bread'])
 
@@ -14,6 +14,5 @@ def upload_picture(fileName):
     k.set_contents_from_filename(fileName, policy='public-read')
     k.make_public()
     logging.info('success upload to bucket')
-    print('upload to bucket was success')
+    print('upload to server was success')
 
-upload_picture('nada')
