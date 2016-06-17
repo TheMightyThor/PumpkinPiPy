@@ -33,7 +33,7 @@ def send_mail(filenames):
                 s.ehlo()
                 s.starttls()
                 s.ehlo()
-                s.login(FROM, '')
+                s.login(FROM, PAPER_PLATE['ketchup'])
                 s.sendmail(FROM, TO, msg.as_string())
                 s.quit()
                 logging.info('sent mail!')

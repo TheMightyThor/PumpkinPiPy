@@ -17,17 +17,17 @@ def start_timelapse():
     with picamera.PiCamera() as cam:
         counter = 1
 
-        while counter < 48:
+        while counter < 10:
             cam.start_preview()
             time.sleep(1)
 
             imageName = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
 
             cam.capture(imageName, resize=(1024, 768))
-
+            cam.stop_preview()
             try:
-                logging.info('Uploading %s to AWS' % imageName)
-                print('uploading to aws')
+                logging.info('Uploading %s to server' % imageName)
+                print('uploading to server')
                 uploadtobucket.upload_picture(imageName)
                 logging.info('Posting %s to server' % imageName)
                 print('uploading to server')
@@ -38,15 +38,15 @@ def start_timelapse():
 
             PICTURE_FILENAMES.append(imageName)
 
-            cam.stop_preview()
-            if counter % 20 == 0:
-                logging.info('Emailing bros')
-                # emailbros.send_mail(PICTURE_FILENAMES)
-                PICTURE_FILENAMES = []
-            time.sleep(1800)
+
+            # if counter % 5 == 0:
+            #     logging.info('Emailing bros')
+            #     emailbros.send_mail(PICTURE_FILENAMES)
+            #     PICTURE_FILENAMES = []
+            time.sleep(30)
             counter += 1
 
 
-schedule.every().day.at("08:00").do(start_timelapse)
+schedule.every().day.at("19:20").do(start_timelapse)
 
 schedule.run_pending()

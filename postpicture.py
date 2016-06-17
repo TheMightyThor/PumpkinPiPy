@@ -1,10 +1,12 @@
 
 import requests
 import logging
+from pumpkinpiconfig import PAPER_PLATE
 
+xyz = PAPER_PLATE['noggin']
 def post_image_to_server(fileName):
     logging.info('posting to website')
-    r = requests.post('http://desolate-brook-40903.herokuapp.com/api/imageData?name=%s' % fileName, None, None)
 
-    print r.text
+    r = requests.post(PAPER_PLATE['commandcenter'] + '/imageData?name=%' % fileName, headers={ 'xyz' : xyz})
 
+    logging.info('posted file to site')
