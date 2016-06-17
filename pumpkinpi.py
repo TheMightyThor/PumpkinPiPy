@@ -47,6 +47,6 @@ def start_timelapse():
             counter += 1
 
 
-schedule.every().day.at("19:20").do(start_timelapse)
+schedule.every().day.at("19:22").do(start_timelapse())
 
 schedule.run_pending()
