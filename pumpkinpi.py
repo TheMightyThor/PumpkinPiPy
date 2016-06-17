@@ -47,5 +47,8 @@ def start_timelapse():
 
 
 #schedule.every().day.at("19:40").do(start_timelapse)
-schedule.every(2).minutes.do(start_timelapse)
+schedule.every(1).minutes.do(start_timelapse)
 #schedule.run_pending()
+while 1:
+    schedule.run_pending()
+    time.sleep(1)
