@@ -23,7 +23,7 @@ def start_timelapse():
             imageName = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
 
             cam.capture(imageName)
-            cam.stop_preview()
+
             try:
                 logging.info('Uploading %s to server' % imageName)
                 print('uploading to server')
@@ -35,7 +35,7 @@ def start_timelapse():
                 logging.error('Error uploading to services')
                 print('something happened' + str(e))
 
-
+            cam.stop_preview()
 
 
             # if counter % 5 == 0:
@@ -46,9 +46,9 @@ def start_timelapse():
             counter += 1
 
 
-#schedule.every().day.at("19:40").do(start_timelapse)
-schedule.every(1).minutes.do(start_timelapse)
+schedule.every().day.at("20:05").do(start_timelapse)
+#schedule.every(1).minutes.do(start_timelapse)
 #schedule.run_pending()
 while 1:
     schedule.run_pending()
-    time.sleep(1)
+    time.sleep(10)
