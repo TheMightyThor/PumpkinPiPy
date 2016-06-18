@@ -43,4 +43,4 @@ schedule.every().day.at("17:00").do(start_timelapse, 4)
 
 while 1:
     schedule.run_pending()
-    time.sleep(60)
+    time.sleep(300)
