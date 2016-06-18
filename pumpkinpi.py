@@ -2,16 +2,16 @@ import picamera
 import logging
 import time
 import schedule
-import uploadtobucket
+import uploadtoserver
 import postpicture
-
+import emailerror
 
 logging.basicConfig(filename='pumpkinpi.log', level=logging.DEBUG, format='%(asctime)s %(message)s')
 logging.getLogger().addHandler(logging.StreamHandler())
 logging.info('script has been loaded waiting to start loop')
 
 
-def start_timelapse():
+def start_timelapse(numba):
     logging.info('Starting timelapse')
     with picamera.PiCamera() as cam:
         counter = 1
@@ -23,32 +23,24 @@ def start_timelapse():
             imageName = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
 
             cam.capture(imageName)
+            cam.stop_preview()
 
             try:
                 logging.info('Uploading %s to server' % imageName)
-                print('uploading to server')
-                uploadtobucket.upload_picture(imageName)
-                logging.info('Posting %s to server' % imageName)
-                print('uploading to server')
-                postpicture.post_image_to_server(imageName)
+                uploadtoserver.upload_picture(imageName)
+                logging.info('Success uploading to server...Posting %s to server' % imageName)
+                postpicture.post_image_to_server(imageName, numba)
+                logging.info('Success posting to site')
             except Exception, e:
-                logging.error('Error uploading to services')
-                print('something happened' + str(e))
-
-            cam.stop_preview()
+                logging.error('Error uploading to services %s' % e.message)
+                emailerror.send_mail(e.message)
 
 
-            # if counter % 5 == 0:
-            #     logging.info('Emailing bros')
-            #     emailbros.send_mail(PICTURE_FILENAMES)
-            #     PICTURE_FILENAMES = []
-            time.sleep(30)
-            counter += 1
+schedule.every().day.at("08:00").do(start_timelapse, 1)
+schedule.every().day.at("11:00").do(start_timelapse, 2)
+schedule.every().day.at("14:00").do(start_timelapse, 3)
+schedule.every().day.at("17:00").do(start_timelapse, 4)
 
-
-schedule.every().day.at("20:50").do(start_timelapse)
-#schedule.every(1).minutes.do(start_timelapse)
-#schedule.run_pending()
 while 1:
     schedule.run_pending()
-    time.sleep(10)
+    time.sleep(1)
