@@ -10,34 +10,33 @@ logging.basicConfig(filename='pumpkinpi.log', level=logging.DEBUG, format='%(asc
 logging.getLogger().addHandler(logging.StreamHandler())
 logging.info('script has been loaded waiting to start loop')
 
-cam = picamera.PiCamera()
-
 
 def start_timelapse(numba):
 
     logging.info('Starting timelapse')
 
-    cam.start_preview()
-    time.sleep(1)
     index = 0
-    while index < 50:
-        imageName = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
+    with picamera.PiCamera() as cam:
+        while index < 50:
+            cam.start_preview()
+            time.sleep(1)
+            imageName = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
 
-        cam.capture(imageName)
-        cam.stop_preview()
+            cam.capture(imageName, resize=(2048, 1536))
+            cam.stop_preview()
 
-        try:
-            logging.info('Uploading %s to server' % imageName)
-            uploadtoserver.upload_picture(imageName)
-            logging.info('Success uploading to server...Posting %s to server' % imageName)
-            postpicture.post_image_to_server(imageName, numba)
-            logging.info('Success posting to site')
-        except Exception, e:
-            logging.error('Error uploading to services %s' % e.message)
-            emailerror.send_mail(e.message)
+            try:
+                logging.info('Uploading %s to server' % imageName)
+                uploadtoserver.upload_picture(imageName)
+                logging.info('Success uploading to server...Posting %s to server' % imageName)
+                postpicture.post_image_to_server(imageName, numba)
+                logging.info('Success posting to site')
+            except Exception, e:
+                logging.error('Error uploading to services %s' % e.message)
+                emailerror.send_mail(e.message)
 
-        index += 1
-        time.sleep(300)
+            index += 1
+            time.sleep(300)
 
 
 # schedule.every().day.at("08:00").do(start_timelapse, 1)
