@@ -17,34 +17,36 @@ def start_timelapse(numba):
 
     index = 0
     with picamera.PiCamera() as cam:
-        while index < 30:
+        while index < 6:
             cam.start_preview()
             time.sleep(1)
-            imageName = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
+            impage_name = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
 
-            cam.capture(imageName, resize=(1280, 720))
+            cam.capture(impage_name, resize=(1280, 720))
             cam.stop_preview()
 
             try:
-                logging.info('Uploading %s to server' % imageName)
-                uploadtoserver.upload_picture(imageName)
-                logging.info('Success uploading to server...Posting %s to server' % imageName)
-                postpicture.post_image_to_server(imageName, numba)
+                logging.info('Uploading %s to server' % impage_name)
+                uploadtoserver.upload_picture(impage_name)
+                logging.info('Success uploading to server...Posting %s to server' % impage_name)
+                postpicture.post_image_to_server(impage_name, numba)
                 logging.info('Success posting to site')
             except Exception, e:
                 logging.error('Error uploading to services %s' % e.message)
                 emailerror.send_mail(e.message)
 
             index += 1
+            logging.info("index = " + index + " numba = " + numba)
+
             time.sleep(900)
 
 
-start_timelapse(1)
-# schedule.every().day.at("08:00").do(start_timelapse, 1)
-# schedule.every().day.at("11:00").do(start_timelapse, 2)
-# schedule.every().day.at("14:00").do(start_timelapse, 3)
-# schedule.every().day.at("17:00").do(start_timelapse, 4)
-#
-# while 1:
-#     schedule.run_pending()
-#     time.sleep(300)
+start_timelapse(0)
+schedule.every().day.at("08:00").do(start_timelapse, 1)
+schedule.every().day.at("11:00").do(start_timelapse, 2)
+schedule.every().day.at("14:00").do(start_timelapse, 3)
+schedule.every().day.at("17:00").do(start_timelapse, 4)
+
+while 1:
+    schedule.run_pending()
+    time.sleep(60)
