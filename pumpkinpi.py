@@ -36,7 +36,7 @@ def start_timelapse(numba):
                 emailerror.send_mail(e.message)
 
             index += 1
-            logging.info("index = " + index + " numba = " + numba)
+            logging.info("index = " + str(index) + " numba = " + str(numba))
 
             time.sleep(900)
 
