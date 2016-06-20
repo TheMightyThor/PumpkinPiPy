@@ -39,6 +39,7 @@ def start_timelapse(numba):
             time.sleep(900)
 
 
+start_timelapse(1)
 # schedule.every().day.at("08:00").do(start_timelapse, 1)
 # schedule.every().day.at("11:00").do(start_timelapse, 2)
 # schedule.every().day.at("14:00").do(start_timelapse, 3)
@@ -47,4 +48,3 @@ def start_timelapse(numba):
 # while 1:
 #     schedule.run_pending()
 #     time.sleep(300)
-start_timelapse(1)
