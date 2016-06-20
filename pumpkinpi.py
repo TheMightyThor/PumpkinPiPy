@@ -20,7 +20,7 @@ def start_timelapse(numba):
     cam.start_preview()
     time.sleep(1)
     index = 0
-    while index < 50:
+    while index < 30:
         imageName = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
 
         cam.capture(imageName)
@@ -37,9 +37,9 @@ def start_timelapse(numba):
             emailerror.send_mail(e.message)
 
         index += 1
-        time.sleep(300)
+        time.sleep(900)
 
-
+start_timelapse(1)
 # schedule.every().day.at("08:00").do(start_timelapse, 1)
 # schedule.every().day.at("11:00").do(start_timelapse, 2)
 # schedule.every().day.at("14:00").do(start_timelapse, 3)
