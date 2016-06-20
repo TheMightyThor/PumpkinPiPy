@@ -17,12 +17,12 @@ def start_timelapse(numba):
 
     index = 0
     with picamera.PiCamera() as cam:
-        while index < 50:
+        while index < 30:
             cam.start_preview()
             time.sleep(1)
             imageName = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
 
-            cam.capture(imageName, resize=(2048, 1536))
+            cam.capture(imageName, resize=(1920, 1080))
             cam.stop_preview()
 
             try:
@@ -37,6 +37,7 @@ def start_timelapse(numba):
 
             index += 1
             time.sleep(900)
+
 
 start_timelapse(1)
 # schedule.every().day.at("08:00").do(start_timelapse, 1)
