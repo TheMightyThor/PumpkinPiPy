@@ -22,7 +22,7 @@ def start_timelapse(numba):
             time.sleep(1)
             imageName = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
 
-            cam.capture(imageName, resize=(1920, 1080))
+            cam.capture(imageName, resize=(1280, 720))
             cam.stop_preview()
 
             try:
