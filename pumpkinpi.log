@@ -3243,3 +3243,2380 @@ AWS AKIAJMX2Q7TMB7HHUL2Q:LMGeoRoBsqvipp2Gep3WxzPvzR4=
 2016-06-20 11:11:03,643 "POST /api/imageData?name=11:10:56-06-20-2016.jpg&numba=1 HTTP/1.1" 200 131
 2016-06-20 11:11:03,647 posted file to site response = {"results":[{"id":257,"name":"11:10:56-06-20-2016.jpg","createdate":"2016-06-20T10:11:03.637Z","numba":1}],"extraInfo":"sweetness"}
 2016-06-20 11:11:03,648 Success posting to site
+2016-06-20 11:25:42,071 script has been loaded waiting to start loop
+2016-06-20 11:25:42,071 Starting timelapse
+2016-06-20 11:25:43,885 Uploading 11:25:43-06-20-2016.jpg to server
+2016-06-20 11:25:43,905 Using access key provided by client.
+2016-06-20 11:25:43,905 Using secret key provided by client.
+2016-06-20 11:25:43,907 path=/
+2016-06-20 11:25:43,907 auth_path=/pumpkinpihub/
+2016-06-20 11:25:43,908 Method: HEAD
+2016-06-20 11:25:43,908 Path: /
+2016-06-20 11:25:43,908 Data: 
+2016-06-20 11:25:43,909 Headers: {}
+2016-06-20 11:25:43,909 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 11:25:43,909 Port: 443
+2016-06-20 11:25:43,910 Params: {}
+2016-06-20 11:25:43,910 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 11:25:43,916 Token: None
+2016-06-20 11:25:43,917 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 15:25:43 GMT
+/pumpkinpihub/
+2016-06-20 11:25:43,917 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:0fb9t5evhmY4D9F8nKPCrGQAnik=
+2016-06-20 11:25:43,918 Final headers: {'Date': 'Mon, 20 Jun 2016 15:25:43 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:0fb9t5evhmY4D9F8nKPCrGQAnik=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 11:25:44,108 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', '5a2XtM4ZFTUCrQWBoEt8BxB60GhU1jk5JYprZULXnBi0yYcsjBgaJJhlumYDpgbqr11uUlgzLKw='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'B9EB97A630BC88F2'), ('date', 'Mon, 20 Jun 2016 15:25:45 GMT'), ('content-type', 'application/xml')]
+2016-06-20 11:25:44,125 path=/11%3A25%3A43-06-20-2016.jpg
+2016-06-20 11:25:44,125 auth_path=/pumpkinpihub/11%3A25%3A43-06-20-2016.jpg
+2016-06-20 11:25:44,126 Method: PUT
+2016-06-20 11:25:44,126 Path: /11%3A25%3A43-06-20-2016.jpg
+2016-06-20 11:25:44,127 Data: 
+2016-06-20 11:25:44,127 Headers: {'Content-MD5': u'/475DVew7DyXpkhuXGOwGQ==', 'Content-Length': '1980696', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 11:25:44,128 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 11:25:44,128 Port: 443
+2016-06-20 11:25:44,128 Params: {}
+2016-06-20 11:25:44,129 Token: None
+2016-06-20 11:25:44,130 StringToSign:
+PUT
+/475DVew7DyXpkhuXGOwGQ==
+image/jpeg
+Mon, 20 Jun 2016 15:25:44 GMT
+x-amz-acl:public-read
+/pumpkinpihub/11%3A25%3A43-06-20-2016.jpg
+2016-06-20 11:25:44,130 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:RYR0dK2Mu0pmlDw6kPa+SOv1HQA=
+2016-06-20 11:25:44,131 Final headers: {'Content-MD5': '/475DVew7DyXpkhuXGOwGQ==', 'Content-Length': '1980696', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 15:25:44 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:RYR0dK2Mu0pmlDw6kPa+SOv1HQA=', 'x-amz-acl': 'public-read'}
+2016-06-20 11:25:49,407 Response headers: [('content-length', '0'), ('x-amz-id-2', 'smrykht5WWDPD5pvHOgZmtgkG0qvS929EOAKi9eIGyycc/Yjyoy0ueNVQagwkOpF7uNkSP3hY+4='), ('server', 'AmazonS3'), ('x-amz-request-id', '93FADAF803FCDA94'), ('etag', '"ff8ef90d57b0ec3c97a6486e5c63b019"'), ('date', 'Mon, 20 Jun 2016 15:25:45 GMT')]
+2016-06-20 11:25:49,409 path=/11%3A25%3A43-06-20-2016.jpg
+2016-06-20 11:25:49,413 auth_path=/pumpkinpihub/11%3A25%3A43-06-20-2016.jpg
+2016-06-20 11:25:49,414 path=/11%3A25%3A43-06-20-2016.jpg?acl
+2016-06-20 11:25:49,415 auth_path=/pumpkinpihub/11%3A25%3A43-06-20-2016.jpg?acl
+2016-06-20 11:25:49,416 Method: PUT
+2016-06-20 11:25:49,417 Path: /11%3A25%3A43-06-20-2016.jpg?acl
+2016-06-20 11:25:49,417 Data: 
+2016-06-20 11:25:49,418 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 11:25:49,419 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 11:25:49,419 Port: 443
+2016-06-20 11:25:49,420 Params: {}
+2016-06-20 11:25:49,421 Token: None
+2016-06-20 11:25:49,422 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 15:25:49 GMT
+x-amz-acl:public-read
+/pumpkinpihub/11%3A25%3A43-06-20-2016.jpg?acl
+2016-06-20 11:25:49,423 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:Ta6dhJ6FL54RadCI/F/NEspptcM=
+2016-06-20 11:25:49,424 Final headers: {'Date': 'Mon, 20 Jun 2016 15:25:49 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:Ta6dhJ6FL54RadCI/F/NEspptcM=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 11:25:49,485 Response headers: [('x-amz-id-2', 'HyfPDlVXgTDzThmpdXqvlDYgPIpyNpCWBtfuq7kGHmzHaUeJNjGq2r3uMcd7+KiOVEJb9xdsVTk='), ('date', 'Mon, 20 Jun 2016 15:25:50 GMT'), ('content-length', '0'), ('x-amz-request-id', 'BDF5D0EE32ABA3B3'), ('server', 'AmazonS3')]
+2016-06-20 11:25:49,487 Success uploading to server...Posting 11:25:43-06-20-2016.jpg to server
+2016-06-20 11:25:49,488 posting to website
+2016-06-20 11:25:49,505 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 11:25:49,613 "POST /api/imageData?name=11:25:43-06-20-2016.jpg&numba=1 HTTP/1.1" 200 131
+2016-06-20 11:25:49,615 posted file to site response = {"results":[{"id":258,"name":"11:25:43-06-20-2016.jpg","createdate":"2016-06-20T10:25:49.604Z","numba":1}],"extraInfo":"sweetness"}
+2016-06-20 11:25:49,616 Success posting to site
+2016-06-20 11:44:39,300 script has been loaded waiting to start loop
+2016-06-20 11:44:39,301 Starting timelapse
+2016-06-20 11:44:41,114 Uploading 11:44:40-06-20-2016.jpg to server
+2016-06-20 11:44:41,151 Using access key provided by client.
+2016-06-20 11:44:41,152 Using secret key provided by client.
+2016-06-20 11:44:41,154 path=/
+2016-06-20 11:44:41,155 auth_path=/pumpkinpihub/
+2016-06-20 11:44:41,156 Method: HEAD
+2016-06-20 11:44:41,157 Path: /
+2016-06-20 11:44:41,157 Data: 
+2016-06-20 11:44:41,158 Headers: {}
+2016-06-20 11:44:41,159 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 11:44:41,159 Port: 443
+2016-06-20 11:44:41,160 Params: {}
+2016-06-20 11:44:41,161 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 11:44:41,172 Token: None
+2016-06-20 11:44:41,173 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 15:44:41 GMT
+/pumpkinpihub/
+2016-06-20 11:44:41,174 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:XhNgtkReQ2+BY/Yj6a41WOfhWTE=
+2016-06-20 11:44:41,175 Final headers: {'Date': 'Mon, 20 Jun 2016 15:44:41 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:XhNgtkReQ2+BY/Yj6a41WOfhWTE=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 11:44:41,361 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'jPyF0H1FpIXcGpFmDEO+4PpFdhihq8WzryFJFB0wke5tOl5jQHCX+tvc8y1xjx18OqJTuit0Rq4='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '824C31F5C84798D7'), ('date', 'Mon, 20 Jun 2016 15:44:42 GMT'), ('content-type', 'application/xml')]
+2016-06-20 11:44:41,371 path=/11%3A44%3A40-06-20-2016.jpg
+2016-06-20 11:44:41,371 auth_path=/pumpkinpihub/11%3A44%3A40-06-20-2016.jpg
+2016-06-20 11:44:41,372 Method: PUT
+2016-06-20 11:44:41,372 Path: /11%3A44%3A40-06-20-2016.jpg
+2016-06-20 11:44:41,373 Data: 
+2016-06-20 11:44:41,373 Headers: {'Content-MD5': u'W0lvieOL45+pYeO/N8MTtw==', 'Content-Length': '1016316', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 11:44:41,373 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 11:44:41,374 Port: 443
+2016-06-20 11:44:41,374 Params: {}
+2016-06-20 11:44:41,375 Token: None
+2016-06-20 11:44:41,376 StringToSign:
+PUT
+W0lvieOL45+pYeO/N8MTtw==
+image/jpeg
+Mon, 20 Jun 2016 15:44:41 GMT
+x-amz-acl:public-read
+/pumpkinpihub/11%3A44%3A40-06-20-2016.jpg
+2016-06-20 11:44:41,376 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:zDRqIC+YxEA7rT59kokkikqwdTk=
+2016-06-20 11:44:41,377 Final headers: {'Content-MD5': 'W0lvieOL45+pYeO/N8MTtw==', 'Content-Length': '1016316', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 15:44:41 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:zDRqIC+YxEA7rT59kokkikqwdTk=', 'x-amz-acl': 'public-read'}
+2016-06-20 11:44:44,097 Response headers: [('content-length', '0'), ('x-amz-id-2', 'UPean4nIxrBegUB4p5s7UWCzzzLfJeftJvXjVcPotCxEWbLpU1zS6sShuFOTx22enGleDo58FGg='), ('server', 'AmazonS3'), ('x-amz-request-id', 'A1ECB57CDDC22B0F'), ('etag', '"5b496f89e38be39fa961e3bf37c313b7"'), ('date', 'Mon, 20 Jun 2016 15:44:42 GMT')]
+2016-06-20 11:44:44,098 path=/11%3A44%3A40-06-20-2016.jpg
+2016-06-20 11:44:44,098 auth_path=/pumpkinpihub/11%3A44%3A40-06-20-2016.jpg
+2016-06-20 11:44:44,099 path=/11%3A44%3A40-06-20-2016.jpg?acl
+2016-06-20 11:44:44,099 auth_path=/pumpkinpihub/11%3A44%3A40-06-20-2016.jpg?acl
+2016-06-20 11:44:44,100 Method: PUT
+2016-06-20 11:44:44,100 Path: /11%3A44%3A40-06-20-2016.jpg?acl
+2016-06-20 11:44:44,100 Data: 
+2016-06-20 11:44:44,101 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 11:44:44,101 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 11:44:44,102 Port: 443
+2016-06-20 11:44:44,102 Params: {}
+2016-06-20 11:44:44,102 Token: None
+2016-06-20 11:44:44,103 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 15:44:44 GMT
+x-amz-acl:public-read
+/pumpkinpihub/11%3A44%3A40-06-20-2016.jpg?acl
+2016-06-20 11:44:44,104 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:bHTu7hWZVSVl3ZBmnkuraQfSc0g=
+2016-06-20 11:44:44,104 Final headers: {'Date': 'Mon, 20 Jun 2016 15:44:44 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:bHTu7hWZVSVl3ZBmnkuraQfSc0g=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 11:44:44,160 Response headers: [('x-amz-id-2', 'l+EI3iriEMi3etm0+zrsDin+L1lYiH5iHIqcgfXWQetTcIkOcRc9pGcsslCjOS36qbUcCaCNxoE='), ('date', 'Mon, 20 Jun 2016 15:44:45 GMT'), ('content-length', '0'), ('x-amz-request-id', '324ED4ACD6D6DACF'), ('server', 'AmazonS3')]
+2016-06-20 11:44:44,161 Success uploading to server...Posting 11:44:40-06-20-2016.jpg to server
+2016-06-20 11:44:44,161 posting to website
+2016-06-20 11:44:44,175 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 11:44:44,282 "POST /api/imageData?name=11:44:40-06-20-2016.jpg&numba=1 HTTP/1.1" 200 131
+2016-06-20 11:44:44,285 posted file to site response = {"results":[{"id":259,"name":"11:44:40-06-20-2016.jpg","createdate":"2016-06-20T10:44:44.275Z","numba":1}],"extraInfo":"sweetness"}
+2016-06-20 11:44:44,285 Success posting to site
+2016-06-20 11:59:46,043 Uploading 11:59:45-06-20-2016.jpg to server
+2016-06-20 11:59:46,046 Using access key provided by client.
+2016-06-20 11:59:46,047 Using secret key provided by client.
+2016-06-20 11:59:46,049 path=/
+2016-06-20 11:59:46,050 auth_path=/pumpkinpihub/
+2016-06-20 11:59:46,051 Method: HEAD
+2016-06-20 11:59:46,051 Path: /
+2016-06-20 11:59:46,052 Data: 
+2016-06-20 11:59:46,053 Headers: {}
+2016-06-20 11:59:46,053 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 11:59:46,054 Port: 443
+2016-06-20 11:59:46,055 Params: {}
+2016-06-20 11:59:46,056 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 11:59:46,066 Token: None
+2016-06-20 11:59:46,067 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 15:59:46 GMT
+/pumpkinpihub/
+2016-06-20 11:59:46,068 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:B5ebqAP/9ZCt+A08O2/9kVFfpfQ=
+2016-06-20 11:59:46,069 Final headers: {'Date': 'Mon, 20 Jun 2016 15:59:46 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:B5ebqAP/9ZCt+A08O2/9kVFfpfQ=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 11:59:46,273 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'TrJ/MmpdczYJfpSSTAPK/i/A00CbIAflHPJKqpTXvG9DdIquN1a/3rSCY1XGY0KbA7WZqsh/G6o='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'E8EE2DDEE0210134'), ('date', 'Mon, 20 Jun 2016 15:59:47 GMT'), ('content-type', 'application/xml')]
+2016-06-20 11:59:46,289 path=/11%3A59%3A45-06-20-2016.jpg
+2016-06-20 11:59:46,290 auth_path=/pumpkinpihub/11%3A59%3A45-06-20-2016.jpg
+2016-06-20 11:59:46,291 Method: PUT
+2016-06-20 11:59:46,292 Path: /11%3A59%3A45-06-20-2016.jpg
+2016-06-20 11:59:46,293 Data: 
+2016-06-20 11:59:46,293 Headers: {'Content-MD5': u'ARhlPKY64dwQFVjeUG52dw==', 'Content-Length': '903065', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 11:59:46,294 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 11:59:46,295 Port: 443
+2016-06-20 11:59:46,296 Params: {}
+2016-06-20 11:59:46,297 Token: None
+2016-06-20 11:59:46,298 StringToSign:
+PUT
+ARhlPKY64dwQFVjeUG52dw==
+image/jpeg
+Mon, 20 Jun 2016 15:59:46 GMT
+x-amz-acl:public-read
+/pumpkinpihub/11%3A59%3A45-06-20-2016.jpg
+2016-06-20 11:59:46,299 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:/WjdSQbvzjSv9kyGKyPaDnO5iZY=
+2016-06-20 11:59:46,300 Final headers: {'Content-MD5': 'ARhlPKY64dwQFVjeUG52dw==', 'Content-Length': '903065', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 15:59:46 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:/WjdSQbvzjSv9kyGKyPaDnO5iZY=', 'x-amz-acl': 'public-read'}
+2016-06-20 11:59:48,751 Response headers: [('content-length', '0'), ('x-amz-id-2', 'iFSxtT5ZmuSjrRheufd6BCMBC8NzI9zkHn2ZuY59rOXCS8sTO+Z4dnx7WUypXxMdzBBXJ/iomw8='), ('server', 'AmazonS3'), ('x-amz-request-id', 'ED69CE9108BFC5F0'), ('etag', '"0118653ca63ae1dc101558de506e7677"'), ('date', 'Mon, 20 Jun 2016 15:59:47 GMT')]
+2016-06-20 11:59:48,752 path=/11%3A59%3A45-06-20-2016.jpg
+2016-06-20 11:59:48,753 auth_path=/pumpkinpihub/11%3A59%3A45-06-20-2016.jpg
+2016-06-20 11:59:48,754 path=/11%3A59%3A45-06-20-2016.jpg?acl
+2016-06-20 11:59:48,755 auth_path=/pumpkinpihub/11%3A59%3A45-06-20-2016.jpg?acl
+2016-06-20 11:59:48,756 Method: PUT
+2016-06-20 11:59:48,757 Path: /11%3A59%3A45-06-20-2016.jpg?acl
+2016-06-20 11:59:48,757 Data: 
+2016-06-20 11:59:48,758 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 11:59:48,759 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 11:59:48,759 Port: 443
+2016-06-20 11:59:48,760 Params: {}
+2016-06-20 11:59:48,761 Token: None
+2016-06-20 11:59:48,762 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 15:59:48 GMT
+x-amz-acl:public-read
+/pumpkinpihub/11%3A59%3A45-06-20-2016.jpg?acl
+2016-06-20 11:59:48,763 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:h2CRXbLLlAB+4oic0MMTYZWAAzg=
+2016-06-20 11:59:48,764 Final headers: {'Date': 'Mon, 20 Jun 2016 15:59:48 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:h2CRXbLLlAB+4oic0MMTYZWAAzg=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 11:59:48,811 Response headers: [('x-amz-id-2', 'a4dTtktC7Jm1tssWz2l92X6Jarfc/btaYhZm6pTGYOpv90NQQ0RYXYHfPUDiQlqCYiBDDDn6jJU='), ('date', 'Mon, 20 Jun 2016 15:59:49 GMT'), ('content-length', '0'), ('x-amz-request-id', 'D16B5EAA85747EED'), ('server', 'AmazonS3')]
+2016-06-20 11:59:48,813 Success uploading to server...Posting 11:59:45-06-20-2016.jpg to server
+2016-06-20 11:59:48,814 posting to website
+2016-06-20 11:59:48,821 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 11:59:48,918 "POST /api/imageData?name=11:59:45-06-20-2016.jpg&numba=1 HTTP/1.1" 200 131
+2016-06-20 11:59:48,921 posted file to site response = {"results":[{"id":260,"name":"11:59:45-06-20-2016.jpg","createdate":"2016-06-20T10:59:48.910Z","numba":1}],"extraInfo":"sweetness"}
+2016-06-20 11:59:48,922 Success posting to site
+2016-06-20 12:33:38,262 script has been loaded waiting to start loop
+2016-06-20 12:33:38,262 Starting timelapse
+2016-06-20 12:33:40,015 Uploading 12:33:39-06-20-2016.jpg to server
+2016-06-20 12:33:40,036 Using access key provided by client.
+2016-06-20 12:33:40,037 Using secret key provided by client.
+2016-06-20 12:33:40,038 path=/
+2016-06-20 12:33:40,039 auth_path=/pumpkinpihub/
+2016-06-20 12:33:40,040 Method: HEAD
+2016-06-20 12:33:40,040 Path: /
+2016-06-20 12:33:40,040 Data: 
+2016-06-20 12:33:40,041 Headers: {}
+2016-06-20 12:33:40,041 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 12:33:40,042 Port: 443
+2016-06-20 12:33:40,042 Params: {}
+2016-06-20 12:33:40,043 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 12:33:40,048 Token: None
+2016-06-20 12:33:40,049 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 16:33:40 GMT
+/pumpkinpihub/
+2016-06-20 12:33:40,050 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:pwwDkDkleNr3ksI3uoEKUUNROIY=
+2016-06-20 12:33:40,050 Final headers: {'Date': 'Mon, 20 Jun 2016 16:33:40 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:pwwDkDkleNr3ksI3uoEKUUNROIY=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 12:33:40,221 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', '74sKNQjDD7gDoS9Nno8HMvEBWUKHtmj+Vh1JKkdkg9jOSo6iE4ixTN3qPCjhgECMLjiqEscDsVc='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'E5EA3BCDBA59546D'), ('date', 'Mon, 20 Jun 2016 16:33:41 GMT'), ('content-type', 'application/xml')]
+2016-06-20 12:33:40,231 path=/12%3A33%3A39-06-20-2016.jpg
+2016-06-20 12:33:40,231 auth_path=/pumpkinpihub/12%3A33%3A39-06-20-2016.jpg
+2016-06-20 12:33:40,232 Method: PUT
+2016-06-20 12:33:40,233 Path: /12%3A33%3A39-06-20-2016.jpg
+2016-06-20 12:33:40,233 Data: 
+2016-06-20 12:33:40,234 Headers: {'Content-MD5': u'CWvEBcJQYApRIfMmWaOA9Q==', 'Content-Length': '905292', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 12:33:40,235 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 12:33:40,235 Port: 443
+2016-06-20 12:33:40,236 Params: {}
+2016-06-20 12:33:40,237 Token: None
+2016-06-20 12:33:40,238 StringToSign:
+PUT
+CWvEBcJQYApRIfMmWaOA9Q==
+image/jpeg
+Mon, 20 Jun 2016 16:33:40 GMT
+x-amz-acl:public-read
+/pumpkinpihub/12%3A33%3A39-06-20-2016.jpg
+2016-06-20 12:33:40,238 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:/FMcfhP/iO/HzMV4ORkx9oICgKM=
+2016-06-20 12:33:40,239 Final headers: {'Content-MD5': 'CWvEBcJQYApRIfMmWaOA9Q==', 'Content-Length': '905292', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 16:33:40 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:/FMcfhP/iO/HzMV4ORkx9oICgKM=', 'x-amz-acl': 'public-read'}
+2016-06-20 12:33:42,729 Response headers: [('content-length', '0'), ('x-amz-id-2', 'Cwnrhl5kTPobwypM1z4aWL7agxHIRLdjPoSDv37xTingehORIUuRzn6NdTnbrNw1c1Q0moUWDMg='), ('server', 'AmazonS3'), ('x-amz-request-id', '1B41D0AABCAD7A71'), ('etag', '"096bc405c250600a5121f32659a380f5"'), ('date', 'Mon, 20 Jun 2016 16:33:41 GMT')]
+2016-06-20 12:33:42,731 path=/12%3A33%3A39-06-20-2016.jpg
+2016-06-20 12:33:42,732 auth_path=/pumpkinpihub/12%3A33%3A39-06-20-2016.jpg
+2016-06-20 12:33:42,733 path=/12%3A33%3A39-06-20-2016.jpg?acl
+2016-06-20 12:33:42,734 auth_path=/pumpkinpihub/12%3A33%3A39-06-20-2016.jpg?acl
+2016-06-20 12:33:42,736 Method: PUT
+2016-06-20 12:33:42,737 Path: /12%3A33%3A39-06-20-2016.jpg?acl
+2016-06-20 12:33:42,738 Data: 
+2016-06-20 12:33:42,739 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 12:33:42,740 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 12:33:42,741 Port: 443
+2016-06-20 12:33:42,742 Params: {}
+2016-06-20 12:33:42,743 Token: None
+2016-06-20 12:33:42,745 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 16:33:42 GMT
+x-amz-acl:public-read
+/pumpkinpihub/12%3A33%3A39-06-20-2016.jpg?acl
+2016-06-20 12:33:42,746 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:ELxMyZyeoFZRRwPXpbLPFeC1aE4=
+2016-06-20 12:33:42,748 Final headers: {'Date': 'Mon, 20 Jun 2016 16:33:42 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:ELxMyZyeoFZRRwPXpbLPFeC1aE4=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 12:33:42,798 Response headers: [('x-amz-id-2', '44qUHHnUsb49lQQqJHqJcaOWazM6ycGnqR5GRARPJEPWS/l6R6uhXFWQ+MQMXg+odB40WCSxHL8='), ('date', 'Mon, 20 Jun 2016 16:33:43 GMT'), ('content-length', '0'), ('x-amz-request-id', 'EA727F39408510AE'), ('server', 'AmazonS3')]
+2016-06-20 12:33:42,801 Success uploading to server...Posting 12:33:39-06-20-2016.jpg to server
+2016-06-20 12:33:42,802 posting to website
+2016-06-20 12:33:42,827 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 12:33:42,960 "POST /api/imageData?name=12:33:39-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 12:33:42,964 posted file to site response = {"results":[{"id":261,"name":"12:33:39-06-20-2016.jpg","createdate":"2016-06-20T11:33:42.933Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 12:33:42,966 Success posting to site
+2016-06-20 12:34:44,498 script has been loaded waiting to start loop
+2016-06-20 12:34:44,499 Starting timelapse
+2016-06-20 12:34:46,315 Uploading 12:34:45-06-20-2016.jpg to server
+2016-06-20 12:34:46,353 Using access key provided by client.
+2016-06-20 12:34:46,355 Using secret key provided by client.
+2016-06-20 12:34:46,357 path=/
+2016-06-20 12:34:46,358 auth_path=/pumpkinpihub/
+2016-06-20 12:34:46,360 Method: HEAD
+2016-06-20 12:34:46,360 Path: /
+2016-06-20 12:34:46,361 Data: 
+2016-06-20 12:34:46,362 Headers: {}
+2016-06-20 12:34:46,363 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 12:34:46,364 Port: 443
+2016-06-20 12:34:46,365 Params: {}
+2016-06-20 12:34:46,366 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 12:34:46,377 Token: None
+2016-06-20 12:34:46,378 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 16:34:46 GMT
+/pumpkinpihub/
+2016-06-20 12:34:46,379 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:+FFPZHezl0pYQpbw4Qns0VdazMo=
+2016-06-20 12:34:46,380 Final headers: {'Date': 'Mon, 20 Jun 2016 16:34:46 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:+FFPZHezl0pYQpbw4Qns0VdazMo=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 12:34:46,579 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'RCWVBu9zGQg4bD33kfekx0+LDwWMkCdSsVHmMM7RcpSmh8+J/OfGlGMfe0VVw3Yh02T0GsK24Gc='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'CFD337FF6DDFC5CC'), ('date', 'Mon, 20 Jun 2016 16:34:47 GMT'), ('content-type', 'application/xml')]
+2016-06-20 12:34:46,588 path=/12%3A34%3A45-06-20-2016.jpg
+2016-06-20 12:34:46,589 auth_path=/pumpkinpihub/12%3A34%3A45-06-20-2016.jpg
+2016-06-20 12:34:46,590 Method: PUT
+2016-06-20 12:34:46,590 Path: /12%3A34%3A45-06-20-2016.jpg
+2016-06-20 12:34:46,591 Data: 
+2016-06-20 12:34:46,592 Headers: {'Content-MD5': u'mK4NlCFEOPTuFWRVQg39Uw==', 'Content-Length': '902071', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 12:34:46,592 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 12:34:46,593 Port: 443
+2016-06-20 12:34:46,593 Params: {}
+2016-06-20 12:34:46,594 Token: None
+2016-06-20 12:34:46,595 StringToSign:
+PUT
+mK4NlCFEOPTuFWRVQg39Uw==
+image/jpeg
+Mon, 20 Jun 2016 16:34:46 GMT
+x-amz-acl:public-read
+/pumpkinpihub/12%3A34%3A45-06-20-2016.jpg
+2016-06-20 12:34:46,596 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:78nWYIBUSS7nTQHBnGhBo9dyzq8=
+2016-06-20 12:34:46,597 Final headers: {'Content-MD5': 'mK4NlCFEOPTuFWRVQg39Uw==', 'Content-Length': '902071', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 16:34:46 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:78nWYIBUSS7nTQHBnGhBo9dyzq8=', 'x-amz-acl': 'public-read'}
+2016-06-20 12:34:49,031 Response headers: [('content-length', '0'), ('x-amz-id-2', 'bUTRV3mYJub/imU21givE1kysghc1JASx5l5+/EXqjMVCgvFTTb2GZ0ihxZfOg4WcjQoPGrZXro='), ('server', 'AmazonS3'), ('x-amz-request-id', 'D0A257E4DC5DA647'), ('etag', '"98ae0d94214438f4ee156455420dfd53"'), ('date', 'Mon, 20 Jun 2016 16:34:47 GMT')]
+2016-06-20 12:34:49,032 path=/12%3A34%3A45-06-20-2016.jpg
+2016-06-20 12:34:49,033 auth_path=/pumpkinpihub/12%3A34%3A45-06-20-2016.jpg
+2016-06-20 12:34:49,034 path=/12%3A34%3A45-06-20-2016.jpg?acl
+2016-06-20 12:34:49,034 auth_path=/pumpkinpihub/12%3A34%3A45-06-20-2016.jpg?acl
+2016-06-20 12:34:49,035 Method: PUT
+2016-06-20 12:34:49,036 Path: /12%3A34%3A45-06-20-2016.jpg?acl
+2016-06-20 12:34:49,036 Data: 
+2016-06-20 12:34:49,037 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 12:34:49,037 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 12:34:49,038 Port: 443
+2016-06-20 12:34:49,038 Params: {}
+2016-06-20 12:34:49,039 Token: None
+2016-06-20 12:34:49,040 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 16:34:49 GMT
+x-amz-acl:public-read
+/pumpkinpihub/12%3A34%3A45-06-20-2016.jpg?acl
+2016-06-20 12:34:49,040 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:/d15+21U8gfgQlE7F/FPQ+ID5wI=
+2016-06-20 12:34:49,041 Final headers: {'Date': 'Mon, 20 Jun 2016 16:34:49 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:/d15+21U8gfgQlE7F/FPQ+ID5wI=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 12:34:49,084 Response headers: [('x-amz-id-2', 'U+fvJP6xaUehiYhpO3mLHY3ods/glh5VfA+RE0pmMtpHk5yDIHdYmwrUw1WoTfo/N40AVu59HXs='), ('date', 'Mon, 20 Jun 2016 16:34:50 GMT'), ('content-length', '0'), ('x-amz-request-id', '99F5779EDBA53B0C'), ('server', 'AmazonS3')]
+2016-06-20 12:34:49,085 Success uploading to server...Posting 12:34:45-06-20-2016.jpg to server
+2016-06-20 12:34:49,086 posting to website
+2016-06-20 12:34:49,100 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 12:34:49,191 "POST /api/imageData?name=12:34:45-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 12:34:49,193 posted file to site response = {"results":[{"id":262,"name":"12:34:45-06-20-2016.jpg","createdate":"2016-06-20T11:34:49.187Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 12:34:49,194 Success posting to site
+2016-06-20 12:34:49,195 index = 1 numba = 0
+2016-06-20 12:49:50,928 Uploading 12:49:50-06-20-2016.jpg to server
+2016-06-20 12:49:50,931 Using access key provided by client.
+2016-06-20 12:49:50,933 Using secret key provided by client.
+2016-06-20 12:49:50,936 path=/
+2016-06-20 12:49:50,938 auth_path=/pumpkinpihub/
+2016-06-20 12:49:50,940 Method: HEAD
+2016-06-20 12:49:50,945 Path: /
+2016-06-20 12:49:50,945 Data: 
+2016-06-20 12:49:50,946 Headers: {}
+2016-06-20 12:49:50,947 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 12:49:50,948 Port: 443
+2016-06-20 12:49:50,949 Params: {}
+2016-06-20 12:49:50,950 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 12:49:50,961 Token: None
+2016-06-20 12:49:50,962 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 16:49:50 GMT
+/pumpkinpihub/
+2016-06-20 12:49:50,963 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:Exn05/DkUgZZH4MXoDUlmOfFEXM=
+2016-06-20 12:49:50,965 Final headers: {'Date': 'Mon, 20 Jun 2016 16:49:50 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:Exn05/DkUgZZH4MXoDUlmOfFEXM=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 12:49:51,163 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'SZLKppRrJs5QGjblPDl3NWzaMazNz+l6rpEtokGHIHzDyDrb+oNg+5Zt3TFLBPfz'), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '3E554E1A8044D0E4'), ('date', 'Mon, 20 Jun 2016 16:49:52 GMT'), ('content-type', 'application/xml')]
+2016-06-20 12:49:51,172 path=/12%3A49%3A50-06-20-2016.jpg
+2016-06-20 12:49:51,172 auth_path=/pumpkinpihub/12%3A49%3A50-06-20-2016.jpg
+2016-06-20 12:49:51,173 Method: PUT
+2016-06-20 12:49:51,173 Path: /12%3A49%3A50-06-20-2016.jpg
+2016-06-20 12:49:51,174 Data: 
+2016-06-20 12:49:51,174 Headers: {'Content-MD5': u'UJ4xKpz8DFBTT5zWGV2SsQ==', 'Content-Length': '870491', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 12:49:51,175 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 12:49:51,175 Port: 443
+2016-06-20 12:49:51,176 Params: {}
+2016-06-20 12:49:51,176 Token: None
+2016-06-20 12:49:51,177 StringToSign:
+PUT
+UJ4xKpz8DFBTT5zWGV2SsQ==
+image/jpeg
+Mon, 20 Jun 2016 16:49:51 GMT
+x-amz-acl:public-read
+/pumpkinpihub/12%3A49%3A50-06-20-2016.jpg
+2016-06-20 12:49:51,178 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:l3KQEzZFPF51DQGeKBA4YJwzO/Q=
+2016-06-20 12:49:51,179 Final headers: {'Content-MD5': 'UJ4xKpz8DFBTT5zWGV2SsQ==', 'Content-Length': '870491', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 16:49:51 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:l3KQEzZFPF51DQGeKBA4YJwzO/Q=', 'x-amz-acl': 'public-read'}
+2016-06-20 12:49:53,583 Response headers: [('content-length', '0'), ('x-amz-id-2', 'bTt7j+TuDHbTJ/nbD7gNIeSZe4X/YkzGZOaA/j7iT0NSVa6aB2UY0R1Ie6R9gqwE'), ('server', 'AmazonS3'), ('x-amz-request-id', 'F84A2DE3F2E67F9B'), ('etag', '"509e312a9cfc0c50534f9cd6195d92b1"'), ('date', 'Mon, 20 Jun 2016 16:49:52 GMT')]
+2016-06-20 12:49:53,585 path=/12%3A49%3A50-06-20-2016.jpg
+2016-06-20 12:49:53,585 auth_path=/pumpkinpihub/12%3A49%3A50-06-20-2016.jpg
+2016-06-20 12:49:53,586 path=/12%3A49%3A50-06-20-2016.jpg?acl
+2016-06-20 12:49:53,586 auth_path=/pumpkinpihub/12%3A49%3A50-06-20-2016.jpg?acl
+2016-06-20 12:49:53,586 Method: PUT
+2016-06-20 12:49:53,587 Path: /12%3A49%3A50-06-20-2016.jpg?acl
+2016-06-20 12:49:53,587 Data: 
+2016-06-20 12:49:53,587 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 12:49:53,587 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 12:49:53,588 Port: 443
+2016-06-20 12:49:53,588 Params: {}
+2016-06-20 12:49:53,589 Token: None
+2016-06-20 12:49:53,589 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 16:49:53 GMT
+x-amz-acl:public-read
+/pumpkinpihub/12%3A49%3A50-06-20-2016.jpg?acl
+2016-06-20 12:49:53,590 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:3dM+uk/CwJ1f9QWfLLEYpq0/c70=
+2016-06-20 12:49:53,590 Final headers: {'Date': 'Mon, 20 Jun 2016 16:49:53 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:3dM+uk/CwJ1f9QWfLLEYpq0/c70=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 12:49:53,656 Response headers: [('x-amz-id-2', 'vzpkhaKTyUNOieeqSyJD598nRARnnmWLaIj8zVKa4aJrpfcpQOv4MdeHtppmAern'), ('date', 'Mon, 20 Jun 2016 16:49:54 GMT'), ('content-length', '0'), ('x-amz-request-id', 'A938FFB83A7AE311'), ('server', 'AmazonS3')]
+2016-06-20 12:49:53,658 Success uploading to server...Posting 12:49:50-06-20-2016.jpg to server
+2016-06-20 12:49:53,659 posting to website
+2016-06-20 12:49:53,663 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 12:49:53,783 "POST /api/imageData?name=12:49:50-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 12:49:53,785 posted file to site response = {"results":[{"id":263,"name":"12:49:50-06-20-2016.jpg","createdate":"2016-06-20T11:49:53.777Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 12:49:53,786 Success posting to site
+2016-06-20 12:49:53,787 index = 2 numba = 0
+2016-06-20 13:11:02,571 script has been loaded waiting to start loop
+2016-06-20 13:11:02,572 Starting timelapse
+2016-06-20 13:11:04,321 Uploading 13:11:03-06-20-2016.jpg to server
+2016-06-20 13:11:04,341 Using access key provided by client.
+2016-06-20 13:11:04,342 Using secret key provided by client.
+2016-06-20 13:11:04,343 path=/
+2016-06-20 13:11:04,343 auth_path=/pumpkinpihub/
+2016-06-20 13:11:04,344 Method: HEAD
+2016-06-20 13:11:04,344 Path: /
+2016-06-20 13:11:04,345 Data: 
+2016-06-20 13:11:04,345 Headers: {}
+2016-06-20 13:11:04,346 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 13:11:04,346 Port: 443
+2016-06-20 13:11:04,346 Params: {}
+2016-06-20 13:11:04,347 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 13:11:04,352 Token: None
+2016-06-20 13:11:04,353 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 17:11:04 GMT
+/pumpkinpihub/
+2016-06-20 13:11:04,354 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:U0LbTT7huhTvKNr4CwvqwVe+lx4=
+2016-06-20 13:11:04,354 Final headers: {'Date': 'Mon, 20 Jun 2016 17:11:04 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:U0LbTT7huhTvKNr4CwvqwVe+lx4=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 13:11:04,571 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'EsnhlYdQYsX01zK+GJlYTfneN0WQrz1v84RImAd0A3DTtrf249fCCZ2ZzJTEFYxkLbW06Tripzs='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'B12883C2EE1621FC'), ('date', 'Mon, 20 Jun 2016 17:11:05 GMT'), ('content-type', 'application/xml')]
+2016-06-20 13:11:04,580 path=/13%3A11%3A03-06-20-2016.jpg
+2016-06-20 13:11:04,580 auth_path=/pumpkinpihub/13%3A11%3A03-06-20-2016.jpg
+2016-06-20 13:11:04,581 Method: PUT
+2016-06-20 13:11:04,581 Path: /13%3A11%3A03-06-20-2016.jpg
+2016-06-20 13:11:04,581 Data: 
+2016-06-20 13:11:04,582 Headers: {'Content-MD5': u'iA/9AA/7vBpgCOsUfdipZQ==', 'Content-Length': '920135', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 13:11:04,582 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 13:11:04,583 Port: 443
+2016-06-20 13:11:04,583 Params: {}
+2016-06-20 13:11:04,584 Token: None
+2016-06-20 13:11:04,584 StringToSign:
+PUT
+iA/9AA/7vBpgCOsUfdipZQ==
+image/jpeg
+Mon, 20 Jun 2016 17:11:04 GMT
+x-amz-acl:public-read
+/pumpkinpihub/13%3A11%3A03-06-20-2016.jpg
+2016-06-20 13:11:04,585 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:QfW8kiqRhnfNFp9BaNq1J3rLR3Q=
+2016-06-20 13:11:04,586 Final headers: {'Content-MD5': 'iA/9AA/7vBpgCOsUfdipZQ==', 'Content-Length': '920135', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 17:11:04 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:QfW8kiqRhnfNFp9BaNq1J3rLR3Q=', 'x-amz-acl': 'public-read'}
+2016-06-20 13:11:07,065 Response headers: [('content-length', '0'), ('x-amz-id-2', 'GIZD7b2OLxF/pyrCDGfzpSDM5FF8xSD/UYCf+y1rK4EbOXaXJvmt5R0itm+dTUG7DBTl0fA/rfo='), ('server', 'AmazonS3'), ('x-amz-request-id', 'CE98CE9D0B9126EC'), ('etag', '"880ffd000ffbbc1a6008eb147dd8a965"'), ('date', 'Mon, 20 Jun 2016 17:11:05 GMT')]
+2016-06-20 13:11:07,066 path=/13%3A11%3A03-06-20-2016.jpg
+2016-06-20 13:11:07,067 auth_path=/pumpkinpihub/13%3A11%3A03-06-20-2016.jpg
+2016-06-20 13:11:07,068 path=/13%3A11%3A03-06-20-2016.jpg?acl
+2016-06-20 13:11:07,068 auth_path=/pumpkinpihub/13%3A11%3A03-06-20-2016.jpg?acl
+2016-06-20 13:11:07,069 Method: PUT
+2016-06-20 13:11:07,070 Path: /13%3A11%3A03-06-20-2016.jpg?acl
+2016-06-20 13:11:07,071 Data: 
+2016-06-20 13:11:07,071 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 13:11:07,072 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 13:11:07,073 Port: 443
+2016-06-20 13:11:07,074 Params: {}
+2016-06-20 13:11:07,075 Token: None
+2016-06-20 13:11:07,076 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 17:11:07 GMT
+x-amz-acl:public-read
+/pumpkinpihub/13%3A11%3A03-06-20-2016.jpg?acl
+2016-06-20 13:11:07,077 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:FuIT1MLNUk+2+I+v06h6jloEsQc=
+2016-06-20 13:11:07,078 Final headers: {'Date': 'Mon, 20 Jun 2016 17:11:07 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:FuIT1MLNUk+2+I+v06h6jloEsQc=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 13:11:07,126 Response headers: [('x-amz-id-2', 'RUmDFFGQyW0xer5kBeRmzdzG/NXcSOqjCXFlF7Fppj0Dbc2NG22phMxej76zYGJMFACdbyf72yE='), ('date', 'Mon, 20 Jun 2016 17:11:08 GMT'), ('content-length', '0'), ('x-amz-request-id', '2F121C013389331A'), ('server', 'AmazonS3')]
+2016-06-20 13:11:07,128 Success uploading to server...Posting 13:11:03-06-20-2016.jpg to server
+2016-06-20 13:11:07,129 posting to website
+2016-06-20 13:11:07,153 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 13:11:07,256 "POST /api/imageData?name=13:11:03-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 13:11:07,260 posted file to site response = {"results":[{"id":264,"name":"13:11:03-06-20-2016.jpg","createdate":"2016-06-20T12:11:07.253Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 13:11:07,261 Success posting to site
+2016-06-20 13:11:07,262 index = 1 numba = 0
+2016-06-20 13:52:40,181 script has been loaded waiting to start loop
+2016-06-20 13:52:40,182 Starting timelapse
+2016-06-20 13:52:41,942 Uploading 13:52:41-06-20-2016.jpg to server
+2016-06-20 13:52:41,962 Using access key provided by client.
+2016-06-20 13:52:41,963 Using secret key provided by client.
+2016-06-20 13:52:41,964 path=/
+2016-06-20 13:52:41,964 auth_path=/pumpkinpihub/
+2016-06-20 13:52:41,965 Method: HEAD
+2016-06-20 13:52:41,965 Path: /
+2016-06-20 13:52:41,965 Data: 
+2016-06-20 13:52:41,966 Headers: {}
+2016-06-20 13:52:41,966 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 13:52:41,966 Port: 443
+2016-06-20 13:52:41,967 Params: {}
+2016-06-20 13:52:41,967 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 13:52:41,972 Token: None
+2016-06-20 13:52:41,973 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 17:52:41 GMT
+/pumpkinpihub/
+2016-06-20 13:52:41,974 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:V5lMK32rSU38mPFJ35sY46/q9I0=
+2016-06-20 13:52:41,974 Final headers: {'Date': 'Mon, 20 Jun 2016 17:52:41 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:V5lMK32rSU38mPFJ35sY46/q9I0=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 13:52:42,336 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', '9imS7s0HWbntnd8rv2cYWw0eQIcK/h7xIUjaRGeBK3iZ1ZvvPhVDoTMsGZNrpP4jc41K8I91wak='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '48EDAA716C28687F'), ('date', 'Mon, 20 Jun 2016 17:52:43 GMT'), ('content-type', 'application/xml')]
+2016-06-20 13:52:42,352 path=/13%3A52%3A41-06-20-2016.jpg
+2016-06-20 13:52:42,352 auth_path=/pumpkinpihub/13%3A52%3A41-06-20-2016.jpg
+2016-06-20 13:52:42,353 Method: PUT
+2016-06-20 13:52:42,353 Path: /13%3A52%3A41-06-20-2016.jpg
+2016-06-20 13:52:42,353 Data: 
+2016-06-20 13:52:42,353 Headers: {'Content-MD5': u'+gZIAWg4+LyQv7cntEQamg==', 'Content-Length': '885627', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 13:52:42,354 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 13:52:42,354 Port: 443
+2016-06-20 13:52:42,354 Params: {}
+2016-06-20 13:52:42,355 Token: None
+2016-06-20 13:52:42,356 StringToSign:
+PUT
++gZIAWg4+LyQv7cntEQamg==
+image/jpeg
+Mon, 20 Jun 2016 17:52:42 GMT
+x-amz-acl:public-read
+/pumpkinpihub/13%3A52%3A41-06-20-2016.jpg
+2016-06-20 13:52:42,356 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:CkBYGyV+DfQmbLu9d3h2ZVAwEkA=
+2016-06-20 13:52:42,357 Final headers: {'Content-MD5': '+gZIAWg4+LyQv7cntEQamg==', 'Content-Length': '885627', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 17:52:42 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:CkBYGyV+DfQmbLu9d3h2ZVAwEkA=', 'x-amz-acl': 'public-read'}
+2016-06-20 13:52:45,961 Response headers: [('content-length', '0'), ('x-amz-id-2', 'ykoU6G7hmCNBixqoRufWMCOYCO03VJm2gCTpoltdrKvM85hPJKPBKCQO2XUdO39S3Eq95Y9PbjI='), ('server', 'AmazonS3'), ('x-amz-request-id', '50F13542FE4DD48B'), ('etag', '"fa0648016838f8bc90bfb727b4441a9a"'), ('date', 'Mon, 20 Jun 2016 17:52:43 GMT')]
+2016-06-20 13:52:45,963 path=/13%3A52%3A41-06-20-2016.jpg
+2016-06-20 13:52:45,963 auth_path=/pumpkinpihub/13%3A52%3A41-06-20-2016.jpg
+2016-06-20 13:52:45,964 path=/13%3A52%3A41-06-20-2016.jpg?acl
+2016-06-20 13:52:45,965 auth_path=/pumpkinpihub/13%3A52%3A41-06-20-2016.jpg?acl
+2016-06-20 13:52:45,965 Method: PUT
+2016-06-20 13:52:45,966 Path: /13%3A52%3A41-06-20-2016.jpg?acl
+2016-06-20 13:52:45,967 Data: 
+2016-06-20 13:52:45,967 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 13:52:45,968 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 13:52:45,968 Port: 443
+2016-06-20 13:52:45,969 Params: {}
+2016-06-20 13:52:45,970 Token: None
+2016-06-20 13:52:45,971 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 17:52:45 GMT
+x-amz-acl:public-read
+/pumpkinpihub/13%3A52%3A41-06-20-2016.jpg?acl
+2016-06-20 13:52:45,972 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:7wdUB21uboKs2zl49gZKSYp5CaI=
+2016-06-20 13:52:45,973 Final headers: {'Date': 'Mon, 20 Jun 2016 17:52:45 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:7wdUB21uboKs2zl49gZKSYp5CaI=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 13:52:46,022 Response headers: [('x-amz-id-2', 'Uv+XmeyicxZqq+2LPG1cXVAxOulbiabXzTAru7gQ0DKQ2wALhdMEWZU5sLJx/LE8nvn0zqNlg7M='), ('date', 'Mon, 20 Jun 2016 17:52:46 GMT'), ('content-length', '0'), ('x-amz-request-id', 'A7F2A698CEEDB79E'), ('server', 'AmazonS3')]
+2016-06-20 13:52:46,024 Success uploading to server...Posting 13:52:41-06-20-2016.jpg to server
+2016-06-20 13:52:46,024 posting to website
+2016-06-20 13:52:46,048 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 13:52:53,482 "POST /api/imageData?name=13:52:41-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 13:52:53,486 posted file to site response = {"results":[{"id":265,"name":"13:52:41-06-20-2016.jpg","createdate":"2016-06-20T12:52:53.452Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 13:52:53,487 Success posting to site
+2016-06-20 13:52:53,487 index = 1 numba = 0
+2016-06-20 13:53:25,985 script has been loaded waiting to start loop
+2016-06-20 13:53:25,985 Starting timelapse
+2016-06-20 13:53:27,742 Uploading 13:53:27-06-20-2016.jpg to server
+2016-06-20 13:53:27,762 Using access key provided by client.
+2016-06-20 13:53:27,763 Using secret key provided by client.
+2016-06-20 13:53:27,764 path=/
+2016-06-20 13:53:27,764 auth_path=/pumpkinpihub/
+2016-06-20 13:53:27,764 Method: HEAD
+2016-06-20 13:53:27,765 Path: /
+2016-06-20 13:53:27,765 Data: 
+2016-06-20 13:53:27,765 Headers: {}
+2016-06-20 13:53:27,766 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 13:53:27,766 Port: 443
+2016-06-20 13:53:27,766 Params: {}
+2016-06-20 13:53:27,767 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 13:53:27,772 Token: None
+2016-06-20 13:53:27,773 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 17:53:27 GMT
+/pumpkinpihub/
+2016-06-20 13:53:27,773 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:x7F9do+rr2+ML7zUFcq2Z42YJDI=
+2016-06-20 13:53:27,774 Final headers: {'Date': 'Mon, 20 Jun 2016 17:53:27 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:x7F9do+rr2+ML7zUFcq2Z42YJDI=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 13:53:27,958 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'u/OvrO/iMwIF8J2XN3tSCRobrfRG0HH0bLKZMRcrNC2dSwPB048VCFnT05BSbSAiPnwgPimhcz8='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '1668F53019A12A60'), ('date', 'Mon, 20 Jun 2016 17:53:28 GMT'), ('content-type', 'application/xml')]
+2016-06-20 13:53:27,966 path=/13%3A53%3A27-06-20-2016.jpg
+2016-06-20 13:53:27,967 auth_path=/pumpkinpihub/13%3A53%3A27-06-20-2016.jpg
+2016-06-20 13:53:27,967 Method: PUT
+2016-06-20 13:53:27,968 Path: /13%3A53%3A27-06-20-2016.jpg
+2016-06-20 13:53:27,968 Data: 
+2016-06-20 13:53:27,968 Headers: {'Content-MD5': u'Ji1Zj5Z1xC+qdvYaQJXQQQ==', 'Content-Length': '885036', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 13:53:27,969 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 13:53:27,969 Port: 443
+2016-06-20 13:53:27,969 Params: {}
+2016-06-20 13:53:27,970 Token: None
+2016-06-20 13:53:27,971 StringToSign:
+PUT
+Ji1Zj5Z1xC+qdvYaQJXQQQ==
+image/jpeg
+Mon, 20 Jun 2016 17:53:27 GMT
+x-amz-acl:public-read
+/pumpkinpihub/13%3A53%3A27-06-20-2016.jpg
+2016-06-20 13:53:27,971 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:OpGlKiGL7Rvha2qiIPYLsfB751Q=
+2016-06-20 13:53:27,972 Final headers: {'Content-MD5': 'Ji1Zj5Z1xC+qdvYaQJXQQQ==', 'Content-Length': '885036', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 17:53:27 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:OpGlKiGL7Rvha2qiIPYLsfB751Q=', 'x-amz-acl': 'public-read'}
+2016-06-20 13:53:31,250 Response headers: [('content-length', '0'), ('x-amz-id-2', 'xHXG8JweGj9rg91aLJwsboXW4LFONvsfOug1fkxCDlDgo2BBFd0BCL6T1jMC2eNPyPWu3no7a/c='), ('server', 'AmazonS3'), ('x-amz-request-id', 'E70E97AC53EBA94D'), ('etag', '"262d598f9675c42faa76f61a4095d041"'), ('date', 'Mon, 20 Jun 2016 17:53:28 GMT')]
+2016-06-20 13:53:31,252 path=/13%3A53%3A27-06-20-2016.jpg
+2016-06-20 13:53:31,253 auth_path=/pumpkinpihub/13%3A53%3A27-06-20-2016.jpg
+2016-06-20 13:53:31,253 path=/13%3A53%3A27-06-20-2016.jpg?acl
+2016-06-20 13:53:31,254 auth_path=/pumpkinpihub/13%3A53%3A27-06-20-2016.jpg?acl
+2016-06-20 13:53:31,255 Method: PUT
+2016-06-20 13:53:31,255 Path: /13%3A53%3A27-06-20-2016.jpg?acl
+2016-06-20 13:53:31,256 Data: 
+2016-06-20 13:53:31,256 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 13:53:31,257 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 13:53:31,258 Port: 443
+2016-06-20 13:53:31,258 Params: {}
+2016-06-20 13:53:31,259 Token: None
+2016-06-20 13:53:31,260 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 17:53:31 GMT
+x-amz-acl:public-read
+/pumpkinpihub/13%3A53%3A27-06-20-2016.jpg?acl
+2016-06-20 13:53:31,261 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:9KezMh9m4QSmqLFjZCge1islhUc=
+2016-06-20 13:53:31,262 Final headers: {'Date': 'Mon, 20 Jun 2016 17:53:31 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:9KezMh9m4QSmqLFjZCge1islhUc=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 13:53:31,369 Response headers: [('x-amz-id-2', '5qOBNPs3Vt2ZlRFgnu5cj5MeGOYqWdoiOyWkAYtNGOuAl70TuZDM3WrRYVN/VC+nKpW+6cCUGw8='), ('date', 'Mon, 20 Jun 2016 17:53:32 GMT'), ('content-length', '0'), ('x-amz-request-id', 'E1B0C450FD6058AE'), ('server', 'AmazonS3')]
+2016-06-20 13:53:31,371 Success uploading to server...Posting 13:53:27-06-20-2016.jpg to server
+2016-06-20 13:53:31,372 posting to website
+2016-06-20 13:53:31,396 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 13:53:31,575 "POST /api/imageData?name=13:53:27-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 13:53:31,579 posted file to site response = {"results":[{"id":266,"name":"13:53:27-06-20-2016.jpg","createdate":"2016-06-20T12:53:31.540Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 13:53:31,580 Success posting to site
+2016-06-20 13:53:31,581 index = 1 numba = 0
+2016-06-20 14:08:33,288 Uploading 14:08:32-06-20-2016.jpg to server
+2016-06-20 14:08:33,289 Using access key provided by client.
+2016-06-20 14:08:33,290 Using secret key provided by client.
+2016-06-20 14:08:33,291 path=/
+2016-06-20 14:08:33,291 auth_path=/pumpkinpihub/
+2016-06-20 14:08:33,291 Method: HEAD
+2016-06-20 14:08:33,292 Path: /
+2016-06-20 14:08:33,292 Data: 
+2016-06-20 14:08:33,292 Headers: {}
+2016-06-20 14:08:33,293 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:08:33,293 Port: 443
+2016-06-20 14:08:33,293 Params: {}
+2016-06-20 14:08:33,294 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 14:08:33,299 Token: None
+2016-06-20 14:08:33,299 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 18:08:33 GMT
+/pumpkinpihub/
+2016-06-20 14:08:33,300 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:bpQpj1GnDWGvr4XF43ZpoZPs/zA=
+2016-06-20 14:08:33,300 Final headers: {'Date': 'Mon, 20 Jun 2016 18:08:33 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:bpQpj1GnDWGvr4XF43ZpoZPs/zA=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 14:08:33,541 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'MX/tS/kWgFkaudQY422kpcD3A7X7oy/KrVqFg51QyGQ3oRQdzFNGw9ENpZ0+v/F5nSj+C1tSgYw='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '042255B4E66525D7'), ('date', 'Mon, 20 Jun 2016 18:08:34 GMT'), ('content-type', 'application/xml')]
+2016-06-20 14:08:33,550 path=/14%3A08%3A32-06-20-2016.jpg
+2016-06-20 14:08:33,550 auth_path=/pumpkinpihub/14%3A08%3A32-06-20-2016.jpg
+2016-06-20 14:08:33,551 Method: PUT
+2016-06-20 14:08:33,551 Path: /14%3A08%3A32-06-20-2016.jpg
+2016-06-20 14:08:33,551 Data: 
+2016-06-20 14:08:33,552 Headers: {'Content-MD5': u'ZIooJIOEUOwSrK1APWLtaw==', 'Content-Length': '873646', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 14:08:33,552 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:08:33,552 Port: 443
+2016-06-20 14:08:33,553 Params: {}
+2016-06-20 14:08:33,553 Token: None
+2016-06-20 14:08:33,554 StringToSign:
+PUT
+ZIooJIOEUOwSrK1APWLtaw==
+image/jpeg
+Mon, 20 Jun 2016 18:08:33 GMT
+x-amz-acl:public-read
+/pumpkinpihub/14%3A08%3A32-06-20-2016.jpg
+2016-06-20 14:08:33,554 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:DRl7JtvMWvxk3B1B7o2zVqyKnPo=
+2016-06-20 14:08:33,555 Final headers: {'Content-MD5': 'ZIooJIOEUOwSrK1APWLtaw==', 'Content-Length': '873646', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 18:08:33 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:DRl7JtvMWvxk3B1B7o2zVqyKnPo=', 'x-amz-acl': 'public-read'}
+2016-06-20 14:08:41,113 Response headers: [('content-length', '0'), ('x-amz-id-2', 'oEk1BFG6l38TEY97ulp27vJCjsqObAPqYo/MRKqrnOhBFonE+Pkfpvu7dAMdBSb1Q2n+RQgXaUY='), ('server', 'AmazonS3'), ('x-amz-request-id', 'D9702C8A826AC509'), ('etag', '"648a2824838450ec12acad403d62ed6b"'), ('date', 'Mon, 20 Jun 2016 18:08:34 GMT')]
+2016-06-20 14:08:41,115 path=/14%3A08%3A32-06-20-2016.jpg
+2016-06-20 14:08:41,115 auth_path=/pumpkinpihub/14%3A08%3A32-06-20-2016.jpg
+2016-06-20 14:08:41,116 path=/14%3A08%3A32-06-20-2016.jpg?acl
+2016-06-20 14:08:41,117 auth_path=/pumpkinpihub/14%3A08%3A32-06-20-2016.jpg?acl
+2016-06-20 14:08:41,117 Method: PUT
+2016-06-20 14:08:41,118 Path: /14%3A08%3A32-06-20-2016.jpg?acl
+2016-06-20 14:08:41,118 Data: 
+2016-06-20 14:08:41,119 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 14:08:41,120 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:08:41,120 Port: 443
+2016-06-20 14:08:41,121 Params: {}
+2016-06-20 14:08:41,122 Token: None
+2016-06-20 14:08:41,123 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 18:08:41 GMT
+x-amz-acl:public-read
+/pumpkinpihub/14%3A08%3A32-06-20-2016.jpg?acl
+2016-06-20 14:08:41,124 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:UyuHG7iwBDA11fZepesO802+rZg=
+2016-06-20 14:08:41,125 Final headers: {'Date': 'Mon, 20 Jun 2016 18:08:41 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:UyuHG7iwBDA11fZepesO802+rZg=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 14:08:41,183 Response headers: [('x-amz-id-2', '6ztICmRs4xMR8m/ZIoiFoAiM027qBlaygOFKkoYkdAeMY8ID36Po0epVvPuX68ApgQw13p5NdSg='), ('date', 'Mon, 20 Jun 2016 18:08:42 GMT'), ('content-length', '0'), ('x-amz-request-id', '1876728416DEA074'), ('server', 'AmazonS3')]
+2016-06-20 14:08:41,185 Success uploading to server...Posting 14:08:32-06-20-2016.jpg to server
+2016-06-20 14:08:41,186 posting to website
+2016-06-20 14:08:41,193 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 14:08:41,388 "POST /api/imageData?name=14:08:32-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 14:08:41,392 posted file to site response = {"results":[{"id":267,"name":"14:08:32-06-20-2016.jpg","createdate":"2016-06-20T13:08:41.369Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 14:08:41,393 Success posting to site
+2016-06-20 14:08:41,394 index = 2 numba = 0
+2016-06-20 14:23:43,101 Uploading 14:23:42-06-20-2016.jpg to server
+2016-06-20 14:23:43,103 Using access key provided by client.
+2016-06-20 14:23:43,104 Using secret key provided by client.
+2016-06-20 14:23:43,106 path=/
+2016-06-20 14:23:43,107 auth_path=/pumpkinpihub/
+2016-06-20 14:23:43,108 Method: HEAD
+2016-06-20 14:23:43,108 Path: /
+2016-06-20 14:23:43,109 Data: 
+2016-06-20 14:23:43,109 Headers: {}
+2016-06-20 14:23:43,110 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:23:43,110 Port: 443
+2016-06-20 14:23:43,111 Params: {}
+2016-06-20 14:23:43,112 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 14:23:43,121 Token: None
+2016-06-20 14:23:43,122 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 18:23:43 GMT
+/pumpkinpihub/
+2016-06-20 14:23:43,123 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:MLdGUFA2LOIBsfcGCP1ya+2z5vk=
+2016-06-20 14:23:43,125 Final headers: {'Date': 'Mon, 20 Jun 2016 18:23:43 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:MLdGUFA2LOIBsfcGCP1ya+2z5vk=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 14:23:43,469 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', '0x1vpKTJJ7tethyni5TtkavNFTVn23F4hP90CTKVjDXKD1P+y4o28PSLnxSXkv1q3Ahaw0mGui4='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '68FC0A73E0567162'), ('date', 'Mon, 20 Jun 2016 18:23:44 GMT'), ('content-type', 'application/xml')]
+2016-06-20 14:23:43,484 path=/14%3A23%3A42-06-20-2016.jpg
+2016-06-20 14:23:43,485 auth_path=/pumpkinpihub/14%3A23%3A42-06-20-2016.jpg
+2016-06-20 14:23:43,486 Method: PUT
+2016-06-20 14:23:43,487 Path: /14%3A23%3A42-06-20-2016.jpg
+2016-06-20 14:23:43,487 Data: 
+2016-06-20 14:23:43,488 Headers: {'Content-MD5': u'qDP1JBwSmAodjoKZ2h0HiA==', 'Content-Length': '848943', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 14:23:43,489 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:23:43,489 Port: 443
+2016-06-20 14:23:43,490 Params: {}
+2016-06-20 14:23:43,491 Token: None
+2016-06-20 14:23:43,492 StringToSign:
+PUT
+qDP1JBwSmAodjoKZ2h0HiA==
+image/jpeg
+Mon, 20 Jun 2016 18:23:43 GMT
+x-amz-acl:public-read
+/pumpkinpihub/14%3A23%3A42-06-20-2016.jpg
+2016-06-20 14:23:43,493 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:yNYamM//0z3Q2gKYIQDmowTBIbI=
+2016-06-20 14:23:43,494 Final headers: {'Content-MD5': 'qDP1JBwSmAodjoKZ2h0HiA==', 'Content-Length': '848943', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 18:23:43 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:yNYamM//0z3Q2gKYIQDmowTBIbI=', 'x-amz-acl': 'public-read'}
+2016-06-20 14:23:46,779 Response headers: [('content-length', '0'), ('x-amz-id-2', 'HKiDLryYSWmvsH1D2iKxbkjr2pR/WXd9nMib/gwtfRUOEzZuR8XkZmKzTtkRoApIv7+vxRW84tI='), ('server', 'AmazonS3'), ('x-amz-request-id', '1069D4C55668BD4D'), ('etag', '"a833f5241c12980a1d8e8299da1d0788"'), ('date', 'Mon, 20 Jun 2016 18:23:44 GMT')]
+2016-06-20 14:23:46,780 path=/14%3A23%3A42-06-20-2016.jpg
+2016-06-20 14:23:46,781 auth_path=/pumpkinpihub/14%3A23%3A42-06-20-2016.jpg
+2016-06-20 14:23:46,782 path=/14%3A23%3A42-06-20-2016.jpg?acl
+2016-06-20 14:23:46,782 auth_path=/pumpkinpihub/14%3A23%3A42-06-20-2016.jpg?acl
+2016-06-20 14:23:46,783 Method: PUT
+2016-06-20 14:23:46,784 Path: /14%3A23%3A42-06-20-2016.jpg?acl
+2016-06-20 14:23:46,784 Data: 
+2016-06-20 14:23:46,785 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 14:23:46,786 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:23:46,786 Port: 443
+2016-06-20 14:23:46,787 Params: {}
+2016-06-20 14:23:46,788 Token: None
+2016-06-20 14:23:46,789 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 18:23:46 GMT
+x-amz-acl:public-read
+/pumpkinpihub/14%3A23%3A42-06-20-2016.jpg?acl
+2016-06-20 14:23:46,790 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:t0s0zHmnAdtx3lhPUGxO93U7Yj4=
+2016-06-20 14:23:46,791 Final headers: {'Date': 'Mon, 20 Jun 2016 18:23:46 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:t0s0zHmnAdtx3lhPUGxO93U7Yj4=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 14:23:46,847 Response headers: [('x-amz-id-2', 'R3XFE102ZkCF++XA/JukIOc8z/NMRyFeXLxo6sVshoI6Ayp1YTMcaGBdXq63mg5UkLSuCH0DkbQ='), ('date', 'Mon, 20 Jun 2016 18:23:47 GMT'), ('content-length', '0'), ('x-amz-request-id', '50A931BACCC51E59'), ('server', 'AmazonS3')]
+2016-06-20 14:23:46,849 Success uploading to server...Posting 14:23:42-06-20-2016.jpg to server
+2016-06-20 14:23:46,850 posting to website
+2016-06-20 14:23:46,857 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 14:23:46,964 "POST /api/imageData?name=14:23:42-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 14:23:46,968 posted file to site response = {"results":[{"id":268,"name":"14:23:42-06-20-2016.jpg","createdate":"2016-06-20T13:23:46.953Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 14:23:46,969 Success posting to site
+2016-06-20 14:23:46,970 index = 3 numba = 0
+2016-06-20 14:38:48,697 Uploading 14:38:48-06-20-2016.jpg to server
+2016-06-20 14:38:48,699 Using access key provided by client.
+2016-06-20 14:38:48,700 Using secret key provided by client.
+2016-06-20 14:38:48,702 path=/
+2016-06-20 14:38:48,703 auth_path=/pumpkinpihub/
+2016-06-20 14:38:48,703 Method: HEAD
+2016-06-20 14:38:48,704 Path: /
+2016-06-20 14:38:48,705 Data: 
+2016-06-20 14:38:48,705 Headers: {}
+2016-06-20 14:38:48,706 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:38:48,706 Port: 443
+2016-06-20 14:38:48,707 Params: {}
+2016-06-20 14:38:48,708 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 14:38:48,717 Token: None
+2016-06-20 14:38:48,718 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 18:38:48 GMT
+/pumpkinpihub/
+2016-06-20 14:38:48,719 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:shH7FuRTsfBKTWuaeeXaTp/hXec=
+2016-06-20 14:38:48,720 Final headers: {'Date': 'Mon, 20 Jun 2016 18:38:48 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:shH7FuRTsfBKTWuaeeXaTp/hXec=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 14:38:48,960 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'azo6RQjFeWklrUXt+wfgggHtYOQEQ483tmT6hSi8ib++rAyrOnN0Xnb2uwm4kfflVUdFmWKzzes='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '34890BC36D6C6152'), ('date', 'Mon, 20 Jun 2016 18:38:49 GMT'), ('content-type', 'application/xml')]
+2016-06-20 14:38:48,975 path=/14%3A38%3A48-06-20-2016.jpg
+2016-06-20 14:38:48,976 auth_path=/pumpkinpihub/14%3A38%3A48-06-20-2016.jpg
+2016-06-20 14:38:48,977 Method: PUT
+2016-06-20 14:38:48,978 Path: /14%3A38%3A48-06-20-2016.jpg
+2016-06-20 14:38:48,978 Data: 
+2016-06-20 14:38:48,979 Headers: {'Content-MD5': u'Njliauyyhd1qyYcFkRPQ1A==', 'Content-Length': '856792', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 14:38:48,979 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:38:48,980 Port: 443
+2016-06-20 14:38:48,981 Params: {}
+2016-06-20 14:38:48,982 Token: None
+2016-06-20 14:38:48,983 StringToSign:
+PUT
+Njliauyyhd1qyYcFkRPQ1A==
+image/jpeg
+Mon, 20 Jun 2016 18:38:48 GMT
+x-amz-acl:public-read
+/pumpkinpihub/14%3A38%3A48-06-20-2016.jpg
+2016-06-20 14:38:48,983 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:4I//sVd32ptKyLYuBrqyDiMNqoo=
+2016-06-20 14:38:48,985 Final headers: {'Content-MD5': 'Njliauyyhd1qyYcFkRPQ1A==', 'Content-Length': '856792', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 18:38:48 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:4I//sVd32ptKyLYuBrqyDiMNqoo=', 'x-amz-acl': 'public-read'}
+2016-06-20 14:38:54,507 Response headers: [('content-length', '0'), ('x-amz-id-2', '1s7oDlHI8IH+LRozBxif/9sDWbTdTJGQ+ZJ0l/OHFm/KniGP1R4rWIXgg61L6OF2s5hZtrdMypE='), ('server', 'AmazonS3'), ('x-amz-request-id', '47013C6348D3B9E8'), ('etag', '"3639626aecb285dd6ac987059113d0d4"'), ('date', 'Mon, 20 Jun 2016 18:38:50 GMT')]
+2016-06-20 14:38:54,509 path=/14%3A38%3A48-06-20-2016.jpg
+2016-06-20 14:38:54,510 auth_path=/pumpkinpihub/14%3A38%3A48-06-20-2016.jpg
+2016-06-20 14:38:54,510 path=/14%3A38%3A48-06-20-2016.jpg?acl
+2016-06-20 14:38:54,511 auth_path=/pumpkinpihub/14%3A38%3A48-06-20-2016.jpg?acl
+2016-06-20 14:38:54,511 Method: PUT
+2016-06-20 14:38:54,512 Path: /14%3A38%3A48-06-20-2016.jpg?acl
+2016-06-20 14:38:54,513 Data: 
+2016-06-20 14:38:54,513 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 14:38:54,514 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:38:54,514 Port: 443
+2016-06-20 14:38:54,515 Params: {}
+2016-06-20 14:38:54,516 Token: None
+2016-06-20 14:38:54,517 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 18:38:54 GMT
+x-amz-acl:public-read
+/pumpkinpihub/14%3A38%3A48-06-20-2016.jpg?acl
+2016-06-20 14:38:54,518 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:eGS8H5jUJOTjaCZEMuSeoyjoIR4=
+2016-06-20 14:38:54,519 Final headers: {'Date': 'Mon, 20 Jun 2016 18:38:54 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:eGS8H5jUJOTjaCZEMuSeoyjoIR4=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 14:38:54,572 Response headers: [('x-amz-id-2', 'uiBOpr1FLWBFGAzt0mhG+jF+QkiNl7g+ixt+fYXaeHgCIspnWzLQnNGXzln0ajlNeOZu+/pjPi4='), ('date', 'Mon, 20 Jun 2016 18:38:55 GMT'), ('content-length', '0'), ('x-amz-request-id', '96E818747F80D71E'), ('server', 'AmazonS3')]
+2016-06-20 14:38:54,574 Success uploading to server...Posting 14:38:48-06-20-2016.jpg to server
+2016-06-20 14:38:54,575 posting to website
+2016-06-20 14:38:54,582 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 14:38:54,697 "POST /api/imageData?name=14:38:48-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 14:38:54,700 posted file to site response = {"results":[{"id":269,"name":"14:38:48-06-20-2016.jpg","createdate":"2016-06-20T13:38:54.691Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 14:38:54,702 Success posting to site
+2016-06-20 14:38:54,702 index = 4 numba = 0
+2016-06-20 14:53:56,479 Uploading 14:53:55-06-20-2016.jpg to server
+2016-06-20 14:53:56,481 Using access key provided by client.
+2016-06-20 14:53:56,482 Using secret key provided by client.
+2016-06-20 14:53:56,484 path=/
+2016-06-20 14:53:56,484 auth_path=/pumpkinpihub/
+2016-06-20 14:53:56,485 Method: HEAD
+2016-06-20 14:53:56,486 Path: /
+2016-06-20 14:53:56,486 Data: 
+2016-06-20 14:53:56,487 Headers: {}
+2016-06-20 14:53:56,488 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:53:56,488 Port: 443
+2016-06-20 14:53:56,489 Params: {}
+2016-06-20 14:53:56,490 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 14:53:56,500 Token: None
+2016-06-20 14:53:56,502 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 18:53:56 GMT
+/pumpkinpihub/
+2016-06-20 14:53:56,503 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:4kJjNhMCFfJsEXTo/YfRQGBO2gw=
+2016-06-20 14:53:56,504 Final headers: {'Date': 'Mon, 20 Jun 2016 18:53:56 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:4kJjNhMCFfJsEXTo/YfRQGBO2gw=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 14:53:56,716 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', '8HXqVaM5fnKEHqkRI5nngPW2wrXTQJvguyTCIH3SXU8gVFLmGOvdk5qaI7UtsleRsAMxQBIpI6g='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'B427027B9D2053E6'), ('date', 'Mon, 20 Jun 2016 18:53:57 GMT'), ('content-type', 'application/xml')]
+2016-06-20 14:53:56,732 path=/14%3A53%3A55-06-20-2016.jpg
+2016-06-20 14:53:56,733 auth_path=/pumpkinpihub/14%3A53%3A55-06-20-2016.jpg
+2016-06-20 14:53:56,734 Method: PUT
+2016-06-20 14:53:56,735 Path: /14%3A53%3A55-06-20-2016.jpg
+2016-06-20 14:53:56,735 Data: 
+2016-06-20 14:53:56,736 Headers: {'Content-MD5': u'fUvSxeHjVeZV6Pvf/03rLg==', 'Content-Length': '908236', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 14:53:56,737 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:53:56,737 Port: 443
+2016-06-20 14:53:56,738 Params: {}
+2016-06-20 14:53:56,739 Token: None
+2016-06-20 14:53:56,740 StringToSign:
+PUT
+fUvSxeHjVeZV6Pvf/03rLg==
+image/jpeg
+Mon, 20 Jun 2016 18:53:56 GMT
+x-amz-acl:public-read
+/pumpkinpihub/14%3A53%3A55-06-20-2016.jpg
+2016-06-20 14:53:56,741 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:5RNl4XGMoLWr9ahADWYmoGDqJ38=
+2016-06-20 14:53:56,742 Final headers: {'Content-MD5': 'fUvSxeHjVeZV6Pvf/03rLg==', 'Content-Length': '908236', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 18:53:56 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:5RNl4XGMoLWr9ahADWYmoGDqJ38=', 'x-amz-acl': 'public-read'}
+2016-06-20 14:54:02,131 Response headers: [('content-length', '0'), ('x-amz-id-2', 'HFJVlAiZYLrpIA+xnN5S3ZnjRwpsitssX6JwwnVms9WuMT+J6g7CBAJwivUZWu4/43RiY7AV4Gs='), ('server', 'AmazonS3'), ('x-amz-request-id', '3B48FAD9F57F72B6'), ('etag', '"7d4bd2c5e1e355e655e8fbdfff4deb2e"'), ('date', 'Mon, 20 Jun 2016 18:53:57 GMT')]
+2016-06-20 14:54:02,132 path=/14%3A53%3A55-06-20-2016.jpg
+2016-06-20 14:54:02,133 auth_path=/pumpkinpihub/14%3A53%3A55-06-20-2016.jpg
+2016-06-20 14:54:02,133 path=/14%3A53%3A55-06-20-2016.jpg?acl
+2016-06-20 14:54:02,134 auth_path=/pumpkinpihub/14%3A53%3A55-06-20-2016.jpg?acl
+2016-06-20 14:54:02,135 Method: PUT
+2016-06-20 14:54:02,135 Path: /14%3A53%3A55-06-20-2016.jpg?acl
+2016-06-20 14:54:02,136 Data: 
+2016-06-20 14:54:02,137 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 14:54:02,137 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 14:54:02,138 Port: 443
+2016-06-20 14:54:02,138 Params: {}
+2016-06-20 14:54:02,139 Token: None
+2016-06-20 14:54:02,140 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 18:54:02 GMT
+x-amz-acl:public-read
+/pumpkinpihub/14%3A53%3A55-06-20-2016.jpg?acl
+2016-06-20 14:54:02,141 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:AXQ7l8eGb+qMu5G/glbxo3PUrdE=
+2016-06-20 14:54:02,142 Final headers: {'Date': 'Mon, 20 Jun 2016 18:54:02 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:AXQ7l8eGb+qMu5G/glbxo3PUrdE=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 14:54:02,206 Response headers: [('x-amz-id-2', 'QVO7IPJrnd8l8m1Y4zJFHDz7/tKfYnylilhGjjIzJeFXGaA7gEy1XmQTMSryaBXIrx9zaYF2CHk='), ('date', 'Mon, 20 Jun 2016 18:54:03 GMT'), ('content-length', '0'), ('x-amz-request-id', '2A455339C428900C'), ('server', 'AmazonS3')]
+2016-06-20 14:54:02,208 Success uploading to server...Posting 14:53:55-06-20-2016.jpg to server
+2016-06-20 14:54:02,209 posting to website
+2016-06-20 14:54:02,216 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 14:54:02,353 "POST /api/imageData?name=14:53:55-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 14:54:02,356 posted file to site response = {"results":[{"id":270,"name":"14:53:55-06-20-2016.jpg","createdate":"2016-06-20T13:54:02.347Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 14:54:02,357 Success posting to site
+2016-06-20 14:54:02,358 index = 5 numba = 0
+2016-06-20 15:09:04,011 Uploading 15:09:03-06-20-2016.jpg to server
+2016-06-20 15:09:04,014 Using access key provided by client.
+2016-06-20 15:09:04,015 Using secret key provided by client.
+2016-06-20 15:09:04,017 path=/
+2016-06-20 15:09:04,017 auth_path=/pumpkinpihub/
+2016-06-20 15:09:04,018 Method: HEAD
+2016-06-20 15:09:04,019 Path: /
+2016-06-20 15:09:04,020 Data: 
+2016-06-20 15:09:04,020 Headers: {}
+2016-06-20 15:09:04,021 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 15:09:04,021 Port: 443
+2016-06-20 15:09:04,022 Params: {}
+2016-06-20 15:09:04,023 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 15:09:04,033 Token: None
+2016-06-20 15:09:04,034 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 19:09:04 GMT
+/pumpkinpihub/
+2016-06-20 15:09:04,035 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:Fs128/uxoSFBUubCJIPTLs/c4Y8=
+2016-06-20 15:09:04,036 Final headers: {'Date': 'Mon, 20 Jun 2016 19:09:04 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:Fs128/uxoSFBUubCJIPTLs/c4Y8=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 15:09:04,248 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'k0prUq2QPFAb5+2UEeqt0gO48qDe5y2gKp/ZMt0wN9fV7KPIT31niPUfFaI5E9wN9kcRmGrDWO8='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'DA654EF95134B70C'), ('date', 'Mon, 20 Jun 2016 19:09:05 GMT'), ('content-type', 'application/xml')]
+2016-06-20 15:09:04,263 path=/15%3A09%3A03-06-20-2016.jpg
+2016-06-20 15:09:04,265 auth_path=/pumpkinpihub/15%3A09%3A03-06-20-2016.jpg
+2016-06-20 15:09:04,265 Method: PUT
+2016-06-20 15:09:04,266 Path: /15%3A09%3A03-06-20-2016.jpg
+2016-06-20 15:09:04,267 Data: 
+2016-06-20 15:09:04,267 Headers: {'Content-MD5': u'P/xMpmMWsjH0Vb3Q7kbdIA==', 'Content-Length': '868927', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 15:09:04,268 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 15:09:04,268 Port: 443
+2016-06-20 15:09:04,269 Params: {}
+2016-06-20 15:09:04,270 Token: None
+2016-06-20 15:09:04,271 StringToSign:
+PUT
+P/xMpmMWsjH0Vb3Q7kbdIA==
+image/jpeg
+Mon, 20 Jun 2016 19:09:04 GMT
+x-amz-acl:public-read
+/pumpkinpihub/15%3A09%3A03-06-20-2016.jpg
+2016-06-20 15:09:04,272 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:lfoSiKCO0LCYpjaBb2JQmxa5oGU=
+2016-06-20 15:09:04,273 Final headers: {'Content-MD5': 'P/xMpmMWsjH0Vb3Q7kbdIA==', 'Content-Length': '868927', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 19:09:04 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:lfoSiKCO0LCYpjaBb2JQmxa5oGU=', 'x-amz-acl': 'public-read'}
+2016-06-20 15:09:08,569 Response headers: [('content-length', '0'), ('x-amz-id-2', 'WOHFQMPlEGUYEuNJkQuKj9WSNZcrkFkA2zxhU5KJzBtQX9cvVp+a0pdoW6IQXG9L+mIa0oxHMdQ='), ('server', 'AmazonS3'), ('x-amz-request-id', '34FBF23C541FF8FA'), ('etag', '"3ffc4ca66316b231f455bdd0ee46dd20"'), ('date', 'Mon, 20 Jun 2016 19:09:05 GMT')]
+2016-06-20 15:09:08,571 path=/15%3A09%3A03-06-20-2016.jpg
+2016-06-20 15:09:08,571 auth_path=/pumpkinpihub/15%3A09%3A03-06-20-2016.jpg
+2016-06-20 15:09:08,572 path=/15%3A09%3A03-06-20-2016.jpg?acl
+2016-06-20 15:09:08,573 auth_path=/pumpkinpihub/15%3A09%3A03-06-20-2016.jpg?acl
+2016-06-20 15:09:08,573 Method: PUT
+2016-06-20 15:09:08,574 Path: /15%3A09%3A03-06-20-2016.jpg?acl
+2016-06-20 15:09:08,575 Data: 
+2016-06-20 15:09:08,575 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 15:09:08,576 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 15:09:08,577 Port: 443
+2016-06-20 15:09:08,577 Params: {}
+2016-06-20 15:09:08,578 Token: None
+2016-06-20 15:09:08,579 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 19:09:08 GMT
+x-amz-acl:public-read
+/pumpkinpihub/15%3A09%3A03-06-20-2016.jpg?acl
+2016-06-20 15:09:08,580 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:hNekz2ELArtf53otq2ao6HxmF/E=
+2016-06-20 15:09:08,581 Final headers: {'Date': 'Mon, 20 Jun 2016 19:09:08 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:hNekz2ELArtf53otq2ao6HxmF/E=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 15:09:08,632 Response headers: [('x-amz-id-2', '5GhMLFLQlJnKY5Qi4iA5SrqP46LbbddUu0jKN1Ga5AS7iUNPln+rbjzbYBE6ekT/OfMpDQIMqwA='), ('date', 'Mon, 20 Jun 2016 19:09:09 GMT'), ('content-length', '0'), ('x-amz-request-id', '3B82B8A563D9FB1E'), ('server', 'AmazonS3')]
+2016-06-20 15:09:08,634 Success uploading to server...Posting 15:09:03-06-20-2016.jpg to server
+2016-06-20 15:09:08,635 posting to website
+2016-06-20 15:09:08,642 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 15:09:09,617 "POST /api/imageData?name=15:09:03-06-20-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-20 15:09:09,621 posted file to site response = {"results":[{"id":271,"name":"15:09:03-06-20-2016.jpg","createdate":"2016-06-20T14:09:09.604Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-20 15:09:09,622 Success posting to site
+2016-06-20 15:09:09,623 index = 6 numba = 0
+2016-06-20 17:00:15,196 Running job Every 1 day at 17:00:00 do start_timelapse(4) (last run: [never], next run: 2016-06-20 17:00:00)
+2016-06-20 17:00:15,197 Starting timelapse
+2016-06-20 17:00:17,047 Uploading 17:00:16-06-20-2016.jpg to server
+2016-06-20 17:00:17,050 Using access key provided by client.
+2016-06-20 17:00:17,051 Using secret key provided by client.
+2016-06-20 17:00:17,053 path=/
+2016-06-20 17:00:17,053 auth_path=/pumpkinpihub/
+2016-06-20 17:00:17,054 Method: HEAD
+2016-06-20 17:00:17,055 Path: /
+2016-06-20 17:00:17,056 Data: 
+2016-06-20 17:00:17,056 Headers: {}
+2016-06-20 17:00:17,057 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 17:00:17,057 Port: 443
+2016-06-20 17:00:17,058 Params: {}
+2016-06-20 17:00:17,059 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 17:00:17,069 Token: None
+2016-06-20 17:00:17,070 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 21:00:17 GMT
+/pumpkinpihub/
+2016-06-20 17:00:17,071 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:+nRWY0UMzJFuIsDCnz5o3+O/4pM=
+2016-06-20 17:00:17,072 Final headers: {'Date': 'Mon, 20 Jun 2016 21:00:17 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:+nRWY0UMzJFuIsDCnz5o3+O/4pM=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 17:00:17,259 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'C+9/htFEbpAZr0azEUwm08pZbJGYVYvpBWFJAQIdQJ5KY87fB+bNVGmdldfPd+7jI+CZVz0S4hc='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'EBA46BB85F54E9E5'), ('date', 'Mon, 20 Jun 2016 21:00:18 GMT'), ('content-type', 'application/xml')]
+2016-06-20 17:00:17,275 path=/17%3A00%3A16-06-20-2016.jpg
+2016-06-20 17:00:17,276 auth_path=/pumpkinpihub/17%3A00%3A16-06-20-2016.jpg
+2016-06-20 17:00:17,277 Method: PUT
+2016-06-20 17:00:17,277 Path: /17%3A00%3A16-06-20-2016.jpg
+2016-06-20 17:00:17,278 Data: 
+2016-06-20 17:00:17,278 Headers: {'Content-MD5': u'1C4SlRYECo0JKXPHAjDzfw==', 'Content-Length': '816407', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 17:00:17,279 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 17:00:17,280 Port: 443
+2016-06-20 17:00:17,280 Params: {}
+2016-06-20 17:00:17,281 Token: None
+2016-06-20 17:00:17,282 StringToSign:
+PUT
+1C4SlRYECo0JKXPHAjDzfw==
+image/jpeg
+Mon, 20 Jun 2016 21:00:17 GMT
+x-amz-acl:public-read
+/pumpkinpihub/17%3A00%3A16-06-20-2016.jpg
+2016-06-20 17:00:17,283 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:icVCf3WCifu+1hc7ROxWtQVwsdQ=
+2016-06-20 17:00:17,284 Final headers: {'Content-MD5': '1C4SlRYECo0JKXPHAjDzfw==', 'Content-Length': '816407', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 21:00:17 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:icVCf3WCifu+1hc7ROxWtQVwsdQ=', 'x-amz-acl': 'public-read'}
+2016-06-20 17:00:19,501 Response headers: [('content-length', '0'), ('x-amz-id-2', 'dEEQHv5llNunbtZGS/FP8FjeCmVnY39sxu28rJwpongIJysJJkd/QshXozwbmaqD9kZ/Uq/olg0='), ('server', 'AmazonS3'), ('x-amz-request-id', '39777AFFCBD3AE8F'), ('etag', '"d42e129516040a8d092973c70230f37f"'), ('date', 'Mon, 20 Jun 2016 21:00:18 GMT')]
+2016-06-20 17:00:19,503 path=/17%3A00%3A16-06-20-2016.jpg
+2016-06-20 17:00:19,504 auth_path=/pumpkinpihub/17%3A00%3A16-06-20-2016.jpg
+2016-06-20 17:00:19,504 path=/17%3A00%3A16-06-20-2016.jpg?acl
+2016-06-20 17:00:19,505 auth_path=/pumpkinpihub/17%3A00%3A16-06-20-2016.jpg?acl
+2016-06-20 17:00:19,506 Method: PUT
+2016-06-20 17:00:19,506 Path: /17%3A00%3A16-06-20-2016.jpg?acl
+2016-06-20 17:00:19,507 Data: 
+2016-06-20 17:00:19,508 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 17:00:19,508 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 17:00:19,509 Port: 443
+2016-06-20 17:00:19,509 Params: {}
+2016-06-20 17:00:19,510 Token: None
+2016-06-20 17:00:19,511 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 21:00:19 GMT
+x-amz-acl:public-read
+/pumpkinpihub/17%3A00%3A16-06-20-2016.jpg?acl
+2016-06-20 17:00:19,512 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:x6x3K+ohuXUDeIWkqyhQolDo2OQ=
+2016-06-20 17:00:19,513 Final headers: {'Date': 'Mon, 20 Jun 2016 21:00:19 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:x6x3K+ohuXUDeIWkqyhQolDo2OQ=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 17:00:19,569 Response headers: [('x-amz-id-2', '/yOFSEzpStr0zsu8Er3tsc4DHYFfxBfQMf5Xoo1ldRHotgM7UhIYv/mWCDt2K1IcOITs2wUCEpU='), ('date', 'Mon, 20 Jun 2016 21:00:20 GMT'), ('content-length', '0'), ('x-amz-request-id', 'B27435E332740B64'), ('server', 'AmazonS3')]
+2016-06-20 17:00:19,571 Success uploading to server...Posting 17:00:16-06-20-2016.jpg to server
+2016-06-20 17:00:19,572 posting to website
+2016-06-20 17:00:19,579 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 17:00:19,774 "POST /api/imageData?name=17:00:16-06-20-2016.jpg&numba=4 HTTP/1.1" 200 131
+2016-06-20 17:00:19,778 posted file to site response = {"results":[{"id":272,"name":"17:00:16-06-20-2016.jpg","createdate":"2016-06-20T16:00:19.765Z","numba":4}],"extraInfo":"sweetness"}
+2016-06-20 17:00:19,779 Success posting to site
+2016-06-20 17:00:19,780 index = 1 numba = 4
+2016-06-20 17:15:21,504 Uploading 17:15:20-06-20-2016.jpg to server
+2016-06-20 17:15:21,507 Using access key provided by client.
+2016-06-20 17:15:21,508 Using secret key provided by client.
+2016-06-20 17:15:21,510 path=/
+2016-06-20 17:15:21,510 auth_path=/pumpkinpihub/
+2016-06-20 17:15:21,511 Method: HEAD
+2016-06-20 17:15:21,512 Path: /
+2016-06-20 17:15:21,512 Data: 
+2016-06-20 17:15:21,513 Headers: {}
+2016-06-20 17:15:21,514 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 17:15:21,514 Port: 443
+2016-06-20 17:15:21,515 Params: {}
+2016-06-20 17:15:21,516 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-20 17:15:21,526 Token: None
+2016-06-20 17:15:21,527 StringToSign:
+HEAD
+
+
+Mon, 20 Jun 2016 21:15:21 GMT
+/pumpkinpihub/
+2016-06-20 17:15:21,528 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:EL4u+xOCzrpDWqJ/Exu66HqOpRI=
+2016-06-20 17:15:21,529 Final headers: {'Date': 'Mon, 20 Jun 2016 21:15:21 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:EL4u+xOCzrpDWqJ/Exu66HqOpRI=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 17:15:21,738 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'qu4OvYlR4jP0WBGSxW9NLtk08XI2sIRHaOSH4+lDxqgwlOLTe8FlrspsE7TpktBGIdXGb8p2ojY='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '6BE5C67C5AEDED28'), ('date', 'Mon, 20 Jun 2016 21:15:22 GMT'), ('content-type', 'application/xml')]
+2016-06-20 17:15:21,753 path=/17%3A15%3A20-06-20-2016.jpg
+2016-06-20 17:15:21,754 auth_path=/pumpkinpihub/17%3A15%3A20-06-20-2016.jpg
+2016-06-20 17:15:21,755 Method: PUT
+2016-06-20 17:15:21,756 Path: /17%3A15%3A20-06-20-2016.jpg
+2016-06-20 17:15:21,757 Data: 
+2016-06-20 17:15:21,757 Headers: {'Content-MD5': u'zdTZ6FX5jCQCRBOZu2T35g==', 'Content-Length': '810955', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-20 17:15:21,758 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 17:15:21,758 Port: 443
+2016-06-20 17:15:21,759 Params: {}
+2016-06-20 17:15:21,760 Token: None
+2016-06-20 17:15:21,761 StringToSign:
+PUT
+zdTZ6FX5jCQCRBOZu2T35g==
+image/jpeg
+Mon, 20 Jun 2016 21:15:21 GMT
+x-amz-acl:public-read
+/pumpkinpihub/17%3A15%3A20-06-20-2016.jpg
+2016-06-20 17:15:21,762 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:aO9cMmsPfrbYtwp7n/3WVNbs2qo=
+2016-06-20 17:15:21,763 Final headers: {'Content-MD5': 'zdTZ6FX5jCQCRBOZu2T35g==', 'Content-Length': '810955', 'Expect': '100-Continue', 'Date': 'Mon, 20 Jun 2016 21:15:21 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:aO9cMmsPfrbYtwp7n/3WVNbs2qo=', 'x-amz-acl': 'public-read'}
+2016-06-20 17:15:26,637 Response headers: [('content-length', '0'), ('x-amz-id-2', 'ISBb30WPONI82hUFoReiGdym8Oyr0ZDQqTfPJbEMiSwvgpY95P6cg0STK/MbDwj9ej39496q4Uk='), ('server', 'AmazonS3'), ('x-amz-request-id', '669FC25EF6E8AC9A'), ('etag', '"cdd4d9e855f98c2402441399bb64f7e6"'), ('date', 'Mon, 20 Jun 2016 21:15:22 GMT')]
+2016-06-20 17:15:26,639 path=/17%3A15%3A20-06-20-2016.jpg
+2016-06-20 17:15:26,639 auth_path=/pumpkinpihub/17%3A15%3A20-06-20-2016.jpg
+2016-06-20 17:15:26,640 path=/17%3A15%3A20-06-20-2016.jpg?acl
+2016-06-20 17:15:26,641 auth_path=/pumpkinpihub/17%3A15%3A20-06-20-2016.jpg?acl
+2016-06-20 17:15:26,641 Method: PUT
+2016-06-20 17:15:26,642 Path: /17%3A15%3A20-06-20-2016.jpg?acl
+2016-06-20 17:15:26,643 Data: 
+2016-06-20 17:15:26,643 Headers: {'x-amz-acl': 'public-read'}
+2016-06-20 17:15:26,644 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-20 17:15:26,644 Port: 443
+2016-06-20 17:15:26,645 Params: {}
+2016-06-20 17:15:26,646 Token: None
+2016-06-20 17:15:26,647 StringToSign:
+PUT
+
+
+Mon, 20 Jun 2016 21:15:26 GMT
+x-amz-acl:public-read
+/pumpkinpihub/17%3A15%3A20-06-20-2016.jpg?acl
+2016-06-20 17:15:26,648 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:3Wr5enFfhphXTzqtLlpO8dejnXw=
+2016-06-20 17:15:26,649 Final headers: {'Date': 'Mon, 20 Jun 2016 21:15:26 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:3Wr5enFfhphXTzqtLlpO8dejnXw=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-20 17:15:26,697 Response headers: [('x-amz-id-2', 'IRE+xI5umQ3h52zpCXG1jPLJtcpTnb4RcfD3jbMftg5d4diIy7cLNg5pfGWcWgs899qc2jArR9U='), ('date', 'Mon, 20 Jun 2016 21:15:27 GMT'), ('content-length', '0'), ('x-amz-request-id', '810F84A1AF546167'), ('server', 'AmazonS3')]
+2016-06-20 17:15:26,699 Success uploading to server...Posting 17:15:20-06-20-2016.jpg to server
+2016-06-20 17:15:26,700 posting to website
+2016-06-20 17:15:26,707 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-20 17:15:26,850 "POST /api/imageData?name=17:15:20-06-20-2016.jpg&numba=4 HTTP/1.1" 200 131
+2016-06-20 17:15:26,853 posted file to site response = {"results":[{"id":273,"name":"17:15:20-06-20-2016.jpg","createdate":"2016-06-20T16:15:26.829Z","numba":4}],"extraInfo":"sweetness"}
+2016-06-20 17:15:26,855 Success posting to site
+2016-06-20 17:15:26,855 index = 2 numba = 4
+2016-06-22 17:52:09,737 script has been loaded waiting to start loop
+2016-06-22 17:52:09,739 Starting timelapse
+2016-06-22 17:52:11,576 Uploading 17:52:10-06-22-2016.jpg to server
+2016-06-22 17:52:11,626 Using access key provided by client.
+2016-06-22 17:52:11,626 Using secret key provided by client.
+2016-06-22 17:52:11,628 path=/
+2016-06-22 17:52:11,628 auth_path=/pumpkinpihub/
+2016-06-22 17:52:11,629 Method: HEAD
+2016-06-22 17:52:11,629 Path: /
+2016-06-22 17:52:11,630 Data: 
+2016-06-22 17:52:11,630 Headers: {}
+2016-06-22 17:52:11,630 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 17:52:11,631 Port: 443
+2016-06-22 17:52:11,631 Params: {}
+2016-06-22 17:52:11,632 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 17:52:11,637 Token: None
+2016-06-22 17:52:11,638 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 21:52:11 GMT
+/pumpkinpihub/
+2016-06-22 17:52:11,639 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:KLaq+NrE4Vr20oNI7MalEvHa11s=
+2016-06-22 17:52:11,639 Final headers: {'Date': 'Wed, 22 Jun 2016 21:52:11 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:KLaq+NrE4Vr20oNI7MalEvHa11s=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 17:52:11,825 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'vbDuQYGyooW+KDQwDqyDWcigF05PN7WmxDRSXMcorsieeu2Rm/ivAbhE0g10gf2yc6ZXUB5t2y0='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '9C27F236F0D93F28'), ('date', 'Wed, 22 Jun 2016 21:52:12 GMT'), ('content-type', 'application/xml')]
+2016-06-22 17:52:11,832 path=/17%3A52%3A10-06-22-2016.jpg
+2016-06-22 17:52:11,833 auth_path=/pumpkinpihub/17%3A52%3A10-06-22-2016.jpg
+2016-06-22 17:52:11,833 Method: PUT
+2016-06-22 17:52:11,834 Path: /17%3A52%3A10-06-22-2016.jpg
+2016-06-22 17:52:11,834 Data: 
+2016-06-22 17:52:11,835 Headers: {'Content-MD5': u'B72/t1rRYt3FKojb1FRA5w==', 'Content-Length': '673506', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 17:52:11,835 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 17:52:11,835 Port: 443
+2016-06-22 17:52:11,836 Params: {}
+2016-06-22 17:52:11,836 Token: None
+2016-06-22 17:52:11,837 StringToSign:
+PUT
+B72/t1rRYt3FKojb1FRA5w==
+image/jpeg
+Wed, 22 Jun 2016 21:52:11 GMT
+x-amz-acl:public-read
+/pumpkinpihub/17%3A52%3A10-06-22-2016.jpg
+2016-06-22 17:52:11,838 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:B2+llOm6nRckfJDkaU5usN00dXI=
+2016-06-22 17:52:11,839 Final headers: {'Content-MD5': 'B72/t1rRYt3FKojb1FRA5w==', 'Content-Length': '673506', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 21:52:11 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:B2+llOm6nRckfJDkaU5usN00dXI=', 'x-amz-acl': 'public-read'}
+2016-06-22 17:52:12,424 Response headers: [('content-length', '0'), ('x-amz-id-2', '3U3KMaRJS6iAYcLTN9wISdcve7asfo/s6vsp/UW2JP2G2u1yne5L5Pt7K46jxP/uWYf7An52ceQ='), ('server', 'AmazonS3'), ('x-amz-request-id', 'BCA18583ECD1D437'), ('etag', '"07bdbfb75ad162ddc52a88dbd45440e7"'), ('date', 'Wed, 22 Jun 2016 21:52:12 GMT')]
+2016-06-22 17:52:12,425 path=/17%3A52%3A10-06-22-2016.jpg
+2016-06-22 17:52:12,425 auth_path=/pumpkinpihub/17%3A52%3A10-06-22-2016.jpg
+2016-06-22 17:52:12,426 path=/17%3A52%3A10-06-22-2016.jpg?acl
+2016-06-22 17:52:12,426 auth_path=/pumpkinpihub/17%3A52%3A10-06-22-2016.jpg?acl
+2016-06-22 17:52:12,427 Method: PUT
+2016-06-22 17:52:12,427 Path: /17%3A52%3A10-06-22-2016.jpg?acl
+2016-06-22 17:52:12,428 Data: 
+2016-06-22 17:52:12,428 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 17:52:12,429 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 17:52:12,429 Port: 443
+2016-06-22 17:52:12,430 Params: {}
+2016-06-22 17:52:12,430 Token: None
+2016-06-22 17:52:12,431 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 21:52:12 GMT
+x-amz-acl:public-read
+/pumpkinpihub/17%3A52%3A10-06-22-2016.jpg?acl
+2016-06-22 17:52:12,432 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:m6Gj54qDHOBDpmz+6VAIakao0xc=
+2016-06-22 17:52:12,432 Final headers: {'Date': 'Wed, 22 Jun 2016 21:52:12 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:m6Gj54qDHOBDpmz+6VAIakao0xc=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 17:52:12,478 Response headers: [('x-amz-id-2', 'YWFPurgYY+nw8ZbmVBGi5Yvo1sNH1VcL/mauQFnZP+m8Cn6eCiaapEkOJq7S5I4Q/zQe4WXDZew='), ('date', 'Wed, 22 Jun 2016 21:52:13 GMT'), ('content-length', '0'), ('x-amz-request-id', '16D087E0A459BB11'), ('server', 'AmazonS3')]
+2016-06-22 17:52:12,479 Success uploading to server...Posting 17:52:10-06-22-2016.jpg to server
+2016-06-22 17:52:12,479 posting to website
+2016-06-22 17:52:12,501 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 17:52:12,649 "POST /api/imageData?name=17:52:10-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 17:52:12,651 posted file to site response = {"results":[{"id":274,"name":"17:52:10-06-22-2016.jpg","createdate":"2016-06-22T16:52:12.641Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 17:52:12,652 Success posting to site
+2016-06-22 17:52:12,653 index = 1 numba = 0
+2016-06-22 17:53:14,300 Uploading 17:53:13-06-22-2016.jpg to server
+2016-06-22 17:53:14,303 Using access key provided by client.
+2016-06-22 17:53:14,304 Using secret key provided by client.
+2016-06-22 17:53:14,307 path=/
+2016-06-22 17:53:14,308 auth_path=/pumpkinpihub/
+2016-06-22 17:53:14,310 Method: HEAD
+2016-06-22 17:53:14,311 Path: /
+2016-06-22 17:53:14,312 Data: 
+2016-06-22 17:53:14,313 Headers: {}
+2016-06-22 17:53:14,314 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 17:53:14,321 Port: 443
+2016-06-22 17:53:14,322 Params: {}
+2016-06-22 17:53:14,324 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 17:53:14,340 Token: None
+2016-06-22 17:53:14,341 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 21:53:14 GMT
+/pumpkinpihub/
+2016-06-22 17:53:14,343 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:IxcM0+Bb04DyS/viO/02dsll5LA=
+2016-06-22 17:53:14,344 Final headers: {'Date': 'Wed, 22 Jun 2016 21:53:14 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:IxcM0+Bb04DyS/viO/02dsll5LA=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 17:53:14,543 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'ygVDCQbEb/gDSNr4rRD5JhVlLiRdvWOgFkk42UmDy+/GlHel2FdaQKTY05Vxbrm+w92pZwwXMn0='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '2C58FBEAD9F7331B'), ('date', 'Wed, 22 Jun 2016 21:53:15 GMT'), ('content-type', 'application/xml')]
+2016-06-22 17:53:14,556 path=/17%3A53%3A13-06-22-2016.jpg
+2016-06-22 17:53:14,557 auth_path=/pumpkinpihub/17%3A53%3A13-06-22-2016.jpg
+2016-06-22 17:53:14,558 Method: PUT
+2016-06-22 17:53:14,559 Path: /17%3A53%3A13-06-22-2016.jpg
+2016-06-22 17:53:14,560 Data: 
+2016-06-22 17:53:14,561 Headers: {'Content-MD5': u'l8Ra/Ko/D6Dw2+mD1MBmAg==', 'Content-Length': '671008', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 17:53:14,562 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 17:53:14,563 Port: 443
+2016-06-22 17:53:14,564 Params: {}
+2016-06-22 17:53:14,565 Token: None
+2016-06-22 17:53:14,566 StringToSign:
+PUT
+l8Ra/Ko/D6Dw2+mD1MBmAg==
+image/jpeg
+Wed, 22 Jun 2016 21:53:14 GMT
+x-amz-acl:public-read
+/pumpkinpihub/17%3A53%3A13-06-22-2016.jpg
+2016-06-22 17:53:14,568 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:g0ddtlkvHPG2csKYS9d0+3Ok0lk=
+2016-06-22 17:53:14,569 Final headers: {'Content-MD5': 'l8Ra/Ko/D6Dw2+mD1MBmAg==', 'Content-Length': '671008', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 21:53:14 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:g0ddtlkvHPG2csKYS9d0+3Ok0lk=', 'x-amz-acl': 'public-read'}
+2016-06-22 17:53:15,090 Response headers: [('content-length', '0'), ('x-amz-id-2', 'A3wkrb4krg3L7ugmVUXQxzQJCRUPcCBy3VaPPBIB643xs8XxKVxBRlpJzLZcJHX99rBGtp/Pmu4='), ('server', 'AmazonS3'), ('x-amz-request-id', 'F2BC0FD732BEF18B'), ('etag', '"97c45afcaa3f0fa0f0dbe983d4c06602"'), ('date', 'Wed, 22 Jun 2016 21:53:15 GMT')]
+2016-06-22 17:53:15,092 path=/17%3A53%3A13-06-22-2016.jpg
+2016-06-22 17:53:15,093 auth_path=/pumpkinpihub/17%3A53%3A13-06-22-2016.jpg
+2016-06-22 17:53:15,094 path=/17%3A53%3A13-06-22-2016.jpg?acl
+2016-06-22 17:53:15,095 auth_path=/pumpkinpihub/17%3A53%3A13-06-22-2016.jpg?acl
+2016-06-22 17:53:15,097 Method: PUT
+2016-06-22 17:53:15,098 Path: /17%3A53%3A13-06-22-2016.jpg?acl
+2016-06-22 17:53:15,099 Data: 
+2016-06-22 17:53:15,100 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 17:53:15,101 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 17:53:15,102 Port: 443
+2016-06-22 17:53:15,102 Params: {}
+2016-06-22 17:53:15,104 Token: None
+2016-06-22 17:53:15,105 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 21:53:15 GMT
+x-amz-acl:public-read
+/pumpkinpihub/17%3A53%3A13-06-22-2016.jpg?acl
+2016-06-22 17:53:15,107 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:tfLDn8oXJrn0n3iAG2qByYoLA0k=
+2016-06-22 17:53:15,108 Final headers: {'Date': 'Wed, 22 Jun 2016 21:53:15 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:tfLDn8oXJrn0n3iAG2qByYoLA0k=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 17:53:15,155 Response headers: [('x-amz-id-2', '8L+lX9hwJh7gFuycmsE9VsgtN0feIRgPdTH6ICO99mfTVtKvUOcyu5ob6DydHMYsvrOZ8272oPg='), ('date', 'Wed, 22 Jun 2016 21:53:16 GMT'), ('content-length', '0'), ('x-amz-request-id', '6AE4FEEE77CF5314'), ('server', 'AmazonS3')]
+2016-06-22 17:53:15,158 Success uploading to server...Posting 17:53:13-06-22-2016.jpg to server
+2016-06-22 17:53:15,159 posting to website
+2016-06-22 17:53:15,165 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 17:53:15,263 "POST /api/imageData?name=17:53:13-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 17:53:15,266 posted file to site response = {"results":[{"id":275,"name":"17:53:13-06-22-2016.jpg","createdate":"2016-06-22T16:53:15.260Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 17:53:15,267 Success posting to site
+2016-06-22 17:53:15,268 index = 2 numba = 0
+2016-06-22 17:54:16,893 Uploading 17:54:16-06-22-2016.jpg to server
+2016-06-22 17:54:16,896 Using access key provided by client.
+2016-06-22 17:54:16,897 Using secret key provided by client.
+2016-06-22 17:54:16,899 path=/
+2016-06-22 17:54:16,901 auth_path=/pumpkinpihub/
+2016-06-22 17:54:16,902 Method: HEAD
+2016-06-22 17:54:16,903 Path: /
+2016-06-22 17:54:16,904 Data: 
+2016-06-22 17:54:16,905 Headers: {}
+2016-06-22 17:54:16,906 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 17:54:16,907 Port: 443
+2016-06-22 17:54:16,908 Params: {}
+2016-06-22 17:54:16,909 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 17:54:16,919 Token: None
+2016-06-22 17:54:16,920 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 21:54:16 GMT
+/pumpkinpihub/
+2016-06-22 17:54:16,922 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:xDRq6tHYiEl+TZAITtG3JcWJw6g=
+2016-06-22 17:54:16,923 Final headers: {'Date': 'Wed, 22 Jun 2016 21:54:16 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:xDRq6tHYiEl+TZAITtG3JcWJw6g=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:00:01,944 script has been loaded waiting to start loop
+2016-06-22 18:00:01,944 Starting timelapse
+2016-06-22 18:00:03,691 Uploading 18:00:03-06-22-2016.jpg to server
+2016-06-22 18:00:03,728 Using access key provided by client.
+2016-06-22 18:00:03,730 Using secret key provided by client.
+2016-06-22 18:00:03,732 path=/
+2016-06-22 18:00:03,734 auth_path=/pumpkinpihub/
+2016-06-22 18:00:03,735 Method: HEAD
+2016-06-22 18:00:03,736 Path: /
+2016-06-22 18:00:03,737 Data: 
+2016-06-22 18:00:03,738 Headers: {}
+2016-06-22 18:00:03,739 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:00:03,740 Port: 443
+2016-06-22 18:00:03,741 Params: {}
+2016-06-22 18:00:03,742 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 18:00:03,753 Token: None
+2016-06-22 18:00:03,755 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 22:00:03 GMT
+/pumpkinpihub/
+2016-06-22 18:00:03,756 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:8A43Wwqkr6XXLhLRAwx4sEZvTH0=
+2016-06-22 18:00:03,757 Final headers: {'Date': 'Wed, 22 Jun 2016 22:00:03 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:8A43Wwqkr6XXLhLRAwx4sEZvTH0=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:00:04,013 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'aF1Q7ydPEIrniAYUh1aXmjqtKPwpJI7nvquEfYxLOjfaqH8LOaaUwMkx1SkYHkHe60gUOj22oTY='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '23D3F31E75FB5C5C'), ('date', 'Wed, 22 Jun 2016 22:00:04 GMT'), ('content-type', 'application/xml')]
+2016-06-22 18:00:04,020 path=/18%3A00%3A03-06-22-2016.jpg
+2016-06-22 18:00:04,020 auth_path=/pumpkinpihub/18%3A00%3A03-06-22-2016.jpg
+2016-06-22 18:00:04,021 Method: PUT
+2016-06-22 18:00:04,022 Path: /18%3A00%3A03-06-22-2016.jpg
+2016-06-22 18:00:04,022 Data: 
+2016-06-22 18:00:04,023 Headers: {'Content-MD5': u'Iut/EhCqtbxkUhV0Bl9D3w==', 'Content-Length': '535976', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 18:00:04,024 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:00:04,024 Port: 443
+2016-06-22 18:00:04,025 Params: {}
+2016-06-22 18:00:04,025 Token: None
+2016-06-22 18:00:04,026 StringToSign:
+PUT
+Iut/EhCqtbxkUhV0Bl9D3w==
+image/jpeg
+Wed, 22 Jun 2016 22:00:04 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A00%3A03-06-22-2016.jpg
+2016-06-22 18:00:04,027 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:UEZEglCzom1YQL0Gn/NiEsTONfg=
+2016-06-22 18:00:04,028 Final headers: {'Content-MD5': 'Iut/EhCqtbxkUhV0Bl9D3w==', 'Content-Length': '535976', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 22:00:04 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:UEZEglCzom1YQL0Gn/NiEsTONfg=', 'x-amz-acl': 'public-read'}
+2016-06-22 18:00:04,444 Response headers: [('content-length', '0'), ('x-amz-id-2', 'hQDZITshuGNJVB5WwHXmUemNJm93cSqpmhjzzbIc0wU8f96WxZ9guFinTS+dUdQ1Xnj03aBrwSk='), ('server', 'AmazonS3'), ('x-amz-request-id', 'D385266FA2CC33B2'), ('etag', '"22eb7f1210aab5bc64521574065f43df"'), ('date', 'Wed, 22 Jun 2016 22:00:05 GMT')]
+2016-06-22 18:00:04,445 path=/18%3A00%3A03-06-22-2016.jpg
+2016-06-22 18:00:04,446 auth_path=/pumpkinpihub/18%3A00%3A03-06-22-2016.jpg
+2016-06-22 18:00:04,447 path=/18%3A00%3A03-06-22-2016.jpg?acl
+2016-06-22 18:00:04,447 auth_path=/pumpkinpihub/18%3A00%3A03-06-22-2016.jpg?acl
+2016-06-22 18:00:04,448 Method: PUT
+2016-06-22 18:00:04,448 Path: /18%3A00%3A03-06-22-2016.jpg?acl
+2016-06-22 18:00:04,449 Data: 
+2016-06-22 18:00:04,449 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 18:00:04,450 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:00:04,450 Port: 443
+2016-06-22 18:00:04,451 Params: {}
+2016-06-22 18:00:04,451 Token: None
+2016-06-22 18:00:04,452 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 22:00:04 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A00%3A03-06-22-2016.jpg?acl
+2016-06-22 18:00:04,452 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:C0gEZ0dPFsvO+psxRp5Pd5hoI4A=
+2016-06-22 18:00:04,453 Final headers: {'Date': 'Wed, 22 Jun 2016 22:00:04 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:C0gEZ0dPFsvO+psxRp5Pd5hoI4A=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:00:04,494 Response headers: [('x-amz-id-2', 'yD+AjMQO4Zuc0DnAOcEoWI9BKU6CmVxztigp5lblclq5aVl5eW6DVy9WqoapHGIocO97IpCFbUM='), ('date', 'Wed, 22 Jun 2016 22:00:05 GMT'), ('content-length', '0'), ('x-amz-request-id', '2EA23098DB37F824'), ('server', 'AmazonS3')]
+2016-06-22 18:00:04,496 Success uploading to server...Posting 18:00:03-06-22-2016.jpg to server
+2016-06-22 18:00:04,497 posting to website
+2016-06-22 18:00:04,511 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 18:00:04,672 "POST /api/imageData?name=18:00:03-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 18:00:04,675 posted file to site response = {"results":[{"id":276,"name":"18:00:03-06-22-2016.jpg","createdate":"2016-06-22T17:00:04.669Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 18:00:04,676 Success posting to site
+2016-06-22 18:00:04,677 index = 1 numba = 0
+2016-06-22 18:01:06,311 Uploading 18:01:05-06-22-2016.jpg to server
+2016-06-22 18:01:06,315 Using access key provided by client.
+2016-06-22 18:01:06,316 Using secret key provided by client.
+2016-06-22 18:01:06,319 path=/
+2016-06-22 18:01:06,320 auth_path=/pumpkinpihub/
+2016-06-22 18:01:06,322 Method: HEAD
+2016-06-22 18:01:06,323 Path: /
+2016-06-22 18:01:06,324 Data: 
+2016-06-22 18:01:06,325 Headers: {}
+2016-06-22 18:01:06,326 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:01:06,331 Port: 443
+2016-06-22 18:01:06,332 Params: {}
+2016-06-22 18:01:06,333 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 18:01:06,343 Token: None
+2016-06-22 18:01:06,344 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 22:01:06 GMT
+/pumpkinpihub/
+2016-06-22 18:01:06,345 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:ljIdraIoUZYBg6+hR8la2rlgaRA=
+2016-06-22 18:01:06,347 Final headers: {'Date': 'Wed, 22 Jun 2016 22:01:06 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:ljIdraIoUZYBg6+hR8la2rlgaRA=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:01:06,672 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'DhJTklKzxPYzXAbRU8mPsAHZnEsiby4mRWs91+rf/CMbF7BCdpgv1//Thw1dL9X+'), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'DE2DFACCFA041EFC'), ('date', 'Wed, 22 Jun 2016 22:01:07 GMT'), ('content-type', 'application/xml')]
+2016-06-22 18:01:06,677 path=/18%3A01%3A05-06-22-2016.jpg
+2016-06-22 18:01:06,678 auth_path=/pumpkinpihub/18%3A01%3A05-06-22-2016.jpg
+2016-06-22 18:01:06,679 Method: PUT
+2016-06-22 18:01:06,679 Path: /18%3A01%3A05-06-22-2016.jpg
+2016-06-22 18:01:06,680 Data: 
+2016-06-22 18:01:06,680 Headers: {'Content-MD5': u'SNMhqDW++rwPqFxhnCiv3A==', 'Content-Length': '530308', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 18:01:06,681 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:01:06,681 Port: 443
+2016-06-22 18:01:06,682 Params: {}
+2016-06-22 18:01:06,682 Token: None
+2016-06-22 18:01:06,683 StringToSign:
+PUT
+SNMhqDW++rwPqFxhnCiv3A==
+image/jpeg
+Wed, 22 Jun 2016 22:01:06 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A01%3A05-06-22-2016.jpg
+2016-06-22 18:01:06,684 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:0U5kZGWfEKYgRzaW0QtJ1fW5RZ0=
+2016-06-22 18:01:06,684 Final headers: {'Content-MD5': 'SNMhqDW++rwPqFxhnCiv3A==', 'Content-Length': '530308', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 22:01:06 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:0U5kZGWfEKYgRzaW0QtJ1fW5RZ0=', 'x-amz-acl': 'public-read'}
+2016-06-22 18:01:07,081 Response headers: [('content-length', '0'), ('x-amz-id-2', 'uemYN7CQYqyLtwU6UUxwc2jfAy/UnKaqOlufknhF/msqOt1WyMrPJRpchqFT3seB'), ('server', 'AmazonS3'), ('x-amz-request-id', '7B53D16885348F78'), ('etag', '"48d321a835befabc0fa85c619c28afdc"'), ('date', 'Wed, 22 Jun 2016 22:01:07 GMT')]
+2016-06-22 18:01:07,082 path=/18%3A01%3A05-06-22-2016.jpg
+2016-06-22 18:01:07,083 auth_path=/pumpkinpihub/18%3A01%3A05-06-22-2016.jpg
+2016-06-22 18:01:07,083 path=/18%3A01%3A05-06-22-2016.jpg?acl
+2016-06-22 18:01:07,084 auth_path=/pumpkinpihub/18%3A01%3A05-06-22-2016.jpg?acl
+2016-06-22 18:01:07,085 Method: PUT
+2016-06-22 18:01:07,085 Path: /18%3A01%3A05-06-22-2016.jpg?acl
+2016-06-22 18:01:07,085 Data: 
+2016-06-22 18:01:07,086 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 18:01:07,086 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:01:07,087 Port: 443
+2016-06-22 18:01:07,087 Params: {}
+2016-06-22 18:01:07,088 Token: None
+2016-06-22 18:01:07,089 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 22:01:07 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A01%3A05-06-22-2016.jpg?acl
+2016-06-22 18:01:07,089 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:IqzlJMN9TlPly590TgtNAIKNGA4=
+2016-06-22 18:01:07,090 Final headers: {'Date': 'Wed, 22 Jun 2016 22:01:07 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:IqzlJMN9TlPly590TgtNAIKNGA4=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:01:07,133 Response headers: [('x-amz-id-2', 'risNXq9WnzrknwFJYNtKi2RQkWS2S9TH9FBtDgDuVUdlwz42qUCumHopCckJ9GEj'), ('date', 'Wed, 22 Jun 2016 22:01:08 GMT'), ('content-length', '0'), ('x-amz-request-id', 'A149FEF53D04AEC8'), ('server', 'AmazonS3')]
+2016-06-22 18:01:07,135 Success uploading to server...Posting 18:01:05-06-22-2016.jpg to server
+2016-06-22 18:01:07,135 posting to website
+2016-06-22 18:01:07,139 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 18:01:07,274 "POST /api/imageData?name=18:01:05-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 18:01:07,276 posted file to site response = {"results":[{"id":277,"name":"18:01:05-06-22-2016.jpg","createdate":"2016-06-22T17:01:07.270Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 18:01:07,277 Success posting to site
+2016-06-22 18:01:07,278 index = 2 numba = 0
+2016-06-22 18:02:08,940 Uploading 18:02:08-06-22-2016.jpg to server
+2016-06-22 18:02:08,943 Using access key provided by client.
+2016-06-22 18:02:08,944 Using secret key provided by client.
+2016-06-22 18:02:08,947 path=/
+2016-06-22 18:02:08,947 auth_path=/pumpkinpihub/
+2016-06-22 18:02:08,949 Method: HEAD
+2016-06-22 18:02:08,950 Path: /
+2016-06-22 18:02:08,951 Data: 
+2016-06-22 18:02:08,953 Headers: {}
+2016-06-22 18:02:08,954 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:02:08,961 Port: 443
+2016-06-22 18:02:08,962 Params: {}
+2016-06-22 18:02:08,964 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 18:02:08,980 Token: None
+2016-06-22 18:02:08,987 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 22:02:08 GMT
+/pumpkinpihub/
+2016-06-22 18:02:08,989 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:VyEUq3yGWgh0ycrijQX/sJuNGTc=
+2016-06-22 18:02:08,992 Final headers: {'Date': 'Wed, 22 Jun 2016 22:02:08 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:VyEUq3yGWgh0ycrijQX/sJuNGTc=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:02:09,213 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'eu3yWE5cIYIy9Gv3n/lebtxbGxtIapO80oqGY7HqvlAPW90sn+XsoV2snlI/fzX1NfTk2Hoi6jY='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'EE4CFF7897CAFC10'), ('date', 'Wed, 22 Jun 2016 22:02:10 GMT'), ('content-type', 'application/xml')]
+2016-06-22 18:02:09,225 path=/18%3A02%3A08-06-22-2016.jpg
+2016-06-22 18:02:09,226 auth_path=/pumpkinpihub/18%3A02%3A08-06-22-2016.jpg
+2016-06-22 18:02:09,227 Method: PUT
+2016-06-22 18:02:09,229 Path: /18%3A02%3A08-06-22-2016.jpg
+2016-06-22 18:02:09,230 Data: 
+2016-06-22 18:02:09,231 Headers: {'Content-MD5': u'A0WRofYkWF+/9GYI/+01UA==', 'Content-Length': '527045', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 18:02:09,231 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:02:09,233 Port: 443
+2016-06-22 18:02:09,234 Params: {}
+2016-06-22 18:02:09,242 Token: None
+2016-06-22 18:02:09,244 StringToSign:
+PUT
+A0WRofYkWF+/9GYI/+01UA==
+image/jpeg
+Wed, 22 Jun 2016 22:02:09 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A02%3A08-06-22-2016.jpg
+2016-06-22 18:02:09,247 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:U7m5s04KWGzwfSLscjMMegW+CfQ=
+2016-06-22 18:02:09,249 Final headers: {'Content-MD5': 'A0WRofYkWF+/9GYI/+01UA==', 'Content-Length': '527045', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 22:02:09 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:U7m5s04KWGzwfSLscjMMegW+CfQ=', 'x-amz-acl': 'public-read'}
+2016-06-22 18:02:09,699 Response headers: [('content-length', '0'), ('x-amz-id-2', 'xzYvxWr0AVmkSoAlkokBJQiEZi/n7G2Uiy5pJ1KsB6WIwdA3d3GiV80mTLtfsnOpmogz6fsVfuk='), ('server', 'AmazonS3'), ('x-amz-request-id', '0CD02F64770EBA3A'), ('etag', '"034591a1f624585fbff46608ffed3550"'), ('date', 'Wed, 22 Jun 2016 22:02:10 GMT')]
+2016-06-22 18:02:09,700 path=/18%3A02%3A08-06-22-2016.jpg
+2016-06-22 18:02:09,701 auth_path=/pumpkinpihub/18%3A02%3A08-06-22-2016.jpg
+2016-06-22 18:02:09,701 path=/18%3A02%3A08-06-22-2016.jpg?acl
+2016-06-22 18:02:09,702 auth_path=/pumpkinpihub/18%3A02%3A08-06-22-2016.jpg?acl
+2016-06-22 18:02:09,703 Method: PUT
+2016-06-22 18:02:09,703 Path: /18%3A02%3A08-06-22-2016.jpg?acl
+2016-06-22 18:02:09,704 Data: 
+2016-06-22 18:02:09,704 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 18:02:09,705 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:02:09,712 Port: 443
+2016-06-22 18:02:09,712 Params: {}
+2016-06-22 18:02:09,713 Token: None
+2016-06-22 18:02:09,715 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 22:02:09 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A02%3A08-06-22-2016.jpg?acl
+2016-06-22 18:02:09,716 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:m/biHmZbC2rz7iK996pbGYTyMkg=
+2016-06-22 18:02:09,717 Final headers: {'Date': 'Wed, 22 Jun 2016 22:02:09 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:m/biHmZbC2rz7iK996pbGYTyMkg=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:02:09,756 Response headers: [('x-amz-id-2', '6iMKWnELMK27jldaMWiWnxEp4aH+aQKMu0Cj5pf3AjFZHDgws76CDYqivhXdkQ2ZjjLRkb37Eys='), ('date', 'Wed, 22 Jun 2016 22:02:10 GMT'), ('content-length', '0'), ('x-amz-request-id', 'E5EB4092A4B65FB6'), ('server', 'AmazonS3')]
+2016-06-22 18:02:09,757 Success uploading to server...Posting 18:02:08-06-22-2016.jpg to server
+2016-06-22 18:02:09,758 posting to website
+2016-06-22 18:02:09,762 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 18:02:09,968 "POST /api/imageData?name=18:02:08-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 18:02:09,970 posted file to site response = {"results":[{"id":278,"name":"18:02:08-06-22-2016.jpg","createdate":"2016-06-22T17:02:09.959Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 18:02:09,971 Success posting to site
+2016-06-22 18:02:09,972 index = 3 numba = 0
+2016-06-22 18:03:11,592 Uploading 18:03:11-06-22-2016.jpg to server
+2016-06-22 18:03:11,594 Using access key provided by client.
+2016-06-22 18:03:11,595 Using secret key provided by client.
+2016-06-22 18:03:11,597 path=/
+2016-06-22 18:03:11,598 auth_path=/pumpkinpihub/
+2016-06-22 18:03:11,598 Method: HEAD
+2016-06-22 18:03:11,599 Path: /
+2016-06-22 18:03:11,599 Data: 
+2016-06-22 18:03:11,600 Headers: {}
+2016-06-22 18:03:11,601 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:03:11,602 Port: 443
+2016-06-22 18:03:11,603 Params: {}
+2016-06-22 18:03:11,604 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 18:03:11,615 Token: None
+2016-06-22 18:03:11,616 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 22:03:11 GMT
+/pumpkinpihub/
+2016-06-22 18:03:11,618 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:ZEr7u5pHWaslbetBHTOErhMA+EM=
+2016-06-22 18:03:11,626 Final headers: {'Date': 'Wed, 22 Jun 2016 22:03:11 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:ZEr7u5pHWaslbetBHTOErhMA+EM=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:03:11,827 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'JLD0KupZRZ3DrXQTvrxxwLL/cyBPu0H7e4/zohokzi6cVRD76jkArVBrN29pU0BK'), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '3C2AA6379120B603'), ('date', 'Wed, 22 Jun 2016 22:03:12 GMT'), ('content-type', 'application/xml')]
+2016-06-22 18:03:11,833 path=/18%3A03%3A11-06-22-2016.jpg
+2016-06-22 18:03:11,833 auth_path=/pumpkinpihub/18%3A03%3A11-06-22-2016.jpg
+2016-06-22 18:03:11,834 Method: PUT
+2016-06-22 18:03:11,835 Path: /18%3A03%3A11-06-22-2016.jpg
+2016-06-22 18:03:11,836 Data: 
+2016-06-22 18:03:11,836 Headers: {'Content-MD5': u'z5vu8CUo9tUKTmJAmJR+Lw==', 'Content-Length': '521409', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 18:03:11,837 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:03:11,837 Port: 443
+2016-06-22 18:03:11,838 Params: {}
+2016-06-22 18:03:11,845 Token: None
+2016-06-22 18:03:11,846 StringToSign:
+PUT
+z5vu8CUo9tUKTmJAmJR+Lw==
+image/jpeg
+Wed, 22 Jun 2016 22:03:11 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A03%3A11-06-22-2016.jpg
+2016-06-22 18:03:11,848 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:aIF//ZMoOIen5TElFNHXFtyicw0=
+2016-06-22 18:03:11,849 Final headers: {'Content-MD5': 'z5vu8CUo9tUKTmJAmJR+Lw==', 'Content-Length': '521409', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 22:03:11 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:aIF//ZMoOIen5TElFNHXFtyicw0=', 'x-amz-acl': 'public-read'}
+2016-06-22 18:03:12,326 Response headers: [('content-length', '0'), ('x-amz-id-2', 'opDdlL86YwVFmsXaqD+HXQUsBbENRxQ7WI99wNFZw2MdK7u/Y735IsBo8zD4kjj2'), ('server', 'AmazonS3'), ('x-amz-request-id', '8E77E02127F9647B'), ('etag', '"cf9beef02528f6d50a4e624098947e2f"'), ('date', 'Wed, 22 Jun 2016 22:03:12 GMT')]
+2016-06-22 18:03:12,327 path=/18%3A03%3A11-06-22-2016.jpg
+2016-06-22 18:03:12,328 auth_path=/pumpkinpihub/18%3A03%3A11-06-22-2016.jpg
+2016-06-22 18:03:12,328 path=/18%3A03%3A11-06-22-2016.jpg?acl
+2016-06-22 18:03:12,329 auth_path=/pumpkinpihub/18%3A03%3A11-06-22-2016.jpg?acl
+2016-06-22 18:03:12,330 Method: PUT
+2016-06-22 18:03:12,330 Path: /18%3A03%3A11-06-22-2016.jpg?acl
+2016-06-22 18:03:12,331 Data: 
+2016-06-22 18:03:12,332 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 18:03:12,332 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:03:12,339 Port: 443
+2016-06-22 18:03:12,339 Params: {}
+2016-06-22 18:03:12,341 Token: None
+2016-06-22 18:03:12,342 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 22:03:12 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A03%3A11-06-22-2016.jpg?acl
+2016-06-22 18:03:12,343 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:W6jpsvXuUAXP2uxJIhC0bHlVMYo=
+2016-06-22 18:03:12,345 Final headers: {'Date': 'Wed, 22 Jun 2016 22:03:12 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:W6jpsvXuUAXP2uxJIhC0bHlVMYo=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:03:12,385 Response headers: [('x-amz-id-2', 'nkW7XEcNisaHM9Xr72opL1D43+h1WO6fkTVZ9EfWIiQ1jn/VyQgNXrvD8ofXGZm0'), ('date', 'Wed, 22 Jun 2016 22:03:13 GMT'), ('content-length', '0'), ('x-amz-request-id', '2FECEEE941A217A9'), ('server', 'AmazonS3')]
+2016-06-22 18:03:12,386 Success uploading to server...Posting 18:03:11-06-22-2016.jpg to server
+2016-06-22 18:03:12,386 posting to website
+2016-06-22 18:03:12,390 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 18:03:12,504 "POST /api/imageData?name=18:03:11-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 18:03:12,506 posted file to site response = {"results":[{"id":279,"name":"18:03:11-06-22-2016.jpg","createdate":"2016-06-22T17:03:12.502Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 18:03:12,507 Success posting to site
+2016-06-22 18:03:12,508 index = 4 numba = 0
+2016-06-22 18:04:14,153 Uploading 18:04:13-06-22-2016.jpg to server
+2016-06-22 18:04:14,157 Using access key provided by client.
+2016-06-22 18:04:14,158 Using secret key provided by client.
+2016-06-22 18:04:14,160 path=/
+2016-06-22 18:04:14,161 auth_path=/pumpkinpihub/
+2016-06-22 18:04:14,163 Method: HEAD
+2016-06-22 18:04:14,164 Path: /
+2016-06-22 18:04:14,165 Data: 
+2016-06-22 18:04:14,166 Headers: {}
+2016-06-22 18:04:14,167 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:04:14,168 Port: 443
+2016-06-22 18:04:14,168 Params: {}
+2016-06-22 18:04:14,170 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 18:04:14,180 Token: None
+2016-06-22 18:04:14,181 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 22:04:14 GMT
+/pumpkinpihub/
+2016-06-22 18:04:14,182 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:zGmCSdNvt4mrWpopaEjrHpwqW9s=
+2016-06-22 18:04:14,184 Final headers: {'Date': 'Wed, 22 Jun 2016 22:04:14 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:zGmCSdNvt4mrWpopaEjrHpwqW9s=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:04:14,379 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'LCif+9n+3HYXiK2Gg5TgD2nn21zKjSr0k0/wwiWZQYYHD4bKbxbn7iMsHtq0kA4avRrFS/CLdO4='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '30A1ECFE20CB993E'), ('date', 'Wed, 22 Jun 2016 22:04:15 GMT'), ('content-type', 'application/xml')]
+2016-06-22 18:04:14,390 path=/18%3A04%3A13-06-22-2016.jpg
+2016-06-22 18:04:14,391 auth_path=/pumpkinpihub/18%3A04%3A13-06-22-2016.jpg
+2016-06-22 18:04:14,393 Method: PUT
+2016-06-22 18:04:14,394 Path: /18%3A04%3A13-06-22-2016.jpg
+2016-06-22 18:04:14,394 Data: 
+2016-06-22 18:04:14,396 Headers: {'Content-MD5': u'wdO8nGPwVJrSa/7u3At2WQ==', 'Content-Length': '517421', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 18:04:14,397 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:04:14,398 Port: 443
+2016-06-22 18:04:14,399 Params: {}
+2016-06-22 18:04:14,400 Token: None
+2016-06-22 18:04:14,402 StringToSign:
+PUT
+wdO8nGPwVJrSa/7u3At2WQ==
+image/jpeg
+Wed, 22 Jun 2016 22:04:14 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A04%3A13-06-22-2016.jpg
+2016-06-22 18:04:14,403 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:kO+6xgPsLbLjaN9OlUwk+G75oSI=
+2016-06-22 18:04:14,404 Final headers: {'Content-MD5': 'wdO8nGPwVJrSa/7u3At2WQ==', 'Content-Length': '517421', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 22:04:14 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:kO+6xgPsLbLjaN9OlUwk+G75oSI=', 'x-amz-acl': 'public-read'}
+2016-06-22 18:04:14,826 Response headers: [('content-length', '0'), ('x-amz-id-2', 'u/04K+2cg5ouPTGqXLtXUg5PcQnwJfE2n1LolQGNEHnyn4H/npGm/EFRNB7nF3pNFMhnuTILeew='), ('server', 'AmazonS3'), ('x-amz-request-id', '298144A32FD35580'), ('etag', '"c1d3bc9c63f0549ad26bfeeedc0b7659"'), ('date', 'Wed, 22 Jun 2016 22:04:15 GMT')]
+2016-06-22 18:04:14,828 path=/18%3A04%3A13-06-22-2016.jpg
+2016-06-22 18:04:14,829 auth_path=/pumpkinpihub/18%3A04%3A13-06-22-2016.jpg
+2016-06-22 18:04:14,830 path=/18%3A04%3A13-06-22-2016.jpg?acl
+2016-06-22 18:04:14,832 auth_path=/pumpkinpihub/18%3A04%3A13-06-22-2016.jpg?acl
+2016-06-22 18:04:14,833 Method: PUT
+2016-06-22 18:04:14,834 Path: /18%3A04%3A13-06-22-2016.jpg?acl
+2016-06-22 18:04:14,835 Data: 
+2016-06-22 18:04:14,836 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 18:04:14,837 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:04:14,838 Port: 443
+2016-06-22 18:04:14,838 Params: {}
+2016-06-22 18:04:14,839 Token: None
+2016-06-22 18:04:14,840 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 22:04:14 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A04%3A13-06-22-2016.jpg?acl
+2016-06-22 18:04:14,841 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:gqCo1lZoUZG67oPPqWx/raFSpk0=
+2016-06-22 18:04:14,842 Final headers: {'Date': 'Wed, 22 Jun 2016 22:04:14 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:gqCo1lZoUZG67oPPqWx/raFSpk0=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:04:14,888 Response headers: [('x-amz-id-2', 'RS9MXS3YGMTlsBNXXOOnqJqvKLl+PETQ9JN3pBQVbnkQE5rQ9aIfs5Dy9ocpqlzL1SMrVzUCv+Q='), ('date', 'Wed, 22 Jun 2016 22:04:15 GMT'), ('content-length', '0'), ('x-amz-request-id', 'AA8EF4E8601D6B08'), ('server', 'AmazonS3')]
+2016-06-22 18:04:14,890 Success uploading to server...Posting 18:04:13-06-22-2016.jpg to server
+2016-06-22 18:04:14,891 posting to website
+2016-06-22 18:04:14,898 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 18:04:15,038 "POST /api/imageData?name=18:04:13-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 18:04:15,042 posted file to site response = {"results":[{"id":280,"name":"18:04:13-06-22-2016.jpg","createdate":"2016-06-22T17:04:15.037Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 18:04:15,044 Success posting to site
+2016-06-22 18:04:15,045 index = 5 numba = 0
+2016-06-22 18:09:42,324 script has been loaded waiting to start loop
+2016-06-22 18:09:42,324 Starting timelapse
+2016-06-22 18:09:44,099 Uploading 18:09:43-06-22-2016.jpg to server
+2016-06-22 18:09:44,136 Using access key provided by client.
+2016-06-22 18:09:44,137 Using secret key provided by client.
+2016-06-22 18:09:44,139 path=/
+2016-06-22 18:09:44,140 auth_path=/pumpkinpihub/
+2016-06-22 18:09:44,141 Method: HEAD
+2016-06-22 18:09:44,142 Path: /
+2016-06-22 18:09:44,143 Data: 
+2016-06-22 18:09:44,143 Headers: {}
+2016-06-22 18:09:44,144 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:09:44,145 Port: 443
+2016-06-22 18:09:44,145 Params: {}
+2016-06-22 18:09:44,146 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 18:09:44,157 Token: None
+2016-06-22 18:09:44,158 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 22:09:44 GMT
+/pumpkinpihub/
+2016-06-22 18:09:44,159 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:JF6lAgpa/NeCWU+bBuvbNejJZ+0=
+2016-06-22 18:09:44,160 Final headers: {'Date': 'Wed, 22 Jun 2016 22:09:44 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:JF6lAgpa/NeCWU+bBuvbNejJZ+0=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:09:44,357 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'pKBjgRmt08rHyJ/qmHSLnpghvwvVTY8qgGP/TU+Y7Kj5/g/0mqGmZx6XNQL2pvDxGJ7xhPdPXCI='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'F55A8AE65BE238E5'), ('date', 'Wed, 22 Jun 2016 22:09:45 GMT'), ('content-type', 'application/xml')]
+2016-06-22 18:09:44,366 path=/18%3A09%3A43-06-22-2016.jpg
+2016-06-22 18:09:44,367 auth_path=/pumpkinpihub/18%3A09%3A43-06-22-2016.jpg
+2016-06-22 18:09:44,367 Method: PUT
+2016-06-22 18:09:44,368 Path: /18%3A09%3A43-06-22-2016.jpg
+2016-06-22 18:09:44,368 Data: 
+2016-06-22 18:09:44,368 Headers: {'Content-MD5': u'a5cvwxkUe3jkk8cnxZL01A==', 'Content-Length': '1027533', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 18:09:44,369 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:09:44,369 Port: 443
+2016-06-22 18:09:44,370 Params: {}
+2016-06-22 18:09:44,370 Token: None
+2016-06-22 18:09:44,371 StringToSign:
+PUT
+a5cvwxkUe3jkk8cnxZL01A==
+image/jpeg
+Wed, 22 Jun 2016 22:09:44 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A09%3A43-06-22-2016.jpg
+2016-06-22 18:09:44,372 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:Ac+wZ3NY6AD4zedWQIFfA3AMEzU=
+2016-06-22 18:09:44,372 Final headers: {'Content-MD5': 'a5cvwxkUe3jkk8cnxZL01A==', 'Content-Length': '1027533', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 22:09:44 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:Ac+wZ3NY6AD4zedWQIFfA3AMEzU=', 'x-amz-acl': 'public-read'}
+2016-06-22 18:09:45,535 Response headers: [('content-length', '0'), ('x-amz-id-2', 'QSffPv/4t8fxmZhKN1HAIKW7Fp0Z1234XXMFC8CdL367/NZ8H72YUAoqdxwnzaNT3G7CZBtzRBs='), ('server', 'AmazonS3'), ('x-amz-request-id', '582DEABA1ECB6CCE'), ('etag', '"6b972fc319147b78e493c727c592f4d4"'), ('date', 'Wed, 22 Jun 2016 22:09:45 GMT')]
+2016-06-22 18:09:45,535 path=/18%3A09%3A43-06-22-2016.jpg
+2016-06-22 18:09:45,536 auth_path=/pumpkinpihub/18%3A09%3A43-06-22-2016.jpg
+2016-06-22 18:09:45,536 path=/18%3A09%3A43-06-22-2016.jpg?acl
+2016-06-22 18:09:45,537 auth_path=/pumpkinpihub/18%3A09%3A43-06-22-2016.jpg?acl
+2016-06-22 18:09:45,537 Method: PUT
+2016-06-22 18:09:45,538 Path: /18%3A09%3A43-06-22-2016.jpg?acl
+2016-06-22 18:09:45,538 Data: 
+2016-06-22 18:09:45,538 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 18:09:45,539 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:09:45,539 Port: 443
+2016-06-22 18:09:45,539 Params: {}
+2016-06-22 18:09:45,540 Token: None
+2016-06-22 18:09:45,540 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 22:09:45 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A09%3A43-06-22-2016.jpg?acl
+2016-06-22 18:09:45,541 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:7zSskCyQiwgG5nxH3BLt1JoZgnY=
+2016-06-22 18:09:45,542 Final headers: {'Date': 'Wed, 22 Jun 2016 22:09:45 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:7zSskCyQiwgG5nxH3BLt1JoZgnY=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:09:45,586 Response headers: [('x-amz-id-2', '6TA9w0euki9vdbdfYAhhzPGl9xYdxVnXNnyvEUpAVD3tu/XzQYTiSZkckbLITZ77pfw/W3jak3w='), ('date', 'Wed, 22 Jun 2016 22:09:46 GMT'), ('content-length', '0'), ('x-amz-request-id', '5FFE25180CDF95DB'), ('server', 'AmazonS3')]
+2016-06-22 18:09:45,588 Success uploading to server...Posting 18:09:43-06-22-2016.jpg to server
+2016-06-22 18:09:45,588 posting to website
+2016-06-22 18:09:45,602 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 18:09:45,733 "POST /api/imageData?name=18:09:43-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 18:09:45,735 posted file to site response = {"results":[{"id":281,"name":"18:09:43-06-22-2016.jpg","createdate":"2016-06-22T17:09:45.727Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 18:09:45,736 Success posting to site
+2016-06-22 18:09:45,736 index = 1 numba = 0
+2016-06-22 18:10:47,466 Uploading 18:10:46-06-22-2016.jpg to server
+2016-06-22 18:10:47,468 Using access key provided by client.
+2016-06-22 18:10:47,469 Using secret key provided by client.
+2016-06-22 18:10:47,471 path=/
+2016-06-22 18:10:47,472 auth_path=/pumpkinpihub/
+2016-06-22 18:10:47,473 Method: HEAD
+2016-06-22 18:10:47,474 Path: /
+2016-06-22 18:10:47,474 Data: 
+2016-06-22 18:10:47,475 Headers: {}
+2016-06-22 18:10:47,476 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:10:47,476 Port: 443
+2016-06-22 18:10:47,477 Params: {}
+2016-06-22 18:10:47,478 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 18:10:47,488 Token: None
+2016-06-22 18:10:47,489 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 22:10:47 GMT
+/pumpkinpihub/
+2016-06-22 18:10:47,490 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:oBTzkfhN3J0jNt/gSJi8z1McVng=
+2016-06-22 18:10:47,491 Final headers: {'Date': 'Wed, 22 Jun 2016 22:10:47 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:oBTzkfhN3J0jNt/gSJi8z1McVng=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:10:47,679 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'RCY/GtFqW7PE6TKBG+3zJn1EIMUPPRdtvKU90aASXctdDzQ/1mmJG2kjcbX9yTs7+5KtRb2qePw='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'F6A3FC05A9572F72'), ('date', 'Wed, 22 Jun 2016 22:10:48 GMT'), ('content-type', 'application/xml')]
+2016-06-22 18:10:47,697 path=/18%3A10%3A46-06-22-2016.jpg
+2016-06-22 18:10:47,698 auth_path=/pumpkinpihub/18%3A10%3A46-06-22-2016.jpg
+2016-06-22 18:10:47,699 Method: PUT
+2016-06-22 18:10:47,700 Path: /18%3A10%3A46-06-22-2016.jpg
+2016-06-22 18:10:47,700 Data: 
+2016-06-22 18:10:47,701 Headers: {'Content-MD5': u'Uh4Huge4kCZd0dTxvHE9Eg==', 'Content-Length': '1021245', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 18:10:47,702 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:10:47,703 Port: 443
+2016-06-22 18:10:47,703 Params: {}
+2016-06-22 18:10:47,704 Token: None
+2016-06-22 18:10:47,705 StringToSign:
+PUT
+Uh4Huge4kCZd0dTxvHE9Eg==
+image/jpeg
+Wed, 22 Jun 2016 22:10:47 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A10%3A46-06-22-2016.jpg
+2016-06-22 18:10:47,707 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:NeKhvHj2r7saVoeqdSzafVIA0kg=
+2016-06-22 18:10:47,708 Final headers: {'Content-MD5': 'Uh4Huge4kCZd0dTxvHE9Eg==', 'Content-Length': '1021245', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 22:10:47 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:NeKhvHj2r7saVoeqdSzafVIA0kg=', 'x-amz-acl': 'public-read'}
+2016-06-22 18:10:48,512 Response headers: [('content-length', '0'), ('x-amz-id-2', 'tYQykM6r72vNNdrbwibFZrDVD6Rizkdypk4P06QDAhw+GGTi5Df58UsT7UId5vwxF0joM9BSN0o='), ('server', 'AmazonS3'), ('x-amz-request-id', 'D6E43DAD7E6DA4A7'), ('etag', '"521e07ba07b890265dd1d4f1bc713d12"'), ('date', 'Wed, 22 Jun 2016 22:10:48 GMT')]
+2016-06-22 18:10:48,514 path=/18%3A10%3A46-06-22-2016.jpg
+2016-06-22 18:10:48,515 auth_path=/pumpkinpihub/18%3A10%3A46-06-22-2016.jpg
+2016-06-22 18:10:48,516 path=/18%3A10%3A46-06-22-2016.jpg?acl
+2016-06-22 18:10:48,516 auth_path=/pumpkinpihub/18%3A10%3A46-06-22-2016.jpg?acl
+2016-06-22 18:10:48,517 Method: PUT
+2016-06-22 18:10:48,518 Path: /18%3A10%3A46-06-22-2016.jpg?acl
+2016-06-22 18:10:48,518 Data: 
+2016-06-22 18:10:48,519 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 18:10:48,520 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:10:48,520 Port: 443
+2016-06-22 18:10:48,521 Params: {}
+2016-06-22 18:10:48,522 Token: None
+2016-06-22 18:10:48,523 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 22:10:48 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A10%3A46-06-22-2016.jpg?acl
+2016-06-22 18:10:48,524 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:q01AzF1OPfeL35FZnuqdPyMfJUg=
+2016-06-22 18:10:48,526 Final headers: {'Date': 'Wed, 22 Jun 2016 22:10:48 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:q01AzF1OPfeL35FZnuqdPyMfJUg=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:10:48,566 Response headers: [('x-amz-id-2', 'tysry08xcljF/JSBxPIU1zrNs1pgAJpTWvPxcT8saQYtqTuR2euHGlIXScmk+tb1RRwQft7Hbpk='), ('date', 'Wed, 22 Jun 2016 22:10:49 GMT'), ('content-length', '0'), ('x-amz-request-id', '636D6D7573B3116C'), ('server', 'AmazonS3')]
+2016-06-22 18:10:48,567 Success uploading to server...Posting 18:10:46-06-22-2016.jpg to server
+2016-06-22 18:10:48,567 posting to website
+2016-06-22 18:10:48,571 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 18:10:48,677 "POST /api/imageData?name=18:10:46-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 18:10:48,679 posted file to site response = {"results":[{"id":282,"name":"18:10:46-06-22-2016.jpg","createdate":"2016-06-22T17:10:48.681Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 18:10:48,680 Success posting to site
+2016-06-22 18:10:48,680 index = 2 numba = 0
+2016-06-22 18:14:52,761 script has been loaded waiting to start loop
+2016-06-22 18:14:52,761 Starting timelapse
+2016-06-22 18:14:54,647 Uploading 18:14:53-06-22-2016.jpg to server
+2016-06-22 18:14:54,684 Using access key provided by client.
+2016-06-22 18:14:54,685 Using secret key provided by client.
+2016-06-22 18:14:54,687 path=/
+2016-06-22 18:14:54,688 auth_path=/pumpkinpihub/
+2016-06-22 18:14:54,689 Method: HEAD
+2016-06-22 18:14:54,689 Path: /
+2016-06-22 18:14:54,690 Data: 
+2016-06-22 18:14:54,691 Headers: {}
+2016-06-22 18:14:54,691 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:14:54,692 Port: 443
+2016-06-22 18:14:54,693 Params: {}
+2016-06-22 18:14:54,694 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 18:14:54,704 Token: None
+2016-06-22 18:14:54,705 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 22:14:54 GMT
+/pumpkinpihub/
+2016-06-22 18:14:54,707 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:obq4fpKQMoOKVReI5JpsCvsBjwM=
+2016-06-22 18:14:54,708 Final headers: {'Date': 'Wed, 22 Jun 2016 22:14:54 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:obq4fpKQMoOKVReI5JpsCvsBjwM=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:14:54,895 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', '/5PwFYtVeuHF1xJ0IMgTvmDoBs+BHAFF4BUaSIWduIl79r2QDI6b++TpRHx39WpCCNaMGASR6iE='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'E357939EF35D9919'), ('date', 'Wed, 22 Jun 2016 22:14:55 GMT'), ('content-type', 'application/xml')]
+2016-06-22 18:14:54,910 path=/18%3A14%3A53-06-22-2016.jpg
+2016-06-22 18:14:54,910 auth_path=/pumpkinpihub/18%3A14%3A53-06-22-2016.jpg
+2016-06-22 18:14:54,911 Method: PUT
+2016-06-22 18:14:54,911 Path: /18%3A14%3A53-06-22-2016.jpg
+2016-06-22 18:14:54,912 Data: 
+2016-06-22 18:14:54,912 Headers: {'Content-MD5': u'56mpAXgpJ+c4eCwjMwOlnQ==', 'Content-Length': '1673483', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 18:14:54,912 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:14:54,913 Port: 443
+2016-06-22 18:14:54,913 Params: {}
+2016-06-22 18:14:54,914 Token: None
+2016-06-22 18:14:54,914 StringToSign:
+PUT
+56mpAXgpJ+c4eCwjMwOlnQ==
+image/jpeg
+Wed, 22 Jun 2016 22:14:54 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A14%3A53-06-22-2016.jpg
+2016-06-22 18:14:54,915 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:/gmme8KoukniWMGA97c3nW6OW54=
+2016-06-22 18:14:54,916 Final headers: {'Content-MD5': '56mpAXgpJ+c4eCwjMwOlnQ==', 'Content-Length': '1673483', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 22:14:54 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:/gmme8KoukniWMGA97c3nW6OW54=', 'x-amz-acl': 'public-read'}
+2016-06-22 18:14:56,151 Response headers: [('content-length', '0'), ('x-amz-id-2', 'rCyYMuc9qWjL4eDJfowSOINwzItbxvfUDt4H+ou1NZNOqXLCL1rUojGMIZP5K/rzlL/Q9LM+A+E='), ('server', 'AmazonS3'), ('x-amz-request-id', '9FCD831EEA90EC76'), ('etag', '"e7a9a901782927e738782c233303a59d"'), ('date', 'Wed, 22 Jun 2016 22:14:55 GMT')]
+2016-06-22 18:14:56,152 path=/18%3A14%3A53-06-22-2016.jpg
+2016-06-22 18:14:56,153 auth_path=/pumpkinpihub/18%3A14%3A53-06-22-2016.jpg
+2016-06-22 18:14:56,153 path=/18%3A14%3A53-06-22-2016.jpg?acl
+2016-06-22 18:14:56,153 auth_path=/pumpkinpihub/18%3A14%3A53-06-22-2016.jpg?acl
+2016-06-22 18:14:56,154 Method: PUT
+2016-06-22 18:14:56,154 Path: /18%3A14%3A53-06-22-2016.jpg?acl
+2016-06-22 18:14:56,155 Data: 
+2016-06-22 18:14:56,155 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 18:14:56,155 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:14:56,156 Port: 443
+2016-06-22 18:14:56,156 Params: {}
+2016-06-22 18:14:56,156 Token: None
+2016-06-22 18:14:56,157 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 22:14:56 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A14%3A53-06-22-2016.jpg?acl
+2016-06-22 18:14:56,158 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:0tODh9zIOTVMSI8mi2q1eY3e5xM=
+2016-06-22 18:14:56,158 Final headers: {'Date': 'Wed, 22 Jun 2016 22:14:56 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:0tODh9zIOTVMSI8mi2q1eY3e5xM=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:14:56,294 Response headers: [('x-amz-id-2', '7ye6xLikiK9RlI977TfChw1i1tOVVq74677ICa3PXW/hAB/fyB7mBo4MlCAmrhgEC+7y/vzMX/0='), ('date', 'Wed, 22 Jun 2016 22:14:57 GMT'), ('content-length', '0'), ('x-amz-request-id', 'A0659FB896392CB0'), ('server', 'AmazonS3')]
+2016-06-22 18:14:56,295 Success uploading to server...Posting 18:14:53-06-22-2016.jpg to server
+2016-06-22 18:14:56,296 posting to website
+2016-06-22 18:14:56,309 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 18:14:56,420 "POST /api/imageData?name=18:14:53-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 18:14:56,422 posted file to site response = {"results":[{"id":283,"name":"18:14:53-06-22-2016.jpg","createdate":"2016-06-22T17:14:56.423Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 18:14:56,423 Success posting to site
+2016-06-22 18:14:56,423 index = 1 numba = 0
+2016-06-22 18:15:58,163 Uploading 18:15:57-06-22-2016.jpg to server
+2016-06-22 18:15:58,166 Using access key provided by client.
+2016-06-22 18:15:58,166 Using secret key provided by client.
+2016-06-22 18:15:58,168 path=/
+2016-06-22 18:15:58,169 auth_path=/pumpkinpihub/
+2016-06-22 18:15:58,170 Method: HEAD
+2016-06-22 18:15:58,171 Path: /
+2016-06-22 18:15:58,172 Data: 
+2016-06-22 18:15:58,172 Headers: {}
+2016-06-22 18:15:58,173 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:15:58,173 Port: 443
+2016-06-22 18:15:58,174 Params: {}
+2016-06-22 18:15:58,175 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-22 18:15:58,185 Token: None
+2016-06-22 18:15:58,186 StringToSign:
+HEAD
+
+
+Wed, 22 Jun 2016 22:15:58 GMT
+/pumpkinpihub/
+2016-06-22 18:15:58,187 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:D7JxGAehaq+SJdIhiclwofmAEg8=
+2016-06-22 18:15:58,188 Final headers: {'Date': 'Wed, 22 Jun 2016 22:15:58 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:D7JxGAehaq+SJdIhiclwofmAEg8=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:15:58,457 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'Ys4RC/+36SEaQFQqVqo+g7NkIxTYEYKMEQhZE5w78HsjPaKw5bnhikBix2TFyZ1YzoW3gcdq+ok='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', 'AE647255E81CC394'), ('date', 'Wed, 22 Jun 2016 22:15:59 GMT'), ('content-type', 'application/xml')]
+2016-06-22 18:15:58,484 path=/18%3A15%3A57-06-22-2016.jpg
+2016-06-22 18:15:58,485 auth_path=/pumpkinpihub/18%3A15%3A57-06-22-2016.jpg
+2016-06-22 18:15:58,486 Method: PUT
+2016-06-22 18:15:58,486 Path: /18%3A15%3A57-06-22-2016.jpg
+2016-06-22 18:15:58,487 Data: 
+2016-06-22 18:15:58,488 Headers: {'Content-MD5': u'WuEvEqnwTznryNAgxnJIcQ==', 'Content-Length': '1660285', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-22 18:15:58,488 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:15:58,489 Port: 443
+2016-06-22 18:15:58,490 Params: {}
+2016-06-22 18:15:58,491 Token: None
+2016-06-22 18:15:58,492 StringToSign:
+PUT
+WuEvEqnwTznryNAgxnJIcQ==
+image/jpeg
+Wed, 22 Jun 2016 22:15:58 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A15%3A57-06-22-2016.jpg
+2016-06-22 18:15:58,493 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:wvjWTYmCxfZKgoB78AsAOxx95Uo=
+2016-06-22 18:15:58,494 Final headers: {'Content-MD5': 'WuEvEqnwTznryNAgxnJIcQ==', 'Content-Length': '1660285', 'Expect': '100-Continue', 'Date': 'Wed, 22 Jun 2016 22:15:58 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:wvjWTYmCxfZKgoB78AsAOxx95Uo=', 'x-amz-acl': 'public-read'}
+2016-06-22 18:15:59,714 Response headers: [('content-length', '0'), ('x-amz-id-2', 'oQyIE01CfTNG4hw4Xfz7Hh9uTx1Socn8bnBzGk08eh3+jIaYcjjjHlHBzQKYnQA2I1BEldQnTmo='), ('server', 'AmazonS3'), ('x-amz-request-id', '66D862B8A86B967E'), ('etag', '"5ae12f12a9f04f39ebc8d020c6724871"'), ('date', 'Wed, 22 Jun 2016 22:15:59 GMT')]
+2016-06-22 18:15:59,715 path=/18%3A15%3A57-06-22-2016.jpg
+2016-06-22 18:15:59,716 auth_path=/pumpkinpihub/18%3A15%3A57-06-22-2016.jpg
+2016-06-22 18:15:59,717 path=/18%3A15%3A57-06-22-2016.jpg?acl
+2016-06-22 18:15:59,718 auth_path=/pumpkinpihub/18%3A15%3A57-06-22-2016.jpg?acl
+2016-06-22 18:15:59,719 Method: PUT
+2016-06-22 18:15:59,719 Path: /18%3A15%3A57-06-22-2016.jpg?acl
+2016-06-22 18:15:59,720 Data: 
+2016-06-22 18:15:59,721 Headers: {'x-amz-acl': 'public-read'}
+2016-06-22 18:15:59,722 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-22 18:15:59,723 Port: 443
+2016-06-22 18:15:59,723 Params: {}
+2016-06-22 18:15:59,725 Token: None
+2016-06-22 18:15:59,726 StringToSign:
+PUT
+
+
+Wed, 22 Jun 2016 22:15:59 GMT
+x-amz-acl:public-read
+/pumpkinpihub/18%3A15%3A57-06-22-2016.jpg?acl
+2016-06-22 18:15:59,727 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:6unt7ula7Z9EXimMgrQ9grKxnYk=
+2016-06-22 18:15:59,728 Final headers: {'Date': 'Wed, 22 Jun 2016 22:15:59 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:6unt7ula7Z9EXimMgrQ9grKxnYk=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-22 18:15:59,928 Response headers: [('x-amz-id-2', 'e2ZtD+ZUN+sfr8lkuAl8Xtl8mHSAgTD66PXH8/tvLYUq2iSpj1YUNQzqlSe8G1ORDPzPmoq9kFQ='), ('date', 'Wed, 22 Jun 2016 22:16:00 GMT'), ('content-length', '0'), ('x-amz-request-id', 'BF672437A5F172B7'), ('server', 'AmazonS3')]
+2016-06-22 18:15:59,929 Success uploading to server...Posting 18:15:57-06-22-2016.jpg to server
+2016-06-22 18:15:59,930 posting to website
+2016-06-22 18:15:59,934 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-22 18:16:00,053 "POST /api/imageData?name=18:15:57-06-22-2016.jpg&numba=0 HTTP/1.1" 200 131
+2016-06-22 18:16:00,055 posted file to site response = {"results":[{"id":284,"name":"18:15:57-06-22-2016.jpg","createdate":"2016-06-22T17:16:00.051Z","numba":0}],"extraInfo":"sweetness"}
+2016-06-22 18:16:00,056 Success posting to site
+2016-06-22 18:16:00,057 index = 2 numba = 0
+2016-06-22 18:39:09,174 script has been loaded waiting to start loop
+2016-06-23 08:00:50,272 Running job Every 1 day at 08:00:00 do start_timelapse(1) (last run: [never], next run: 2016-06-23 08:00:00)
+2016-06-23 08:00:50,274 Starting timelapse
+2016-06-23 08:00:52,105 Uploading 08:00:51-06-23-2016.jpg to server
+2016-06-23 08:00:52,142 Using access key provided by client.
+2016-06-23 08:00:52,143 Using secret key provided by client.
+2016-06-23 08:00:52,145 path=/
+2016-06-23 08:00:52,146 auth_path=/pumpkinpihub/
+2016-06-23 08:00:52,147 Method: HEAD
+2016-06-23 08:00:52,148 Path: /
+2016-06-23 08:00:52,149 Data: 
+2016-06-23 08:00:52,149 Headers: {}
+2016-06-23 08:00:52,150 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 08:00:52,150 Port: 443
+2016-06-23 08:00:52,151 Params: {}
+2016-06-23 08:00:52,152 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-23 08:00:52,163 Token: None
+2016-06-23 08:00:52,164 StringToSign:
+HEAD
+
+
+Thu, 23 Jun 2016 12:00:52 GMT
+/pumpkinpihub/
+2016-06-23 08:00:52,165 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:qGodkS/h/hBy8LBj97nA4EVjKLU=
+2016-06-23 08:00:52,166 Final headers: {'Date': 'Thu, 23 Jun 2016 12:00:52 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:qGodkS/h/hBy8LBj97nA4EVjKLU=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-23 08:00:52,371 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'po2/6XXR+ffl++C48cJYdGMT18CIw61HyKszo/Ha43X7FiD5k/1KlnvBDuiFXznpbmwa1qK17cs='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '3F06D80FE5897C65'), ('date', 'Thu, 23 Jun 2016 12:00:53 GMT'), ('content-type', 'application/xml')]
+2016-06-23 08:00:52,389 path=/08%3A00%3A51-06-23-2016.jpg
+2016-06-23 08:00:52,390 auth_path=/pumpkinpihub/08%3A00%3A51-06-23-2016.jpg
+2016-06-23 08:00:52,390 Method: PUT
+2016-06-23 08:00:52,391 Path: /08%3A00%3A51-06-23-2016.jpg
+2016-06-23 08:00:52,392 Data: 
+2016-06-23 08:00:52,392 Headers: {'Content-MD5': u'zoa/z3vysKN1f0roKCSdog==', 'Content-Length': '1014936', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-23 08:00:52,393 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 08:00:52,394 Port: 443
+2016-06-23 08:00:52,394 Params: {}
+2016-06-23 08:00:52,395 Token: None
+2016-06-23 08:00:52,396 StringToSign:
+PUT
+zoa/z3vysKN1f0roKCSdog==
+image/jpeg
+Thu, 23 Jun 2016 12:00:52 GMT
+x-amz-acl:public-read
+/pumpkinpihub/08%3A00%3A51-06-23-2016.jpg
+2016-06-23 08:00:52,397 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:lKNDUYKV4mHwhwM5rljn2NCbLXw=
+2016-06-23 08:00:52,398 Final headers: {'Content-MD5': 'zoa/z3vysKN1f0roKCSdog==', 'Content-Length': '1014936', 'Expect': '100-Continue', 'Date': 'Thu, 23 Jun 2016 12:00:52 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:lKNDUYKV4mHwhwM5rljn2NCbLXw=', 'x-amz-acl': 'public-read'}
+2016-06-23 08:00:53,388 Response headers: [('content-length', '0'), ('x-amz-id-2', 'QLIrM6Dn6+Mvs8jUs0XO8gE8bx7wGkvZ518+lGRyJLZH4jEzFgzwJNZGtYN3pkmO/LCifQiKi3c='), ('server', 'AmazonS3'), ('x-amz-request-id', 'EB91354F47B322E6'), ('etag', '"ce86bfcf7bf2b0a3757f4ae828249da2"'), ('date', 'Thu, 23 Jun 2016 12:00:53 GMT')]
+2016-06-23 08:00:53,389 path=/08%3A00%3A51-06-23-2016.jpg
+2016-06-23 08:00:53,390 auth_path=/pumpkinpihub/08%3A00%3A51-06-23-2016.jpg
+2016-06-23 08:00:53,391 path=/08%3A00%3A51-06-23-2016.jpg?acl
+2016-06-23 08:00:53,391 auth_path=/pumpkinpihub/08%3A00%3A51-06-23-2016.jpg?acl
+2016-06-23 08:00:53,392 Method: PUT
+2016-06-23 08:00:53,393 Path: /08%3A00%3A51-06-23-2016.jpg?acl
+2016-06-23 08:00:53,393 Data: 
+2016-06-23 08:00:53,394 Headers: {'x-amz-acl': 'public-read'}
+2016-06-23 08:00:53,394 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 08:00:53,395 Port: 443
+2016-06-23 08:00:53,395 Params: {}
+2016-06-23 08:00:53,396 Token: None
+2016-06-23 08:00:53,397 StringToSign:
+PUT
+
+
+Thu, 23 Jun 2016 12:00:53 GMT
+x-amz-acl:public-read
+/pumpkinpihub/08%3A00%3A51-06-23-2016.jpg?acl
+2016-06-23 08:00:53,398 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:+ervvoJFZV9rq42JGVazNh2iI2U=
+2016-06-23 08:00:53,399 Final headers: {'Date': 'Thu, 23 Jun 2016 12:00:53 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:+ervvoJFZV9rq42JGVazNh2iI2U=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-23 08:00:53,448 Response headers: [('x-amz-id-2', 'kSQLXksbmXKst4cDCs3KTGZbCtxLwLbcAMIQ6mW/rJLUxfpdcASY/QYxhbzNCNPMj+9jFvkDIJQ='), ('date', 'Thu, 23 Jun 2016 12:00:54 GMT'), ('content-length', '0'), ('x-amz-request-id', 'AECED9A668901D66'), ('server', 'AmazonS3')]
+2016-06-23 08:00:53,449 Success uploading to server...Posting 08:00:51-06-23-2016.jpg to server
+2016-06-23 08:00:53,450 posting to website
+2016-06-23 08:00:53,474 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-23 08:00:59,734 "POST /api/imageData?name=08:00:51-06-23-2016.jpg&numba=1 HTTP/1.1" 200 131
+2016-06-23 08:00:59,737 posted file to site response = {"results":[{"id":285,"name":"08:00:51-06-23-2016.jpg","createdate":"2016-06-23T07:00:59.725Z","numba":1}],"extraInfo":"sweetness"}
+2016-06-23 08:00:59,739 Success posting to site
+2016-06-23 08:00:59,739 index = 1 numba = 1
+2016-06-23 11:00:08,792 Running job Every 1 day at 11:00:00 do start_timelapse(2) (last run: [never], next run: 2016-06-23 11:00:00)
+2016-06-23 11:00:08,794 Starting timelapse
+2016-06-23 11:00:10,596 Uploading 11:00:09-06-23-2016.jpg to server
+2016-06-23 11:00:10,599 Using access key provided by client.
+2016-06-23 11:00:10,600 Using secret key provided by client.
+2016-06-23 11:00:10,602 path=/
+2016-06-23 11:00:10,602 auth_path=/pumpkinpihub/
+2016-06-23 11:00:10,603 Method: HEAD
+2016-06-23 11:00:10,604 Path: /
+2016-06-23 11:00:10,604 Data: 
+2016-06-23 11:00:10,605 Headers: {}
+2016-06-23 11:00:10,605 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 11:00:10,606 Port: 443
+2016-06-23 11:00:10,607 Params: {}
+2016-06-23 11:00:10,607 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-23 11:00:10,617 Token: None
+2016-06-23 11:00:10,618 StringToSign:
+HEAD
+
+
+Thu, 23 Jun 2016 15:00:10 GMT
+/pumpkinpihub/
+2016-06-23 11:00:10,619 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:WGm8VOpt86e9dhMd2tv1Fj1HQD4=
+2016-06-23 11:00:10,620 Final headers: {'Date': 'Thu, 23 Jun 2016 15:00:10 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:WGm8VOpt86e9dhMd2tv1Fj1HQD4=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-23 11:00:10,830 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', '7K4SedPSBtCG6UqOLg7oAksyQKVFmkFD9d4jHYDHbhMcy0OOqwKwiuoeD/HDUIcWCRg1Mrr86xY='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '9EE44C301E25296A'), ('date', 'Thu, 23 Jun 2016 15:00:11 GMT'), ('content-type', 'application/xml')]
+2016-06-23 11:00:10,848 path=/11%3A00%3A09-06-23-2016.jpg
+2016-06-23 11:00:10,849 auth_path=/pumpkinpihub/11%3A00%3A09-06-23-2016.jpg
+2016-06-23 11:00:10,850 Method: PUT
+2016-06-23 11:00:10,850 Path: /11%3A00%3A09-06-23-2016.jpg
+2016-06-23 11:00:10,851 Data: 
+2016-06-23 11:00:10,852 Headers: {'Content-MD5': u'kvA4Kr1P+tcYVNq+NXaLow==', 'Content-Length': '997041', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-23 11:00:10,852 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 11:00:10,853 Port: 443
+2016-06-23 11:00:10,853 Params: {}
+2016-06-23 11:00:10,854 Token: None
+2016-06-23 11:00:10,855 StringToSign:
+PUT
+kvA4Kr1P+tcYVNq+NXaLow==
+image/jpeg
+Thu, 23 Jun 2016 15:00:10 GMT
+x-amz-acl:public-read
+/pumpkinpihub/11%3A00%3A09-06-23-2016.jpg
+2016-06-23 11:00:10,856 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:T9j2im7i4ZNTykaWwr+23afVRcc=
+2016-06-23 11:00:10,857 Final headers: {'Content-MD5': 'kvA4Kr1P+tcYVNq+NXaLow==', 'Content-Length': '997041', 'Expect': '100-Continue', 'Date': 'Thu, 23 Jun 2016 15:00:10 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:T9j2im7i4ZNTykaWwr+23afVRcc=', 'x-amz-acl': 'public-read'}
+2016-06-23 11:00:14,254 Response headers: [('content-length', '0'), ('x-amz-id-2', '0kuHcxz5gzzmD9sfUe8jguKyVpQoKftNTcLGDxEXwu8AA+3ZvxVILJ91j5oLVUJGV1uUYIEMpwo='), ('server', 'AmazonS3'), ('x-amz-request-id', '9161EFB6287B034F'), ('etag', '"92f0382abd4ffad71854dabe35768ba3"'), ('date', 'Thu, 23 Jun 2016 15:00:11 GMT')]
+2016-06-23 11:00:14,268 path=/11%3A00%3A09-06-23-2016.jpg
+2016-06-23 11:00:14,268 auth_path=/pumpkinpihub/11%3A00%3A09-06-23-2016.jpg
+2016-06-23 11:00:14,269 path=/11%3A00%3A09-06-23-2016.jpg?acl
+2016-06-23 11:00:14,270 auth_path=/pumpkinpihub/11%3A00%3A09-06-23-2016.jpg?acl
+2016-06-23 11:00:14,270 Method: PUT
+2016-06-23 11:00:14,271 Path: /11%3A00%3A09-06-23-2016.jpg?acl
+2016-06-23 11:00:14,272 Data: 
+2016-06-23 11:00:14,272 Headers: {'x-amz-acl': 'public-read'}
+2016-06-23 11:00:14,273 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 11:00:14,274 Port: 443
+2016-06-23 11:00:14,274 Params: {}
+2016-06-23 11:00:14,275 Token: None
+2016-06-23 11:00:14,276 StringToSign:
+PUT
+
+
+Thu, 23 Jun 2016 15:00:14 GMT
+x-amz-acl:public-read
+/pumpkinpihub/11%3A00%3A09-06-23-2016.jpg?acl
+2016-06-23 11:00:14,277 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:VasHNW0nYsGHW7V1rnPtk3B9aNU=
+2016-06-23 11:00:14,278 Final headers: {'Date': 'Thu, 23 Jun 2016 15:00:14 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:VasHNW0nYsGHW7V1rnPtk3B9aNU=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-23 11:00:14,356 Response headers: [('x-amz-id-2', 'cOEn86A3G0i92VUQi/PZPM5wBNfQLPA7sRCf6Q9YlKeWDL5iw31e0JPgXC2cynslDKK7DKk1bDk='), ('date', 'Thu, 23 Jun 2016 15:00:15 GMT'), ('content-length', '0'), ('x-amz-request-id', '6A266A3F597B845E'), ('server', 'AmazonS3')]
+2016-06-23 11:00:14,358 Success uploading to server...Posting 11:00:09-06-23-2016.jpg to server
+2016-06-23 11:00:14,359 posting to website
+2016-06-23 11:00:14,365 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-23 11:00:14,623 "POST /api/imageData?name=11:00:09-06-23-2016.jpg&numba=2 HTTP/1.1" 200 131
+2016-06-23 11:00:14,627 posted file to site response = {"results":[{"id":286,"name":"11:00:09-06-23-2016.jpg","createdate":"2016-06-23T10:00:14.618Z","numba":2}],"extraInfo":"sweetness"}
+2016-06-23 11:00:14,628 Success posting to site
+2016-06-23 11:00:14,629 index = 1 numba = 2
+2016-06-23 14:00:23,732 Running job Every 1 day at 14:00:00 do start_timelapse(3) (last run: [never], next run: 2016-06-23 14:00:00)
+2016-06-23 14:00:23,733 Starting timelapse
+2016-06-23 14:00:25,533 Uploading 14:00:24-06-23-2016.jpg to server
+2016-06-23 14:00:25,536 Using access key provided by client.
+2016-06-23 14:00:25,537 Using secret key provided by client.
+2016-06-23 14:00:25,539 path=/
+2016-06-23 14:00:25,539 auth_path=/pumpkinpihub/
+2016-06-23 14:00:25,540 Method: HEAD
+2016-06-23 14:00:25,541 Path: /
+2016-06-23 14:00:25,541 Data: 
+2016-06-23 14:00:25,542 Headers: {}
+2016-06-23 14:00:25,542 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 14:00:25,543 Port: 443
+2016-06-23 14:00:25,544 Params: {}
+2016-06-23 14:00:25,544 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-23 14:00:25,554 Token: None
+2016-06-23 14:00:25,555 StringToSign:
+HEAD
+
+
+Thu, 23 Jun 2016 18:00:25 GMT
+/pumpkinpihub/
+2016-06-23 14:00:25,556 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:A8r61nM7tSBc+6fcPUpQfDumhcI=
+2016-06-23 14:00:25,557 Final headers: {'Date': 'Thu, 23 Jun 2016 18:00:25 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:A8r61nM7tSBc+6fcPUpQfDumhcI=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-23 14:00:25,859 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'eqWZUC7Ux3Owk6R7NG1OBFvhKSQmgL8rMtw1WEvRlGCAgKMmpSl1jYNzt2Tt9vKTTWsjV9YwvtI='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '8909870C68689906'), ('date', 'Thu, 23 Jun 2016 18:00:26 GMT'), ('content-type', 'application/xml')]
+2016-06-23 14:00:25,879 path=/14%3A00%3A24-06-23-2016.jpg
+2016-06-23 14:00:25,880 auth_path=/pumpkinpihub/14%3A00%3A24-06-23-2016.jpg
+2016-06-23 14:00:25,881 Method: PUT
+2016-06-23 14:00:25,882 Path: /14%3A00%3A24-06-23-2016.jpg
+2016-06-23 14:00:25,882 Data: 
+2016-06-23 14:00:25,883 Headers: {'Content-MD5': u'vOnrt0P1fQfGCeVT/BOHeg==', 'Content-Length': '1190517', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-23 14:00:25,884 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 14:00:25,884 Port: 443
+2016-06-23 14:00:25,885 Params: {}
+2016-06-23 14:00:25,886 Token: None
+2016-06-23 14:00:25,887 StringToSign:
+PUT
+vOnrt0P1fQfGCeVT/BOHeg==
+image/jpeg
+Thu, 23 Jun 2016 18:00:25 GMT
+x-amz-acl:public-read
+/pumpkinpihub/14%3A00%3A24-06-23-2016.jpg
+2016-06-23 14:00:25,888 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:SLsh8+TYv3KOdSVqnqVHPH4lQ5A=
+2016-06-23 14:00:25,889 Final headers: {'Content-MD5': 'vOnrt0P1fQfGCeVT/BOHeg==', 'Content-Length': '1190517', 'Expect': '100-Continue', 'Date': 'Thu, 23 Jun 2016 18:00:25 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:SLsh8+TYv3KOdSVqnqVHPH4lQ5A=', 'x-amz-acl': 'public-read'}
+2016-06-23 14:00:28,875 Response headers: [('content-length', '0'), ('x-amz-id-2', 'g4JysqXLTT9fuXk6J41s1krvx11TGIzeXYdyY0ZKbRU4o0h4aI0OqU/mzqzk9SDPy1NiCj4CeMM='), ('server', 'AmazonS3'), ('x-amz-request-id', '6BD2D637FEA2A488'), ('etag', '"bce9ebb743f57d07c609e553fc13877a"'), ('date', 'Thu, 23 Jun 2016 18:00:26 GMT')]
+2016-06-23 14:00:28,876 path=/14%3A00%3A24-06-23-2016.jpg
+2016-06-23 14:00:28,877 auth_path=/pumpkinpihub/14%3A00%3A24-06-23-2016.jpg
+2016-06-23 14:00:28,878 path=/14%3A00%3A24-06-23-2016.jpg?acl
+2016-06-23 14:00:28,878 auth_path=/pumpkinpihub/14%3A00%3A24-06-23-2016.jpg?acl
+2016-06-23 14:00:28,879 Method: PUT
+2016-06-23 14:00:28,880 Path: /14%3A00%3A24-06-23-2016.jpg?acl
+2016-06-23 14:00:28,880 Data: 
+2016-06-23 14:00:28,881 Headers: {'x-amz-acl': 'public-read'}
+2016-06-23 14:00:28,881 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 14:00:28,882 Port: 443
+2016-06-23 14:00:28,883 Params: {}
+2016-06-23 14:00:28,884 Token: None
+2016-06-23 14:00:28,884 StringToSign:
+PUT
+
+
+Thu, 23 Jun 2016 18:00:28 GMT
+x-amz-acl:public-read
+/pumpkinpihub/14%3A00%3A24-06-23-2016.jpg?acl
+2016-06-23 14:00:28,885 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:Bcj/Mb3P9cTkurFtMGEJ5VI8YA0=
+2016-06-23 14:00:28,886 Final headers: {'Date': 'Thu, 23 Jun 2016 18:00:28 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:Bcj/Mb3P9cTkurFtMGEJ5VI8YA0=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-23 14:00:28,929 Response headers: [('x-amz-id-2', 'NhnczhUEeuzk9oBPr6KVtWc/Y7KIljZykk8c9rbu+VyLv8iu5M2s2lSFtTO5bsEjxEQxkZ6P9sU='), ('date', 'Thu, 23 Jun 2016 18:00:29 GMT'), ('content-length', '0'), ('x-amz-request-id', '68D02AB01AA3DC3C'), ('server', 'AmazonS3')]
+2016-06-23 14:00:28,931 Success uploading to server...Posting 14:00:24-06-23-2016.jpg to server
+2016-06-23 14:00:28,932 posting to website
+2016-06-23 14:00:28,939 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-23 14:00:29,123 "POST /api/imageData?name=14:00:24-06-23-2016.jpg&numba=3 HTTP/1.1" 200 131
+2016-06-23 14:00:29,126 posted file to site response = {"results":[{"id":287,"name":"14:00:24-06-23-2016.jpg","createdate":"2016-06-23T13:00:29.115Z","numba":3}],"extraInfo":"sweetness"}
+2016-06-23 14:00:29,127 Success posting to site
+2016-06-23 14:00:29,128 index = 1 numba = 3
+2016-06-23 17:00:39,212 Running job Every 1 day at 17:00:00 do start_timelapse(4) (last run: [never], next run: 2016-06-23 17:00:00)
+2016-06-23 17:00:39,213 Starting timelapse
+2016-06-23 17:00:41,013 Uploading 17:00:40-06-23-2016.jpg to server
+2016-06-23 17:00:41,016 Using access key provided by client.
+2016-06-23 17:00:41,016 Using secret key provided by client.
+2016-06-23 17:00:41,018 path=/
+2016-06-23 17:00:41,019 auth_path=/pumpkinpihub/
+2016-06-23 17:00:41,020 Method: HEAD
+2016-06-23 17:00:41,020 Path: /
+2016-06-23 17:00:41,021 Data: 
+2016-06-23 17:00:41,022 Headers: {}
+2016-06-23 17:00:41,022 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 17:00:41,023 Port: 443
+2016-06-23 17:00:41,023 Params: {}
+2016-06-23 17:00:41,024 establishing HTTPS connection: host=pumpkinpihub.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+2016-06-23 17:00:41,034 Token: None
+2016-06-23 17:00:41,035 StringToSign:
+HEAD
+
+
+Thu, 23 Jun 2016 21:00:41 GMT
+/pumpkinpihub/
+2016-06-23 17:00:41,036 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:y3/WO40vrNF6hQXDlwfVBeavu7o=
+2016-06-23 17:00:41,037 Final headers: {'Date': 'Thu, 23 Jun 2016 21:00:41 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:y3/WO40vrNF6hQXDlwfVBeavu7o=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-23 17:00:41,349 Response headers: [('x-amz-bucket-region', 'us-east-1'), ('x-amz-id-2', 'JyHsw6K58KCusJl32B6BYl1QI8ZxobSHadM1B2Xky+vhF1/XUV34goIxh3fy6B8m4iMSdlNFV8E='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '426E512F76BD8B39'), ('date', 'Thu, 23 Jun 2016 21:00:42 GMT'), ('content-type', 'application/xml')]
+2016-06-23 17:00:41,370 path=/17%3A00%3A40-06-23-2016.jpg
+2016-06-23 17:00:41,370 auth_path=/pumpkinpihub/17%3A00%3A40-06-23-2016.jpg
+2016-06-23 17:00:41,371 Method: PUT
+2016-06-23 17:00:41,372 Path: /17%3A00%3A40-06-23-2016.jpg
+2016-06-23 17:00:41,373 Data: 
+2016-06-23 17:00:41,373 Headers: {'Content-MD5': u'Yvh8cW0gNT+OBJjNJzVU3A==', 'Content-Length': '1211022', 'Expect': '100-Continue', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'x-amz-acl': 'public-read'}
+2016-06-23 17:00:41,374 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 17:00:41,375 Port: 443
+2016-06-23 17:00:41,375 Params: {}
+2016-06-23 17:00:41,376 Token: None
+2016-06-23 17:00:41,377 StringToSign:
+PUT
+Yvh8cW0gNT+OBJjNJzVU3A==
+image/jpeg
+Thu, 23 Jun 2016 21:00:41 GMT
+x-amz-acl:public-read
+/pumpkinpihub/17%3A00%3A40-06-23-2016.jpg
+2016-06-23 17:00:41,378 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:wRVrRIxGo1COSrnbSNAgsx0TB0Q=
+2016-06-23 17:00:41,379 Final headers: {'Content-MD5': 'Yvh8cW0gNT+OBJjNJzVU3A==', 'Content-Length': '1211022', 'Expect': '100-Continue', 'Date': 'Thu, 23 Jun 2016 21:00:41 GMT', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+', 'Content-Type': 'image/jpeg', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:wRVrRIxGo1COSrnbSNAgsx0TB0Q=', 'x-amz-acl': 'public-read'}
+2016-06-23 17:00:46,299 Response headers: [('content-length', '0'), ('x-amz-id-2', 'qtR1xQUdhLwzGwxcDXelj3pRXfLvzwxuZlhgnHIto/S1xYNFuSafJVqp9pT5+teVbDt3myYLXEk='), ('server', 'AmazonS3'), ('x-amz-request-id', '412278F9092789A1'), ('etag', '"62f87c716d20353f8e0498cd273554dc"'), ('date', 'Thu, 23 Jun 2016 21:00:42 GMT')]
+2016-06-23 17:00:46,301 path=/17%3A00%3A40-06-23-2016.jpg
+2016-06-23 17:00:46,302 auth_path=/pumpkinpihub/17%3A00%3A40-06-23-2016.jpg
+2016-06-23 17:00:46,302 path=/17%3A00%3A40-06-23-2016.jpg?acl
+2016-06-23 17:00:46,303 auth_path=/pumpkinpihub/17%3A00%3A40-06-23-2016.jpg?acl
+2016-06-23 17:00:46,304 Method: PUT
+2016-06-23 17:00:46,304 Path: /17%3A00%3A40-06-23-2016.jpg?acl
+2016-06-23 17:00:46,305 Data: 
+2016-06-23 17:00:46,305 Headers: {'x-amz-acl': 'public-read'}
+2016-06-23 17:00:46,306 Host: pumpkinpihub.s3.amazonaws.com
+2016-06-23 17:00:46,307 Port: 443
+2016-06-23 17:00:46,307 Params: {}
+2016-06-23 17:00:46,308 Token: None
+2016-06-23 17:00:46,309 StringToSign:
+PUT
+
+
+Thu, 23 Jun 2016 21:00:46 GMT
+x-amz-acl:public-read
+/pumpkinpihub/17%3A00%3A40-06-23-2016.jpg?acl
+2016-06-23 17:00:46,310 Signature:
+AWS AKIAJMX2Q7TMB7HHUL2Q:qMqQ2VT8yNEU9NVp8OgeYrVaRaI=
+2016-06-23 17:00:46,311 Final headers: {'Date': 'Thu, 23 Jun 2016 21:00:46 GMT', 'Content-Length': '0', 'x-amz-acl': 'public-read', 'Authorization': u'AWS AKIAJMX2Q7TMB7HHUL2Q:qMqQ2VT8yNEU9NVp8OgeYrVaRaI=', 'User-Agent': 'Boto/2.40.0 Python/2.7.9 Linux/4.4.11-v7+'}
+2016-06-23 17:00:46,449 Response headers: [('x-amz-id-2', 'lIextMo4Pp4yb3Xbdl72bZVl6HI5vSRAwQC4E9GQSBQvFJiG5D3vUtCfktJWuxSFPdSVXHsZX24='), ('date', 'Thu, 23 Jun 2016 21:00:47 GMT'), ('content-length', '0'), ('x-amz-request-id', '85BBADC71C52C849'), ('server', 'AmazonS3')]
+2016-06-23 17:00:46,451 Success uploading to server...Posting 17:00:40-06-23-2016.jpg to server
+2016-06-23 17:00:46,452 posting to website
+2016-06-23 17:00:46,458 Starting new HTTP connection (1): desolate-brook-40903.herokuapp.com
+2016-06-23 17:00:53,149 "POST /api/imageData?name=17:00:40-06-23-2016.jpg&numba=4 HTTP/1.1" 200 131
+2016-06-23 17:00:53,153 posted file to site response = {"results":[{"id":288,"name":"17:00:40-06-23-2016.jpg","createdate":"2016-06-23T16:00:53.059Z","numba":4}],"extraInfo":"sweetness"}
+2016-06-23 17:00:53,154 Success posting to site
+2016-06-23 17:00:53,155 index = 1 numba = 4
