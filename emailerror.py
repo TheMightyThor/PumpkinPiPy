@@ -43,7 +43,7 @@ def send_mail_with_video(fileName):
     part = MIMEBase('application', "octet-stream")
     part.set_payload(open(fileName, "rb").read())
     Encoders.encode_base64(part)
-    part.add_header('Content-Disposition', 'attachment; filename=' + fileName + ')
+    part.add_header('Content-Disposition', 'attachment; filename=currentMovie')
     msg.attach(part)
     try:
         s = smtplib.SMTP(SERVER, PORT)
