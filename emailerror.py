@@ -6,7 +6,7 @@ from email.MIMEText import MIMEText
 from pumpkinpiconfig import PAPER_PLATE
 
 FROM = PAPER_PLATE['specialsauce']
-TO = PAPER_PLATE['theman','yanetgarridocoutin@gmail.com']
+TO = PAPER_PLATE['theman']
 SUBJECT = 'Error in Pi'
 SERVER = 'smtp.mail.yahoo.com'
 PORT = 587
@@ -43,7 +43,7 @@ def send_mail_with_video(fileName):
     part = MIMEBase('application', "octet-stream")
     part.set_payload(open(fileName, "rb").read())
     Encoders.encode_base64(part)
-    part.add_header('Content-Disposition', 'attachment; filename='fileName'')
+    part.add_header('Content-Disposition', 'attachment; filename=' + fileName + ')
     msg.attach(part)
     try:
         s = smtplib.SMTP(SERVER, PORT)
