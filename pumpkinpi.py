@@ -21,7 +21,7 @@ def start_timelapse(numba):
             cam.start_preview()
             time.sleep(1)
             impage_name = ('%s.jpg' % time.strftime('%H:%M:%S-%m-%d-%Y'))
-
+            cam.vflip = True
             cam.capture(impage_name, resize=(1920, 1080))
             cam.stop_preview()
 
